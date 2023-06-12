@@ -1,0 +1,110 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{import}
+\usepackage{xcolor}
+\usepackage{mathtools}
+\usepackage[linktocpage=true]{hyperref}
+\usepackage{soul}%to highlight stuff. Invoke \hl
+\usepackage{float} % To impose the position of the figure at desired place.
+\usepackage{amsmath, amsfonts, amsthm, latexsym} % Math packages
+\usepackage{hyperref} % To hiperlink things on the internet.
+\usepackage{cite} % To cite stuff
+\usepackage{listings} % Code listings, with syntax highlighting
+\usepackage[english]{babel} % English language hyphenation
+\usepackage{graphicx} % Required for inserting images
+\usepackage{sectsty} % Allows customising section commands
+\usepackage{booktabs} % Required for better horizontal rules in tables
+\usepackage{enumitem} % Required for list customisation
+\usepackage{geometry} % Required for adjusting page dimensions and margins
+\usepackage{comment} % To remove big parts of text.
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Use 8-bit encoding
+\usepackage{fourier} % Use the Adobe Utopia font for the document
+\usepackage[nottoc]{tocbibind}
+\usepackage{cancel} % To cross and cancel values
+\usepackage{bigints} % In case you need bigger integrants
+\usepackage[skip=10pt plus1pt, indent=0pt]{parskip}
+
+
+
+
+
+
+
+\begin{document}
+
+
+
+\author{\hyperlink{daniel.panizo@physics.uu.se}{Daniel Panizo}} %Change your name and email
+\title{Electrodynamic Solved Problems} %Change the label of your course if needeed
+\date{} %Change the term accordingly
+
+
+\maketitle
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+
+
+
+\section*{About these notes}
+These notes contain a set of selected problems to discuss during the problem solving session of Classical Electrodynamics subject at Uppsala University (Sweden). The order you see in the table of content correspond to chronological order of the lectures for this course. The title of each problem statement is linked to its solution. Try first without looking at...
+Exercises with an $\mathbf{E}$ in front of them correspond to old exams.
+
+
+
+%In case you find some typo, mistake or section to improve, please send an email to \hyperlink{daniel.panizo@physics.uu.se}{daniel.panizo@...} with indications where the issue is\footnote{Title of the problem, number of equation as reference, etc}. 
+
+
+
+
+
+
+\section*{Recommended Bibliography}
+\begin{itemize}
+	\item \textbf{Classical Electrodynamics}, John David Jackson. You may not like this book at first glance. Neither second, third... but it contains a formal and serious approach to all the topics that are going to be covered during the lectures. It contains important examples and explanations.
+	
+	\item \textbf{Introduction to Electrodyamics}, David J. Griffiths. Excellent book for a first approach to many of the concepts in this course. Its level does not cover the one expected for this course, but after reading once\footnote{Sections, not the whole book.} you can jump into Jackson.
+	
+	\item \textbf{Electromagnetic Field Theory}, Bo Thidé. It does not contain all the material of the course, but it includes several derivations of formulae and a good final appendix with tons of identities and explanations of the mathematical tools.
+	
+	\item \textbf{Space and Geometry: An introduction to General Relativity}, Sean Carroll. This is some extra material to read about tensor notation. The first chapter, and part of the second one, cover the properties of the tensorial language we are going to use. This will be useful for the covariant formalism of electrodynamics and Lagrangian manipulation parts of this course.
+	
+	\item \textbf{FMM: Exercise Notes}, S.Giri \& G. Kälin. Uploaded to Studium. It contains the most useful mathematical methods and examples that show how to use them. Totally recommended to refresh your mathematical manipulation.
+	
+	\item \textbf{Internet}. As you may know, apart from Social Networks and kitten videos, it contains an enormous amount of resources when used in a proper way.
+	
+\end{itemize}
+
+\section*{Tips to enhance your understanding}
+
+Here we offer a set of tips in order to enhance your problem-solving capability.
+
+\begin{itemize}
+	\item Read twice/ thrice/ hundredice the statement of a problem until you really understand what is asking you to solve. You can apply the same principle when reading through sections of books, notes, etc.
+	
+	\item "Pachanguera": Although it is a Spanish word to describe dynamic-noisy-low quality music, it can be also used to describe what a drawing sketch is. It is easier to remember what the problem is asking for if you draw a low quality picture of the set up. You can understand a problem in a better way if you translate to a picture the description given in the statement.
+	
+	\item "Explain yourself": It is nice for your future self\footnote{Has it not happened to you that you try to do your exercises again to prepare for the exam and you cannot understand why you calculated something in a particular way?} and for the people who will correct your exercises/exam if you explain with descriptive sentences the process of your calculations. It gives a context to whoever reads through your problems and help you to stay focus on the final target (solution) you are looking for.
+	
+	\item "Tolle, Lege": Take it, read it. Saint Augustine was wise enough to know that if you do not open and read books, you will not learn. It applies from religion to physics. If you do not understand what you are reading, try first point of these recommendations. Also, you are more than encouraged to ask the Teacher or teacher assistant.
+\end{itemize}
+
+\newpage
+
+
+\import{sections/problems}{PED1}
+\import{sections/problems}{PED2}
+\import{sections/problems}{PED3}
+
+
+\import{sections/solutions}{SED1}
+
+
+
+
+
+
+
+
+
+  \end{document}

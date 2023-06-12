@@ -1,0 +1,15 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Electrostatics}{4}{section.1}%
+\contentsline {section}{\numberline {2}Multipoles}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}\hyperref [Spherical Multiple Moment]{Spherical Multiple Moment}}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}\hyperref [Multiple Moments in Cartesian Coordinates]{Multiple Moments in Cartesian Coordinates}}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}\hyperref [Exterior Multipoles for a Specified Potential on a Sphere]{Exterior Multipoles for a Specified Potential on a Sphere}}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}\hyperref [Radiating Fidget Spinner]{Radiating Fidget Spinner}}{8}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Macroscopic Media}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}\hyperref [A Conducting Sphere at a Dielectric Boundary]{A Conducting Sphere at a Dielectric Boundary}}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}\hyperref [Polarization by Superposition]{Polarization by Superposition}}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}\hyperref [The Field at the Center of a Polarized Cube]{The Field at the Center of a Polarized Cube}}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}\hyperref [E and D for an Annular Dielectric]{$\mathbf {E}$ and $\mathbf {D}$ for an Annular Dielectric}}{9}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}\hyperref [E: A Charge and A Conducting Sphere]{E: A Charge and A Conducting Sphere}}{9}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}\hyperref [E: Critical strain]{E: Critical strain}}{10}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Solutions: Electrostatics}{10}{section.4}%
