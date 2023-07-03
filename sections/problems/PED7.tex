@@ -1,0 +1,194 @@
+
+\section{Covariant Formalism of Electrodynamics}
+\subsection{\hyperref[Getting Familiar with Four-Vectors]{Getting Familiar with Four-Vectors}}
+
+In the following exercise, we will learn some basic four-vector manipulations. The greek indices $\mu, \nu, \ldots$ take values $0,1, \ldots, d,$ where $d$ is the dimension of space:
+
+\begin{enumerate}
+	\item Derive the position vector: Let now $x^{\mu}=\left(x^{0}, x^{1}, \ldots, x^{d}\right)$ and $\partial_{\mu}=\frac{\partial}{\partial x^{\mu}}$.What is $\partial_{\mu} x^{\mu} ?$ Can you see that it is indeed a (Lorentz) scalar?
+	\item We can define a general tensor as an object with multiple indices, both up and down, i.e. $A_{\gamma \delta \sigma}^{\mu \nu \rho} .$ Its transformation properties follow from those ones of the tensor product of vectors, i.e. $x^{\prime \mu} y^{\prime \nu}=\Lambda_{\sigma}^{\mu} \Lambda_{\gamma}^{\nu} x^{\sigma} y^{\gamma}$, which implies that $A^{\prime \mu \nu}=\Lambda_{\sigma}^{\mu} \Lambda_{\gamma}^{\nu} A^{\sigma \gamma}$.
+	
+	Prove however, that not every tensor can be written as a product of vectors. This means that it is not always possible to find $a^{\mu}, b^{\nu}$ such that $\Sigma^{\mu \nu} a^{\mu} b^{\nu}$ (even if $S^{\mu \nu}$ is symmetric).
+	\item In order to distiguish between different tensors, we can tag them depending on their properties. In the following, let $A^{\mu \nu}$ be an antisymmetric tensor, that is $A^{\mu \nu}=-A^{\nu \mu}$ and $S^{\mu \nu}$ to be a symmetric tensor, so $S^{\mu \nu}=S^{\nu \mu}$.
+	
+	\begin{enumerate}
+		\item Show that the (anti)symmetry property of a tensor is preserved by the Lorentz transformations.
+		\item Prove that $S^{\mu \nu} A_{\mu \nu}=0$.
+		\item Let us now introduce the concept of symmetrization and antisymmetrization of a tensor with two indices. For an arbitrary tensor $C^{\mu \nu}$ we can define that $C^{(\mu \nu)}=\frac{1}{2}\left(C^{\mu \nu}+C^{\nu \mu}\right)$. In the same spirit, its antisymmetrisation goes as $C^{[\mu \nu]}=\frac{1}{2}\left(C^{\mu \nu}-C^{\nu \mu}\right)$.
+		
+		Show that a general tensor with two indices can be uniquely decomposed into the symmetric and antisymmetric part $C^{\mu \nu}=C^{(\mu \nu)}+C^{[\mu \nu]}$.
+	\end{enumerate}
+\end{enumerate}
+
+\subsection{\hyperref[Covariant formalism of Electrodynamics]{Covariant Formalism of Electrodynamics}}
+
+\begin{enumerate}
+	\item Given the electromagnetic field tensor $F^{\mu \nu}$ with components
+	
+	\begin{equation}
+	F^{0 i}=-E^{i}, \quad F^{i j}=-\epsilon^{i j k} B_{k}, \quad F^{\mu \nu}=-F^{\nu \mu}
+	\end{equation}
+
+	where $\epsilon_{123}=1$, compute in terms of $\vec{E}$ and $\vec{B}$ fields the following tensor objects:
+
+	\begin{itemize}
+		\item $-F^{\mu \nu} F_{\mu \nu}$
+		\item $\quad \epsilon_{\mu \nu \rho \sigma} F^{\mu \nu} F^{\rho \sigma}$
+	\end{itemize}
+
+	\item Show that the Maxwell equations,
+	
+	\begin{equation}
+		\partial_{t}\vec{B} + \vec{\nabla}\times \vec{E}=0,
+	\end{equation}
+
+	\begin{equation}
+		\vec{\nabla}\cdot \vec{B}=0,
+	\end{equation}
+
+	are equivalent to the Bianchi identity $\partial_{\mu} F_{\nu\lambda} + \partial_{\nu} F_{\lambda\mu} +\partial_{\lambda} F_{\mu\nu}=0$.
+	\item Given the energy-momentum tensor,
+	
+	\begin{equation}
+		T^{\mu\nu}= F^{\mu}_{\rho}F^{\rho \nu} - \frac{1}{4}g^{\mu\nu}F^{\rho\sigma}F_{\rho\sigma},
+	\end{equation}
+	compute the components of $T^{ij}$ in terms of $\vec{E}$ and $\vec{B}$ fields.
+	\item Show that the Levi-Civita tensor $\epsilon^{\mu \nu \rho \sigma}$ is invariant under Lorentz transformations.
+\end{enumerate}
+
+\subsection{\hyperref[Lorentz Transformations for the Electromagnetic Field]{Lorentz Transformations for the Electromagnetic Field}}
+
+\begin{enumerate}
+	\item Prove the general Lorentz transformation of the electric and the magnetic field.
+	\item Argue what happens to the angle between the electric and the magnetic field under a general boost transformation.
+\end{enumerate}
+
+\subsection{\hyperref[Three Observers. "One Field"]{Three Observers. "One Field"}}
+
+For some event, observer A measures $\mathbf{E}=(\alpha, 0,0)$ and $\mathbf{B}=$ $(\alpha, 0,2 \alpha,)$ and observer $\mathrm{B}$ measures $\mathbf{E}^{\prime}=\left(E_{x}^{\prime}, \alpha, 0\right)$ and $\mathbf{B}^{\prime}=\left(\alpha, B_{y}^{\prime}, \alpha,\right) .$ Observer $\mathrm{C}$ moves with velocity $v \hat{\mathbf{x}}$ with respect to observer $\mathrm{B}$.
+
+Find:
+
+\begin{enumerate}
+	\item the fields $\mathbf{E}^{\prime}$ and $\mathbf{B}^{\prime}$ measured by observer $\mathrm{B}$.
+	\item the fields $\mathbf{E}^{\prime \prime}$ and $\mathbf{B}^{\prime \prime}$ measured by observer $\mathrm{C}$.
+\end{enumerate} 
+
+\subsection{\hyperref[Transformation of Force]{Transformation of Force}}
+
+A cylindrical column of electrons has uniform charge density $\rho_{0}$ and radius $a$.
+
+\begin{enumerate}
+	\item Find the force on an electron at a radius $r<a$.
+	\item A moving observer sees the column as a beam of electrons, each moving with uniform speed $\mathbf{v}$. What force does this observer report is felt by an electron in the beam at a radius $r<a$ ?
+\end{enumerate}
+
+\subsection{\hyperref[A Long Wire Moving Fast]{A Long Wire Moving Fast}}
+
+
+An infinitely long straight wire of negligible cross-sectional area is at rest and has a uniform linear charge density $q_{0}$ in the inertial frame $K^{\prime} .$ The frame $K^{\prime}$ move with a velocity $\vec{v}$ parallel to the direction of the wire with respect to the laboratory frame $K$.
+
+\begin{enumerate}
+	\item Write down the electric and magnetic fields in cylindrical coordinates in the rest frame of the wire. Using the Lorentz transformation properties of the fields, find the components of the electric and magnetic fields in the laboratory.
+	\item What are the charge and current densities associated with the wire in its rest frame? In the laboratory?
+	\item From the laboratory charge and current densities, calculate directly the electric and magnetic fields in the laboratory. Compare with the results of part 1.
+\end{enumerate}
+
+\subsection{\hyperref[Relativistic Ohm's law]{Relativistic Ohm's law}}
+
+In the rest frame of a conducting medium the current density satisfies Ohm's law, $\vec{J}^{\prime}=\sigma \vec{E}^{\prime}$ in the rest frame.
+
+\begin{enumerate}
+	\item Taking into account the possibility of convection current as well as conduction current, show that the covariant generalization of Ohm's law is
+	
+	\begin{equation}
+		J^{\mu}-\frac{1}{c^{2}}\left(U_{\nu} J^{\nu}\right) U^{\mu}=\frac{\sigma}{c} F^{\mu \nu} U_{\nu},
+	\end{equation}
+
+	where $U^{\mu}$ is the 4 -velocity in the medium.
+	\item Find the 3 -vector current in a frame where the medium has velocity $\vec{v}=c \vec{\beta}$ with respect to some initial frame.
+	\item If the medium is uncharged in its rest frame, what is the charge density and the expression of the current density in the above frame.
+\end{enumerate}
+
+\subsection{\hyperref[E: A Loooooong Cylinder and Several Frames]{E: A Loooooong Cylinder and Several Frames}}
+
+\begin{enumerate}
+	\item  An infinitely long cylinder of radius $R$ has a uniform charge density $\rho_{0}$ and is at rest in an inertial frame $K_{0}$. The frame $K_{0}$ moves with a speed $\vec{v}$ parallel to the direction of the cylinder with respect to the laboratory frame $K_{L}$.
+	
+	\begin{enumerate}
+		\item  Find the electric field $\vec{E}_{0}$ and the magnetic field $\vec{B}_{0}$ in the rest frame (inside and
+		outside the cylinder).
+		\item  Find the electric field $\vec{E}_{L}$ and the magnetic field $\vec{B}_{L}$ in the frame of the laboratory (again both inside and outside the cylinder). Also find the current density $\vec{J}_{L}$ and
+		the charge density $\rho_{L}$ in the laboratory.
+		\item  Add a second cylinder of radius $R$ parallel to the first. The second cylinder carries a charge density $\rho_{L}$ and current density $-\vec{J}_{L}$ in the frame of the laboratory. Let the distance between the axes of the two cylinders in the laboratory be $d>2 R$. Find
+		the electric and magnetic fields outside the cylinders in the rest frame of the first
+		cylinder $K_{0}$.
+		\item  When there is only one cylinder is there an inertial reference frame where the electric field vanishes? In the situation with the two cylinders is there an inertial reference frame where the magnetic field $\vec{B}$ vanishes? Motivate your answers.
+	\end{enumerate}
+	
+	\item  Consider the energy momentum tensor $T^{\mu \nu}(x)$ of some theory invariant under transla-
+	tions and Lorentz transformations. The energy momentum is conserved i.e. $\partial_{\mu} T^{\mu \nu}=0$.
+	\begin{enumerate}
+		\item Using the energy momentum tensor we can build a new object
+		
+		\begin{equation}
+			cM^{\mu \nu \rho}(x)=x^{\rho} T^{\mu \nu}(x)-x^{\nu} T^{\mu \rho}(x).
+		\end{equation}
+
+		Find what condition does $T^{\mu \nu}$ need to satisfy so that $\partial_{\mu} M^{\mu \nu \rho}=0$. (that is $M^{\mu \nu \rho}$ is conserved.)
+		\item (For a bonus point) As seen in class the conserved four-momentum is an integral over space at any fixed time $P^{\mu}=\int_{t=\mathrm{const}} d^{3} x T^{0 \mu} .$ Can you give an interpretation to the conserved quantities $N^{\nu \rho}=\int_{t=\text { const }} d^{3} x M^{0 \mu \nu} ?$ Explain.
+	\end{enumerate}
+\end{enumerate}
+
+\subsection{\hyperref[E: Planes and Frames]{E: Planes and Frames}}
+
+In an inertial frame $K_{0}$ there are two planes at $x_{3}=0$ and $x_{3}=a .$ The plane at $x_{3}=0$ carries a uniform charge surface density $\sigma$ while the plane at $x_{3}=a$ carries a uniform charge surface density $-\sigma .$ Both planes are at rest in $K_{0}$. The frame $K_{0}$ moves with a speed $\vec{v}=v \hat{x}_{1}$ parallel to the $x_{1}$ axis with respect to the laboratory frame $K_{L}$.
+
+\begin{enumerate}
+	\item Consider the electric field $\vec{E}_{0}$ in the inertial frame $K_{0}$. Assume that $\vec{E}_{0}$ vanishes for $x_{3}<0 .$ What is $\vec{E}_{0}$ between the two planes (that is for $0<x_{3}<a$) and in the region$x_{3}>a ?$.
+	\item Find the electric $\vec{E}_{L}$ and magnetic $\vec{B}_{L}$ fields in the frame of the laboratory $K_{L}$.
+	\item Find the charge surface densities on the two planes in the laboratory frame $K_{L}$.
+	\item Find the surface current densities on the two planes in the laboratory frame $K_{L}$.
+	\item Is there an inertial reference frame where the electric field $\vec{E}$ vanishes everywhere?
+	\item Consider the energy momentum tensor $T^{\mu \nu}(x)$ of some theory invariant under translations and Lorentz transformations. The energy momentum is conserved i.e. $\partial_{\mu} T^{\mu \nu}=0$.
+	
+	\begin{enumerate}
+		\item Using the energy momentum tensor we can build a new object
+		
+		\begin{equation}
+			D^{\mu}(x)=x_{\nu} T^{\mu \nu}(x).
+		\end{equation}
+
+		Find what condition does $T^{\mu \nu}$ need to satisfy so that $\partial_{\mu} D^{\mu}=0$. (that is $D^{\mu}$ is conserved.)
+		\item Is the condition you found satisfied by the energy momentum tensor of the electromagnetic fields $T^{\mu \nu}=\frac{1}{4 \pi}\left(F^{\mu \rho} F_{\rho}^{\nu}+\frac{1}{4} g^{\mu \nu} F^{\rho \lambda} F_{\rho \lambda}\right)$ ?
+	\end{enumerate}
+\end{enumerate}
+
+\subsection{\hyperref[E: Different Points of View]{E: Different Points of View}}
+
+In an inertial reference frame there is an infinite long wire along the $\hat{z}$ direction. The wire is at rest and carries a nonzero linear charge density $\lambda$ and a nonzero current $\vec{I}=I \hat{z}$.
+\begin{enumerate}
+	\item Boost to a different inertial reference frame moving with speed $\vec{v}=v \hat{z}$ with respect to
+	the rest frame of the wire. What is the linear charge density carried by the wire in the new reference frame? What is the current?
+	\item Under which condition on the values of $\lambda$ and $\vec{I}$ in the rest frame of the wire is it
+	possible to boost to a frame where the electric field produced by the wire vanishes? Similarly under which condition on the values of $\lambda$ and $\vec{I}$ in the rest frame of the wire is it possible to boost to a frame where the magnetic field produced by the wire vanishes?
+\end{enumerate}
+
+\subsection{\hyperref[E: Waves Across Reference Frames]{E: Waves Across Reference Frames}}
+
+In an inertial reference frame $K$ the electric and magnetic fields of an electromagnetic wave are given by
+
+\begin{equation}
+	\vec{E}=\hat{z} C e^{i\left(k_{x} x+k_{y} y-\omega t\right)}, \quad \vec{B}=\frac{c}{\omega}\left(k_{y} \hat{x}-k_{x} \hat{y}\right) C e^{i\left(k_{x} x+k_{y} y-\omega t\right)}.
+\end{equation}
+
+A second reference frame $K^{\prime}$ moves with speed $\vec{v}=v \hat{x}$ with respect to $K .$ Let the origin of
+$K$ and $K^{\prime}$ coincide at $t=t^{\prime}=0$.
+
+\begin{enumerate}
+	\item Determine the electric and magnetic fields in the reference frame $K^{\prime}$ that is $\vec{E}^{\prime}\left(x^{\prime}, y^{\prime}, z^{\prime}, t^{\prime}\right)$ and $\vec{B}^{\prime}\left(x^{\prime}, y^{\prime}, z^{\prime}, t^{\prime}\right)$.
+	\item What is the direction of propagation of the wave in $K^{\prime} ?$ what is its frequency?
+\end{enumerate}
+
+
+

@@ -1,0 +1,77 @@
+\section{Lagrangian Manipulation}
+
+\subsection{\hyperref[A Relativistic Particle Coupled to a Scalar Field]{A Relativistic Particle Coupled to a Scalar Field}}
+
+The action for a relativistic point particle coupled by a strength $g$ to a space-time-dependent Lorentz scalar field $\varphi(x)$ is
+
+\begin{equation}
+	S=-m c^{2} \int d s-g \int d s \varphi(\mathbf{r}(s)).
+\end{equation}
+
+Find the equation of motion for the particle. How does the force on the particle differ from the Coulomb force of an electric field?
+
+\subsection{\hyperref[One-Dimensional Massive Scalar Field]{One-Dimensional Massive Scalar Field}}
+
+A one-dimensional field theory with scalar potential $\varphi(x, t)$ is characterized by the action
+
+\begin{equation}
+	S=\frac{1}{2} \iint d t d x\left[\frac{1}{c^{2}}\left(\frac{\partial \varphi}{\partial t}\right)^{2}-\left(\frac{\partial \varphi}{\partial x}\right)^{2}-m^{2} \varphi^{2}\right].
+\end{equation}
+
+Find the equation of motion for $\varphi(x, t)$ by both Lagrangian and Hamiltonian methods.
+
+
+\subsection{\hyperref[Introduction to Lagrangian Manipulations]{Introduction to Lagrangian Manipulations}}
+
+An alternative Lagrangian density for the electromagnetic field\footnote{The one you have seen during lectures and/or books.} is,
+
+\begin{equation}\label{alternativelagrangian}
+	\mathcal{L} = -\frac{1}{8\pi} \partial_{\alpha} A_{\beta}\partial^{\alpha} A^{\beta} - \frac{1}{c}J_{\alpha}A^{\alpha}.
+\end{equation}
+
+\begin{enumerate}
+	\item Derive the Euler-Lagrange equations of motion. Are they the Maxwell equations? Under what assumptions?
+	\item Show explicitly, and with those previous assumptions, that this Lagrangian density differs from the usual one\footnote{$\mathcal{L}= -\frac{1}{16\pi} F_{\alpha\beta}F^{\alpha\beta} - \frac{1}{c}J_{\alpha}A^{\alpha}.$} by a four-divergence. Does this divergence affect the action or the equations of motion?
+\end{enumerate}
+
+\subsection{\hyperref[Coupling Extra Fields to amu]{Coupling Extra Fields to }}
+
+An axionic field \footnote{Can be thought as a scalar. We will see in the solutions that indeed it needs to behave as a pseudoscalar field.} $a(x)$ is coupled to a gauge field $A_{\mu}(\vec{x})$ with an associated field strength $F_{\mu \nu}$. The action describing this system goes as:
+
+\begin{equation}\label{axionicaction}
+	\begin{split}
+		\mathcal{S}[a(\vec{x}),A_{\mu}(\vec{x})]=
+	-\frac{1}{2}\int d^{4}\vec{x}\partial_{\mu}a \partial^{\mu}a  &- \frac{1}{4}\int d^{4}\vec{x}F^{\mu\nu}F_{\mu\nu}\\
+	 &- \frac{1}{f}\int d^{4}\vec{x}\left[a F_{\mu\nu}*F^{\mu\nu} - 2 \partial_{\mu}\left(a A_{\nu}*F^{\mu\nu}\right)\right].
+	\end{split}
+\end{equation}
+
+Where $*F$ is dual to $F$ and $f$ is a constant.
+
+\begin{enumerate}
+	\item Under what circumstances is this action Lorentz invariant?
+	\item Find the Equations of Motion.
+	\item Show that $\mathcal{S}$ is invariant under a displacement of the axionic field as $a(\vec{x})\rightarrow a(\vec{x})+ \epsilon$.
+	\item Calculate the Noether current associated to the previous displacement invariance.
+\end{enumerate}
+
+\subsection{\hyperref[E: Ponderous Light]{E: Ponderous Light}}
+Consider the following action for the four-potential $A^{\mu}$ and a scalar field $\phi$.
+
+\begin{equation}
+	S=\int d^{4} x\left(\frac{1}{8 \pi}\left(\partial^{\mu} \phi-m A^{\mu}\right)\left(\partial_{\mu} \phi-m A_{\mu}\right)-\frac{1}{16 \pi} F^{\mu \nu} F_{\mu \nu}-\frac{1}{c} J^{\mu} A_{\mu}\right),
+\end{equation}
+
+where $F_{\mu \nu}=\partial_{\mu} A_{\nu}-\partial_{\nu} A_{\mu}$ and $J^{\mu}$ is a conserved current that is $\partial_{\mu} J^{\mu}=0$.
+
+\begin{enumerate}
+	\item Show that the action is invariant under gauge transformations $A_{\mu} \rightarrow A_{\mu}+\partial_{\mu} \alpha$ provided that the scalar $\phi$ also shifts as $\phi \rightarrow \phi+m\: \alpha .$ Gauge fix by imposing $\phi=0 .$ Rewrite the action in this gauge.
+	\item Using the gauge fixed action write the equations of motion for $A^{\mu}$.
+	\item By contracting the equations of motion with $\partial_{\mu}$ obtain an equation for $\partial_{\mu} A^{\mu} .$ Use this equation to simplify the equations of motion.
+	\item Find the form of a plane wave solution to the equations of motion with no sources $\left(J^{\mu}=0\right)$. Given a wave-vector $\vec{k}$ what is the frequency of the wave? How many independent polarizations are there?
+	\item In the electrostatic case we have $\vec{A}=0 .$ Find the electrostatic potential
+	$\Phi=A^{0}$ due to a single electric charge $q$ at rest at the origin.
+	(Hint: you may try a solution of the form $\Phi(\vec{x})=e^{-\alpha|\vec{x}|} f(\vec{x})$ for some function $f$ and an appropriately chosen constant $\alpha)$
+\end{enumerate}
+
+

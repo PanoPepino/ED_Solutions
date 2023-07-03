@@ -1,0 +1,99 @@
+\section{Light and Polarisation}
+
+\subsection{\hyperref[EllipticPolarisationWave]{Elliptic Polarisation Wave}}
+
+Assume electromagnetic wave $\vec{E}(x, t)$ and the magnetic part of it that will not contribute in the exercise. The propagation vector is in the $z$ direction $\vec{k}=k \hat{z}$ and the wave has the following form
+\begin{subequations}
+	\begin{align}
+		E_{x}(\vec{x}, t)&=A \cos (k z-\omega t), \\
+		E_{y}(\vec{x}, t)&=B \cos (k z-\omega t+\phi).
+	\end{align}
+\end{subequations}
+
+\begin{enumerate}
+	\item Show that the vector $\vec{E}(0, t)$ parametrizes an ellipse. Note that this vector describe the polarization. For which values of $A, B$ and $\phi$ the polarization parametrizes a circle? Tip: The ellipse equation is of the form $a x^{2}+2 b x y+c y^{2}+f=0$.
+	\item Show for general $A$ and $B$ that the wave can be written as a superposition of two opposite circular polarized waves
+
+	\begin{equation}
+		\vec{E}(\vec{x}, t)=\operatorname{Re}\left(\vec{E}_{+}(z, t)+\vec{E}_{+}(z, t)\right)
+	\end{equation}
+
+	where $\vec{E}_{\pm}(z, t)=A_{\pm} \epsilon_{\pm} e^{i(k z-\omega t)}$. Here we have that $A_{\pm}$ are constants that need to be found and $\epsilon_{\pm}=\frac{1}{\sqrt{2}}(\hat{x} \pm i \hat{y}).$
+\end{enumerate}
+
+\subsection{\hyperref[ASandwichofLight]{A Sandwich of Light}}
+
+Assume two half planes made out of a homogeneous isotropic, non magnetic, lossfree, dielectric medium with refraction index $n .$ The two planes are separated by vacuum and they are $d$ distance away from each-other.
+
+A wave is propagated from the below hitting the first surface of the medium with vacuum with angle $\alpha .$ The wave has frequency $\omega$.
+
+Consider the two cases where the propagation is perpendicular to the plane of incident. Describe the phenomenon and find how much of the wave was transmitted or reflected (energy/time).
+
+\subsection{\hyperref[Faraday Rotation During Propagation]{Faraday Rotation During Propagation}}
+
+For propagation along the $z$ -axis, a medium supports left circular polarization with index of refraction $n_{L}$ and right circular polarization with index of refraction $n_{R} .$ If a plane wave propagating through this medium has $\mathbf{E}(z=0, t)=\hat{\mathbf{x}}\: E \exp (-i \omega t),$ find the values of $z$ where the wave is linearly polarized along the $y$ -axis.
+
+\subsection{\hyperref[Charged Particle Motion in a Circular Polarized wave]{Charged Particle Motion in a Circularly Polarized Plane Wave}}
+
+A particle with charge $q$ and mass $m$ interacts with a circularly polarized plane wave in vacuum. The electric field of the wave is $\mathbf{E}(z, t)=$ $\operatorname{Re}\left\{(\hat{\mathbf{x}}+i \hat{\mathbf{y}}) E_{0} \exp [i(k z-\omega t)]\right\}$.
+
+\begin{enumerate}
+	\item Let $v_{\pm}=v_{x} \pm i v_{y}$ and $\Omega=2 q E_{0} / m c .$ Show that the equations of motion for the components of the particle's velocity $v$ can be written
+	
+	\begin{subequations}
+		\begin{align}
+			\frac{d v_{z}}{d t}=&\frac{1}{2} \Omega\left\{v_{+} e^{+i(k z-\omega t)}+v_{-} e^{-i(k z-\omega t)}\right\} \\
+			\frac{d v_{\pm}}{d t}=&\Omega\left(c-v_{z}\right) e^{\mp i(k z-\omega t)}
+		\end{align}
+	\end{subequations}
+
+	\item Let $\ell_{\pm}=v_{\pm} e^{\pm i(k z-\omega t)} \pm i c \Omega \omega$ and show that
+
+	\begin{equation}
+		\frac{d v_{z}}{d t}=\frac{1}{2} \Omega\left(\ell_{+}+\ell_{-}\right)=i \frac{\Omega}{2 \omega} \frac{d}{d t}\left(\ell_{+}-\ell_{-}\right)
+	\end{equation}
+	
+	\item Let $K$ be the constant of the motion defined by the two $\dot{v}_{z}$ equations above. Differentiate the equations in part (a) and establish that
+
+	\begin{equation}
+		\frac{d^{2} v_{z}}{d t^{2}}+\left[\Omega^{2}+\omega^{2}\right] v_{z}=\omega^{2} K
+	\end{equation}
+
+	Use the initial conditions $v(0)=0$ and $v_{z}^{\prime}(0)=0$ to evaluate $K$ and solve for $v_{z}(t) .$ Describe the nature of the particle acceleration in the $z$ -direction.
+\end{enumerate}
+
+\subsection{\hyperref[E: A Wave and Some Boundary Conditions]{E: A Wave and Some Boundary Conditions}}
+
+Consider an electromagnetic wave propagating in the vacuum in the half-space $x_{3} \geq 0$.
+
+\begin{subequations}
+	\begin{align}
+		\vec{E}_{i}(\vec{x}, t)&=\vec{E}_{0} e^{\mathrm{i} \vec{k} \cdot \vec{x}-\mathrm{i} \omega t} ,\\
+		\vec{B}_{i}(\vec{x}, t)&=\frac{\hat{k}}{c} \times \vec{E},
+	\end{align}
+\end{subequations}
+
+where $\vec{E}_{i}$ satisfies $\vec{k} \cdot \vec{E}_{i}=0$ and the components of $\vec{k}$ are real. The frequency satisfies $\omega^{2}=c^{2} \vec{k} \cdot \vec{k}$.
+
+\begin{enumerate}
+	\item Suppose this wave is incident on a perfectly conducting plane placed at $x_{3}=0 .$ Let the plane of incidence be formed by $\vec{k}$ and $\hat{x}_{3} .$ Write down an expression for the electric and magnetic fields for the reflected wave $\vec{E}_{r}$ and $\vec{B}_{r} .$ (Consider separately the case where $\vec{E}_{r}$ and $\vec{E}_{i}$ are both perpendicular to the plane of incidence and the case where they are both contained in it.)
+	\item Now suppose there is a second conducting plane located at $x_{3}=d>0$. Derive what are the conditions on $\vec{k},$ such that in the region $0<x_{3}<d$ the electric and magnetic fields are given by:
+	
+	\begin{equation}
+		\vec{E}=\vec{E}_{i}+\vec{E}_{r}, \quad \vec{B}=\vec{B}_{i}+\vec{B}_{r},
+	\end{equation}
+
+	where the incident and reflected fields are those found above.
+	\item Suppose now that the two conducting planes are orthogonal to each other. One is placed at $x_{3}=0$ and the other at $x_{1}=0 .$ How many plane-waves do you need generically to satisfy the Maxwell equations (with the appropriate boundary conditions) in the region $x_{1}>0, \quad-\infty<x_{2}<+\infty, \quad x_{3}>0 $? Write down the electric and magnetic fields for one such solution.
+\end{enumerate}
+
+
+\subsection{\hyperref[E: Waving at the Properties of a Wave]{E: Waving at the Properties of a Wave}}
+
+Let $\vec{E}=\hat{y} E_{0} e^{i(h z-\omega t)-\kappa x}$ be the electric field of a wave propagating in vacuum. The parameters $E_{0}, h, \omega, \kappa$ are real.
+
+\begin{enumerate}
+	\item What is the magnetic field of the wave?
+	\item Use the wave equation for $\vec{E}$ to determine a relation between $h, \kappa$ and $\omega$.
+	\item Compute the time averaged Poynting vector.	
+\end{enumerate}

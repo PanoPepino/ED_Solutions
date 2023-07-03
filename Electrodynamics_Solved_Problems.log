@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.14)  6 JUN 2023 17:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.14)  3 JUL 2023 17:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -693,7 +693,9 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7> not available
 LaTeX Font Info:    Trying to load font information for TS1+futs on input line 64.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
-)
+) [1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 6.99199pt on input line 66.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -708,9 +710,7 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.99199pt on input line 66.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 66.
- [1
-
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (./sections/problems/PED1.tex
+ [2] [3] (./sections/problems/PED1.tex
 
 LaTeX Warning: Hyper reference `Conducting ball' on page 4 undefined on input line 3.
 
@@ -753,7 +753,7 @@ LaTeX Warning: Hyper reference `Multiple Moments in Cartesian Coordinates' on pa
 
 LaTeX Warning: Hyper reference `Exterior Multipoles for a Specified Potential on a Sphere' on page 7 undefined on input line 17.
 
-<figures/shells.png, id=91, 502.87875pt x 251.94125pt>
+<figures/shells.png, id=121, 502.87875pt x 251.94125pt>
 File: figures/shells.png Graphic file (type png)
 <use figures/shells.png>
 Package pdftex.def Info: figures/shells.png  used on input line 28.
@@ -765,7 +765,7 @@ LaTeX Warning: Hyper reference `Radiating Fidget Spinner' on page 7 undefined on
 
 LaTeX Warning: Hyper reference `A Conducting Sphere at a Dielectric Boundary' on page 8 undefined on input line 3.
 
-<figures/spheredielectric.png, id=106, 265.99374pt x 120.45pt>
+<figures/spheredielectric.png, id=136, 265.99374pt x 120.45pt>
 File: figures/spheredielectric.png Graphic file (type png)
 <use figures/spheredielectric.png>
 Package pdftex.def Info: figures/spheredielectric.png  used on input line 8.
@@ -806,29 +806,304 @@ Overfull \hbox (6.36456pt too wide) in paragraph at lines 42--43
 
 LaTeX Warning: Hyper reference `E: Critical strain' on page 10 undefined on input line 48.
 
-) (./sections/solutions/SED1.tex) [10] (./Electrodynamics_Solved_Problems.aux)
+) (./sections/problems/PED4.tex
+
+LaTeX Warning: Hyper reference `EllipticPolarisationWave' on page 10 undefined on input line 3.
+
+
+Overfull \hbox (23.11778pt too wide) in paragraph at lines 14--15
+\T1/futs/m/n/12 scribe the po-lar-iza-tion. For which val-ues of $\FML/futmi/m/it/12 A; B$ \T1/futs/m/n/12 and $\FML/futmi/m/it/12 ^^^$ \T1/futs/m/n/12 the po-lar-iza-tion parametrizes
+ []
+
+[10]
+
+LaTeX Warning: Hyper reference `ASandwichofLight' on page 11 undefined on input line 24.
+
+
+LaTeX Warning: Hyper reference `Faraday Rotation During Propagation' on page 11 undefined on input line 32.
+
+
+LaTeX Warning: Hyper reference `Charged Particle Motion in a Circular Polarized wave' on page 11 undefined on input line 36.
+
+[11]
+
+LaTeX Warning: Hyper reference `E: A Wave and Some Boundary Conditions' on page 12 undefined on input line 65.
+
+[12]
+
+LaTeX Warning: Hyper reference `E: Waving at the Properties of a Wave' on page 13 undefined on input line 91.
+
+) (./sections/problems/PED5.tex
+
+LaTeX Warning: Hyper reference `Electromagnetic Crosswalk' on page 13 undefined on input line 3.
+
+<figures/crossbeams.png, id=206, 315.1775pt x 230.8625pt>
+File: figures/crossbeams.png Graphic file (type png)
+<use figures/crossbeams.png>
+Package pdftex.def Info: figures/crossbeams.png  used on input line 17.
+(pdftex.def)             Requested size: 227.62204pt x 166.73164pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13]
+
+LaTeX Warning: Hyper reference `Waveguide Discontinuity' on page 14 undefined on input line 29.
+
+
+LaTeX Warning: Hyper reference `Guess Who? (Wavefilter Edition)' on page 14 undefined on input line 33.
+
+<figures/2waveguides.png, id=226, 315.1775pt x 132.495pt>
+File: figures/2waveguides.png Graphic file (type png)
+<use figures/2waveguides.png>
+Package pdftex.def Info: figures/2waveguides.png  used on input line 38.
+(pdftex.def)             Requested size: 227.62204pt x 95.68945pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Hyper reference `An Electromagnetic Bat in a Resonant Cavity' on page 14 undefined on input line 43.
+
+[14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.47 
+      <./figures/crossbeams.png>]
+<figures/6waves.png, id=238, 232.87pt x 132.495pt>
+File: figures/6waves.png Graphic file (type png)
+<use figures/6waves.png>
+Package pdftex.def Info: figures/6waves.png  used on input line 55.
+(pdftex.def)             Requested size: 227.62204pt x 129.51465pt.
+
+
+LaTeX Warning: Hyper reference `Cutting off the modes' on page 15 undefined on input line 60.
+
+[15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.64 \subsection
+                {\hyperref[E: Rectangular Waveguide and its Modes]{E: Rectan...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.64 \subsection
+                {\hyperref[E: Rectangular Waveguide and its Modes]{E: Rectan... <./figures/2waveguides.png> <./figures/6waves.png>]
+
+LaTeX Warning: Hyper reference `E: Rectangular Waveguide and its Modes' on page 16 undefined on input line 64.
+
+<figures/examdec19p3.png, id=250, 405.515pt x 265.99374pt>
+File: figures/examdec19p3.png Graphic file (type png)
+<use figures/examdec19p3.png>
+Package pdftex.def Info: figures/examdec19p3.png  used on input line 69.
+(pdftex.def)             Requested size: 227.62204pt x 149.30858pt.
+[16
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.93 	\end{equation}
+                     <./figures/examdec19p3.png>]
+
+LaTeX Warning: Hyper reference `E: Mirror mirror on the wall...' on page 17 undefined on input line 104.
+
+<figures/examoct20p4.png, id=263, 438.63875pt x 181.67876pt>
+File: figures/examoct20p4.png Graphic file (type png)
+<use figures/examoct20p4.png>
+Package pdftex.def Info: figures/examoct20p4.png  used on input line 109.
+(pdftex.def)             Requested size: 341.43306pt x 141.42053pt.
+) (./sections/problems/PED6.tex
+
+LaTeX Warning: Hyper reference `Electric Dipole Radiation' on page 17 undefined on input line 3.
+
+[17 <./figures/examoct20p4.png>]
+
+LaTeX Warning: Hyper reference `Metallic Shells' on page 18 undefined on input line 15.
+
+
+LaTeX Warning: Hyper reference `Electrostatic Potential from a Dipole' on page 18 undefined on input line 18.
+
+
+LaTeX Warning: Hyper reference `Radiation Interference' on page 18 undefined on input line 22.
+
+[18]
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 30.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 30.
+
+
+LaTeX Warning: Hyper reference `Sinusoidal thin Antenna' on page 19 undefined on input line 37.
+
+
+LaTeX Warning: Hyper reference `Scattering in Solid Sphere' on page 19 undefined on input line 47.
+
+
+LaTeX Warning: Hyper reference `Aperture (Science)' on page 19 undefined on input line 56.
+
+[19]
+
+LaTeX Warning: Hyper reference `Born Scattering from a Dielectric Cube' on page 20 undefined on input line 78.
+
+
+LaTeX Warning: Hyper reference `E: Two Antennas Sitting Together' on page 20 undefined on input line 94.
+
+[20]
+<figures/p2examoct19.png, id=321, 261.97874pt x 262.9825pt>
+File: figures/p2examoct19.png Graphic file (type png)
+<use figures/p2examoct19.png>
+Package pdftex.def Info: figures/p2examoct19.png  used on input line 112.
+(pdftex.def)             Requested size: 227.62204pt x 228.49998pt.
+
+Overfull \hbox (2.30981pt too wide) in paragraph at lines 120--121
+\T1/futs/m/n/12 ing-ful. De-ter-mine the vec-tor po-ten-tial $[]([]\FML/futmi/m/it/12 ; !\T1/futs/m/n/12 )$ in Lorentz gauge due to the dipole
+ []
+
+[21
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.121 	\item I
+              n the same approximation write down the electric and magnetic ... <./figures/p2examoct19.png>]
+
+LaTeX Warning: Hyper reference `E: One... Err, Two Antennas' on page 22 undefined on input line 125.
+
+<figures/examdec19p2.png, id=332, 405.515pt x 265.99374pt>
+File: figures/examdec19p2.png Graphic file (type png)
+<use figures/examdec19p2.png>
+Package pdftex.def Info: figures/examdec19p2.png  used on input line 136.
+(pdftex.def)             Requested size: 227.62204pt x 149.30858pt.
+[22
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.146 	\item N
+              ow consider placing two antennas identical to the one above at... <./figures/examdec19p2.png>]
+
+LaTeX Warning: Hyper reference `E : Who bent my Antenna?' on page 23 undefined on input line 162.
+
+<figures/examoct20p3.png, id=347, 363.3575pt x 280.04625pt>
+File: figures/examoct20p3.png Graphic file (type png)
+<use figures/examoct20p3.png>
+Package pdftex.def Info: figures/examoct20p3.png  used on input line 173.
+(pdftex.def)             Requested size: 227.62204pt x 175.4344pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./sections/problems/PED7.tex
+
+LaTeX Warning: Hyper reference `Getting Familiar with Four-Vectors' on page 23 undefined on input line 3.
+
+[23] [24
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.18 		
+        <./figures/examoct20p3.png>]
+
+LaTeX Warning: Hyper reference `Covariant formalism of Electrodynamics' on page 25 undefined on input line 23.
+
+
+LaTeX Warning: Hyper reference `Lorentz Transformations for the Electromagnetic Field' on page 25 undefined on input line 59.
+
+[25]
+
+LaTeX Warning: Hyper reference `Three Observers. "One Field"' on page 26 undefined on input line 66.
+
+
+LaTeX Warning: Hyper reference `Transformation of Force' on page 26 undefined on input line 77.
+
+
+LaTeX Warning: Hyper reference `A Long Wire Moving Fast' on page 26 undefined on input line 86.
+
+
+LaTeX Warning: Hyper reference `Relativistic Ohm's law' on page 26 undefined on input line 97.
+
+[26]
+
+LaTeX Warning: Hyper reference `E: A Loooooong Cylinder and Several Frames' on page 27 undefined on input line 113.
+
+[27]
+
+LaTeX Warning: Hyper reference `E: Planes and Frames' on page 28 undefined on input line 143.
+
+[28]
+
+LaTeX Warning: Hyper reference `E: Different Points of View' on page 29 undefined on input line 167.
+
+
+LaTeX Warning: Hyper reference `E: Waves Across Reference Frames' on page 29 undefined on input line 177.
+
+) (./sections/problems/PED8.tex
+
+LaTeX Warning: Hyper reference `A Relativistic Particle Coupled to a Scalar Field' on page 29 undefined on input line 3.
+
+[29]
+
+LaTeX Warning: Hyper reference `One-Dimensional Massive Scalar Field' on page 30 undefined on input line 13.
+
+
+LaTeX Warning: Hyper reference `Introduction to Lagrangian Manipulations' on page 30 undefined on input line 24.
+
+
+Overfull \hbox (1.27652pt too wide) in paragraph at lines 34--35
+[]\T1/futs/m/n/12 Show ex-plic-itly, and with those pre-vi-ous as-sump-tions, that this La-grangian den-
+ []
+
+
+LaTeX Warning: Hyper reference `Coupling Extra Fields to amu' on page 30 undefined on input line 37.
+
+
+Overfull \hbox (5.78181pt too wide) in paragraph at lines 39--40
+\T1/futs/m/n/12 An ax-ionic field [][][] $\FML/futmi/m/it/12 a\T1/futs/m/n/12 (\FML/futmi/m/it/12 x\T1/futs/m/n/12 )$ is cou-pled to a gauge field $\FML/futmi/m/it/12 A[]\T1/futs/m/n/12 ([])$ with an as-so-ci-ated field strength
+ []
+
+[30]
+
+LaTeX Warning: Hyper reference `E: Ponderous Light' on page 31 undefined on input line 58.
+
+[31]) (./sections/problems/PED9.tex
+
+LaTeX Warning: Hyper reference `Emission Rates by Lorentz Transformation' on page 32 undefined on input line 4.
+
+
+LaTeX Warning: Hyper reference `A Merry Go Round of Radiating Particles' on page 32 undefined on input line 8.
+
+
+LaTeX Warning: Hyper reference `The Direction of the Velocity Field' on page 32 undefined on input line 12.
+
+
+LaTeX Warning: Hyper reference `Radiating 14.4 Jackson Problem' on page 32 undefined on input line 16.
+
+[32]
+
+LaTeX Warning: Hyper reference `A Fast Particle in a Constant Electric Field' on page 33 undefined on input line 25.
+
+
+LaTeX Warning: Hyper reference `A Ringy Radiating Problem' on page 33 undefined on input line 35.
+
+) (./sections/solutions/SED1.tex) [33] (./Electrodynamics_Solved_Problems.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Electrodynamics_Solved_Problems.out' has not changed.
-(rerunfilecheck)             Checksum: 692EF7B7311275D87FD3E100E59C91E4;508.
+(rerunfilecheck)             Checksum: D6B41C23C903A30F91D6EE2F68ED1D6D;1632.
  ) 
 Here is how much of TeX's memory you used:
- 15291 strings out of 478268
- 241138 string characters out of 5846347
- 559444 words of memory out of 5000000
- 33111 multiletter control sequences out of 15000+600000
- 586492 words of font info for 150 fonts, out of 8000000 for 9000
+ 15707 strings out of 478268
+ 247833 string characters out of 5846347
+ 560647 words of memory out of 5000000
+ 33241 multiletter control sequences out of 15000+600000
+ 599989 words of font info for 170 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,8n,76p,649b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 68i,17n,76p,762b,570s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{daniel.panizo@physics.uu.se} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Electrodynamics_Solved_Problems.pdf (10 pages, 206345 bytes).
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on Electrodynamics_Solved_Problems.pdf (33 pages, 749499 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
- 76 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 620 PDF objects out of 1000 (max. 8388607)
+ 541 compressed objects within 6 object streams
+ 320 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
