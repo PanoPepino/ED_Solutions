@@ -23,6 +23,7 @@
 \usepackage{cancel} % To cross and cancel values
 \usepackage{bigints} % In case you need bigger integrants
 \usepackage[skip=10pt plus1pt, indent=0pt]{parskip}
+\numberwithin{equation}{subsection}
 
 
 
@@ -40,26 +41,22 @@
 
 
 \maketitle
-\setcounter{tocdepth}{1}
+\setcounter{tocdepth}{2}
 \tableofcontents
 
 
 
+\section{Introduction}
+\subsection{About these notes}
+These notes contain a set of selected problems to discuss during the problem solving session of Classical Electrodynamics subject at Uppsala University (Sweden). The order you see in the table of content correspond to chronological order of the lectures for this course. Each set of problems is related to the correponding lectures where that content was discussed during the course (i.e. $\mathbf{L 1} = $ first lecture). The title of each problem statement is linked to its solution. Try first without looking at...
+Exercises with an $\mathbf{E}$ in front of them correspond to old exam ones.
 
-\section*{About these notes}
-These notes contain a set of selected problems to discuss during the problem solving session of Classical Electrodynamics subject at Uppsala University (Sweden). The order you see in the table of content correspond to chronological order of the lectures for this course. The title of each problem statement is linked to its solution. Try first without looking at...
-Exercises with an $\mathbf{E}$ in front of them correspond to old exams.
 
-
-
-%In case you find some typo, mistake or section to improve, please send an email to \hyperlink{daniel.panizo@physics.uu.se}{daniel.panizo@...} with indications where the issue is\footnote{Title of the problem, number of equation as reference, etc}. 
-
+In case you find some typo, mistake or section to improve, please send an email to \hyperlink{daniel.panizo@physics.uu.se}{daniel.panizo@...} with indications where the issue is\footnote{Title of the problem, number of equation as reference, etc}. 
 
 
 
-
-
-\section*{Recommended Bibliography}
+\subsection{Recommended Bibliography}
 \begin{itemize}
 	\item \textbf{Classical Electrodynamics}, John David Jackson. You may not like this book at first glance. Neither second, third... but it contains a formal and serious approach to all the topics that are going to be covered during the lectures. It contains important examples and explanations.
 	
@@ -75,7 +72,7 @@ Exercises with an $\mathbf{E}$ in front of them correspond to old exams.
 	
 \end{itemize}
 
-\section*{Tips to enhance your understanding}
+\subsection{Tips to enhance your understanding}
 
 Here we offer a set of tips in order to enhance your problem-solving capability.
 
@@ -91,7 +88,7 @@ Here we offer a set of tips in order to enhance your problem-solving capability.
 
 \newpage
 
-
+\section{Problems}
 \import{sections/problems}{PED1}
 \import{sections/problems}{PED2}
 \import{sections/problems}{PED3}
@@ -102,7 +99,9 @@ Here we offer a set of tips in order to enhance your problem-solving capability.
 \import{sections/problems}{PED8}
 \import{sections/problems}{PED9}
 
-
+\section{Solutions}
 \import{sections/solutions}{SED1}
+\import{sections/solutions}{SED2}
+\import{sections/solutions}{SED3}
 
 \end{document}

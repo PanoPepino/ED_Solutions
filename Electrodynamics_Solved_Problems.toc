@@ -1,67 +1,95 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Electrostatics}{4}{section.1}%
-\contentsline {section}{\numberline {2}Multipoles}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}\hyperref [Spherical Multiple Moment]{Spherical Multiple Moment}}{7}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}\hyperref [Multiple Moments in Cartesian Coordinates]{Multiple Moments in Cartesian Coordinates}}{7}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}\hyperref [Exterior Multipoles for a Specified Potential on a Sphere]{Exterior Multipoles for a Specified Potential on a Sphere}}{7}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}\hyperref [Radiating Fidget Spinner]{Radiating Fidget Spinner}}{8}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Macroscopic Media}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}\hyperref [A Conducting Sphere at a Dielectric Boundary]{A Conducting Sphere at a Dielectric Boundary}}{8}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}\hyperref [Polarization by Superposition]{Polarization by Superposition}}{9}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}\hyperref [The Field at the Center of a Polarized Cube]{The Field at the Center of a Polarized Cube}}{9}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}\hyperref [E and D for an Annular Dielectric]{$\mathbf {E}$ and $\mathbf {D}$ for an Annular Dielectric}}{9}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}\hyperref [E: A Charge and A Conducting Sphere]{E: A Charge and A Conducting Sphere}}{9}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}\hyperref [E: Critical strain]{E: Critical strain}}{10}{subsection.3.6}%
-\contentsline {section}{\numberline {4}Light and Polarisation}{10}{section.4}%
-\contentsline {subsection}{\numberline {4.1}\hyperref [EllipticPolarisationWave]{Elliptic Polarisation Wave}}{10}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}\hyperref [ASandwichofLight]{A Sandwich of Light}}{11}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}\hyperref [Faraday Rotation During Propagation]{Faraday Rotation During Propagation}}{11}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}\hyperref [Charged Particle Motion in a Circular Polarized wave]{Charged Particle Motion in a Circularly Polarized Plane Wave}}{11}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}\hyperref [E: A Wave and Some Boundary Conditions]{E: A Wave and Some Boundary Conditions}}{12}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}\hyperref [E: Waving at the Properties of a Wave]{E: Waving at the Properties of a Wave}}{13}{subsection.4.6}%
-\contentsline {section}{\numberline {5}Waveguides and Cavities}{13}{section.5}%
-\contentsline {subsection}{\numberline {5.1}\hyperref [Electromagnetic Crosswalk]{Electromagnetic Crosswalk}}{13}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}\hyperref [Waveguide Discontinuity]{Waveguide Discontinuity}}{14}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}\hyperref [Guess Who? (Wavefilter Edition)]{Guess Who? (Wavefilter Edition)}}{14}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}\hyperref [An Electromagnetic Bat in a Resonant Cavity]{An Electromagnetic Bat in a Resonant Cavity}}{15}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}\hyperref [Cutting off the modes]{Cutting off the Modes}}{15}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}\hyperref [E: Rectangular Waveguide and its Modes]{E: Rectangular Waveguide and its Modes}}{16}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}\hyperref [E: Mirror mirror on the wall...]{E: Mirror mirror on the wall...}}{17}{subsection.5.7}%
-\contentsline {section}{\numberline {6}Radiation and Scattering}{18}{section.6}%
-\contentsline {subsection}{\numberline {6.1}\hyperref [Electric Dipole Radiation]{Electric Dipole Radiation}}{18}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}\hyperref [Metallic Shells]{Metallic Shells}}{18}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}\hyperref [Electrostatic Potential from a Dipole]{Electrostatic Potential from a Dipole}}{18}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}\hyperref [Radiation Interference]{Radiation Interference}}{18}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}\hyperref [Sinusoidal thin Antenna]{Sinusoidal thin Antenna}}{19}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}\hyperref [Scattering in Solid Sphere]{Scattering in Solid Sphere}}{19}{subsection.6.6}%
-\contentsline {subsection}{\numberline {6.7}\hyperref [Aperture (Science)]{Aperture (Science)}}{20}{subsection.6.7}%
-\contentsline {subsection}{\numberline {6.8}\hyperref [Born Scattering from a Dielectric Cube]{Born Scattering from a Dielectric Cube}}{20}{subsection.6.8}%
-\contentsline {subsection}{\numberline {6.9}\hyperref [E: Two Antennas Sitting Together]{E: Two Antennas Sitting Together}}{21}{subsection.6.9}%
-\contentsline {subsection}{\numberline {6.10}\hyperref [E: One... Err, Two Antennas]{E: One... Err, Two Antennas}}{22}{subsection.6.10}%
-\contentsline {subsection}{\numberline {6.11}\hyperref [E : Who bent my Antenna?]{E : Who bent my Antenna?}}{23}{subsection.6.11}%
-\contentsline {section}{\numberline {7}Covariant Formalism of Electrodynamics}{24}{section.7}%
-\contentsline {subsection}{\numberline {7.1}\hyperref [Getting Familiar with Four-Vectors]{Getting Familiar with Four-Vectors}}{24}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}\hyperref [Covariant formalism of Electrodynamics]{Covariant Formalism of Electrodynamics}}{25}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}\hyperref [Lorentz Transformations for the Electromagnetic Field]{Lorentz Transformations for the Electromagnetic Field}}{26}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}\hyperref [Three Observers. "One Field"]{Three Observers. "One Field"}}{26}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}\hyperref [Transformation of Force]{Transformation of Force}}{26}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}\hyperref [A Long Wire Moving Fast]{A Long Wire Moving Fast}}{26}{subsection.7.6}%
-\contentsline {subsection}{\numberline {7.7}\hyperref [Relativistic Ohm's law]{Relativistic Ohm's law}}{27}{subsection.7.7}%
-\contentsline {subsection}{\numberline {7.8}\hyperref [E: A Loooooong Cylinder and Several Frames]{E: A Loooooong Cylinder and Several Frames}}{27}{subsection.7.8}%
-\contentsline {subsection}{\numberline {7.9}\hyperref [E: Planes and Frames]{E: Planes and Frames}}{28}{subsection.7.9}%
-\contentsline {subsection}{\numberline {7.10}\hyperref [E: Different Points of View]{E: Different Points of View}}{29}{subsection.7.10}%
-\contentsline {subsection}{\numberline {7.11}\hyperref [E: Waves Across Reference Frames]{E: Waves Across Reference Frames}}{29}{subsection.7.11}%
-\contentsline {section}{\numberline {8}Lagrangian Manipulation}{30}{section.8}%
-\contentsline {subsection}{\numberline {8.1}\hyperref [A Relativistic Particle Coupled to a Scalar Field]{A Relativistic Particle Coupled to a Scalar Field}}{30}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}\hyperref [One-Dimensional Massive Scalar Field]{One-Dimensional Massive Scalar Field}}{30}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}\hyperref [Introduction to Lagrangian Manipulations]{Introduction to Lagrangian Manipulations}}{30}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}\hyperref [Coupling Extra Fields to amu]{Coupling Extra Fields to }}{31}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}\hyperref [E: Ponderous Light]{E: Ponderous Light}}{31}{subsection.8.5}%
-\contentsline {section}{\numberline {9}Radiation and Relativistic Dynamics}{32}{section.9}%
-\contentsline {subsection}{\numberline {9.1}\hyperref [Emission Rates by Lorentz Transformation]{Emission Rates by Lorentz Transformation}}{32}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}\hyperref [A Merry Go Round of Radiating Particles]{A Merry Go Round of Radiating Particles}}{32}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}\hyperref [The Direction of the Velocity Field]{The Direction of the Velocity Field}}{32}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}\hyperref [Radiating 14.4 Jackson Problem]{Radiating 14.4 Jackson Problem}}{32}{subsection.9.4}%
-\contentsline {subsection}{\numberline {9.5}\hyperref [A Fast Particle in a Constant Electric Field]{A Fast Particle in a Constant Electric Field}}{33}{subsection.9.5}%
-\contentsline {subsection}{\numberline {9.6}\hyperref [A Ringy Radiating Problem]{A Ringy Radiating Problem}}{33}{subsection.9.6}%
-\contentsline {section}{\numberline {10}Solutions: Electrostatics}{33}{section.10}%
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}About these notes}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Recommended Bibliography}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Tips to enhance your understanding}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Problems}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Electrostatics (\bf {L1, L2})}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}\hyperref [Conducting ball]{Conducting ball}}{4}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}\hyperref [Conducting ball Again]{Conducting ball Again}}{4}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}\hyperref [The Capacitance of an off-centered Capacitor]{The Capacitance of an off-centered Capacitor}}{4}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}\hyperref [Spherical cavity and spherical functions]{Spherical cavity and spherical functions}}{5}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}\hyperref [Green's function between concentric spheres]{Green's function between concentric spheres}}{5}{subsubsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.2}Multipoles (\textbf {L3})}{6}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}\hyperref [Spherical Multiple Moment]{Spherical Multiple Moment}}{6}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}\hyperref [Multiple Moments in Cartesian Coordinates]{Multiple Moments in Cartesian Coordinates}}{7}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}\hyperref [Exterior Multipoles for a Specified Potential on a Sphere]{Exterior Multipoles for a Specified Potential on a Sphere}}{7}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}\hyperref [Radiating Fidget Spinner]{Radiating Fidget Spinner}}{8}{subsubsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.3}Macroscopic Media (\textbf {L3, L4})}{8}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}\hyperref [A Conducting Sphere at a Dielectric Boundary]{A Conducting Sphere at a Dielectric Boundary}}{8}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}\hyperref [Polarization by Superposition]{Polarization by Superposition}}{8}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}\hyperref [The Field at the Center of a Polarized Cube]{The Field at the Center of a Polarized Cube}}{9}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}\hyperref [E and D for an Annular Dielectric]{$\mathbf {E}$ and $\mathbf {D}$ for an Annular Dielectric}}{9}{subsubsection.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.5}\hyperref [E: A Charge and A Conducting Sphere]{E: A Charge and A Conducting Sphere}}{9}{subsubsection.2.3.5}%
+\contentsline {subsubsection}{\numberline {2.3.6}\hyperref [E: Critical strain]{E: Critical strain}}{10}{subsubsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.4}Light and Polarisation}{10}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}\hyperref [EllipticPolarisationWave]{Elliptic Polarisation Wave}}{10}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}\hyperref [ASandwichofLight]{A Sandwich of Light}}{11}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}\hyperref [Faraday Rotation During Propagation]{Faraday Rotation During Propagation}}{11}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}\hyperref [Charged Particle Motion in a Circular Polarized wave]{Charged Particle Motion in a Circularly Polarized Plane Wave}}{11}{subsubsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.5}\hyperref [E: A Wave and Some Boundary Conditions]{E: A Wave and Some Boundary Conditions}}{12}{subsubsection.2.4.5}%
+\contentsline {subsubsection}{\numberline {2.4.6}\hyperref [E: Waving at the Properties of a Wave]{E: Waving at the Properties of a Wave}}{13}{subsubsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.5}Waveguides and Cavities}{13}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}\hyperref [Electromagnetic Crosswalk]{Electromagnetic Crosswalk}}{13}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}\hyperref [Waveguide Discontinuity]{Waveguide Discontinuity}}{14}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}\hyperref [Guess Who? (Wavefilter Edition)]{Guess Who? (Wavefilter Edition)}}{14}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.4}\hyperref [An Electromagnetic Bat in a Resonant Cavity]{An Electromagnetic Bat in a Resonant Cavity}}{14}{subsubsection.2.5.4}%
+\contentsline {subsubsection}{\numberline {2.5.5}\hyperref [Cutting off the modes]{Cutting off the Modes}}{15}{subsubsection.2.5.5}%
+\contentsline {subsubsection}{\numberline {2.5.6}\hyperref [E: Rectangular Waveguide and its Modes]{E: Rectangular Waveguide and its Modes}}{15}{subsubsection.2.5.6}%
+\contentsline {subsubsection}{\numberline {2.5.7}\hyperref [E: Mirror mirror on the wall...]{E: Mirror mirror on the wall...}}{17}{subsubsection.2.5.7}%
+\contentsline {subsection}{\numberline {2.6}Radiation and Scattering}{17}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}\hyperref [Electric Dipole Radiation]{Electric Dipole Radiation}}{17}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}\hyperref [Metallic Shells]{Metallic Shells}}{18}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}\hyperref [Electrostatic Potential from a Dipole]{Electrostatic Potential from a Dipole}}{18}{subsubsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.4}\hyperref [Radiation Interference]{Radiation Interference}}{18}{subsubsection.2.6.4}%
+\contentsline {subsubsection}{\numberline {2.6.5}\hyperref [Sinusoidal thin Antenna]{Sinusoidal thin Antenna}}{19}{subsubsection.2.6.5}%
+\contentsline {subsubsection}{\numberline {2.6.6}\hyperref [Scattering in Solid Sphere]{Scattering in Solid Sphere}}{19}{subsubsection.2.6.6}%
+\contentsline {subsubsection}{\numberline {2.6.7}\hyperref [Aperture (Science)]{Aperture (Science)}}{19}{subsubsection.2.6.7}%
+\contentsline {subsubsection}{\numberline {2.6.8}\hyperref [Born Scattering from a Dielectric Cube]{Born Scattering from a Dielectric Cube}}{20}{subsubsection.2.6.8}%
+\contentsline {subsubsection}{\numberline {2.6.9}\hyperref [E: Two Antennas Sitting Together]{E: Two Antennas Sitting Together}}{20}{subsubsection.2.6.9}%
+\contentsline {subsubsection}{\numberline {2.6.10}\hyperref [E: One... Err, Two Antennas]{E: One... Err, Two Antennas}}{22}{subsubsection.2.6.10}%
+\contentsline {subsubsection}{\numberline {2.6.11}\hyperref [E : Who bent my Antenna?]{E : Who bent my Antenna?}}{23}{subsubsection.2.6.11}%
+\contentsline {subsection}{\numberline {2.7}Covariant Formalism of Electrodynamics}{24}{subsection.2.7}%
+\contentsline {subsubsection}{\numberline {2.7.1}\hyperref [Getting Familiar with Four-Vectors]{Getting Familiar with Four-Vectors}}{24}{subsubsection.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.7.2}\hyperref [Covariant formalism of Electrodynamics]{Covariant Formalism of Electrodynamics}}{24}{subsubsection.2.7.2}%
+\contentsline {subsubsection}{\numberline {2.7.3}\hyperref [Lorentz Transformations for the Electromagnetic Field]{Lorentz Transformations for the Electromagnetic Field}}{25}{subsubsection.2.7.3}%
+\contentsline {subsubsection}{\numberline {2.7.4}\hyperref [Three Observers. "One Field"]{Three Observers. "One Field"}}{25}{subsubsection.2.7.4}%
+\contentsline {subsubsection}{\numberline {2.7.5}\hyperref [Transformation of Force]{Transformation of Force}}{26}{subsubsection.2.7.5}%
+\contentsline {subsubsection}{\numberline {2.7.6}\hyperref [A Long Wire Moving Fast]{A Long Wire Moving Fast}}{26}{subsubsection.2.7.6}%
+\contentsline {subsubsection}{\numberline {2.7.7}\hyperref [Relativistic Ohm's law]{Relativistic Ohm's law}}{26}{subsubsection.2.7.7}%
+\contentsline {subsubsection}{\numberline {2.7.8}\hyperref [E: A Loooooong Cylinder and Several Frames]{E: A Loooooong Cylinder and Several Frames}}{27}{subsubsection.2.7.8}%
+\contentsline {subsubsection}{\numberline {2.7.9}\hyperref [E: Planes and Frames]{E: Planes and Frames}}{28}{subsubsection.2.7.9}%
+\contentsline {subsubsection}{\numberline {2.7.10}\hyperref [E: Different Points of View]{E: Different Points of View}}{28}{subsubsection.2.7.10}%
+\contentsline {subsubsection}{\numberline {2.7.11}\hyperref [E: Waves Across Reference Frames]{E: Waves Across Reference Frames}}{29}{subsubsection.2.7.11}%
+\contentsline {subsection}{\numberline {2.8}Lagrangian Manipulation}{29}{subsection.2.8}%
+\contentsline {subsubsection}{\numberline {2.8.1}\hyperref [A Relativistic Particle Coupled to a Scalar Field]{A Relativistic Particle Coupled to a Scalar Field}}{29}{subsubsection.2.8.1}%
+\contentsline {subsubsection}{\numberline {2.8.2}\hyperref [One-Dimensional Massive Scalar Field]{One-Dimensional Massive Scalar Field}}{29}{subsubsection.2.8.2}%
+\contentsline {subsubsection}{\numberline {2.8.3}\hyperref [Introduction to Lagrangian Manipulations]{Introduction to Lagrangian Manipulations}}{30}{subsubsection.2.8.3}%
+\contentsline {subsubsection}{\numberline {2.8.4}\hyperref [Coupling Extra Fields to amu]{Coupling Extra Fields to }}{30}{subsubsection.2.8.4}%
+\contentsline {subsubsection}{\numberline {2.8.5}\hyperref [E: Ponderous Light]{E: Ponderous Light}}{31}{subsubsection.2.8.5}%
+\contentsline {subsection}{\numberline {2.9}Radiation and Relativistic Dynamics}{31}{subsection.2.9}%
+\contentsline {subsubsection}{\numberline {2.9.1}\hyperref [Emission Rates by Lorentz Transformation]{Emission Rates by Lorentz Transformation}}{31}{subsubsection.2.9.1}%
+\contentsline {subsubsection}{\numberline {2.9.2}\hyperref [A Merry Go Round of Radiating Particles]{A Merry Go Round of Radiating Particles}}{32}{subsubsection.2.9.2}%
+\contentsline {subsubsection}{\numberline {2.9.3}\hyperref [The Direction of the Velocity Field]{The Direction of the Velocity Field}}{32}{subsubsection.2.9.3}%
+\contentsline {subsubsection}{\numberline {2.9.4}\hyperref [Radiating 14.4 Jackson Problem]{Radiating 14.4 Jackson Problem}}{32}{subsubsection.2.9.4}%
+\contentsline {subsubsection}{\numberline {2.9.5}\hyperref [A Fast Particle in a Constant Electric Field]{A Fast Particle in a Constant Electric Field}}{32}{subsubsection.2.9.5}%
+\contentsline {subsubsection}{\numberline {2.9.6}\hyperref [A Ringy Radiating Problem]{A Ringy Radiating Problem}}{32}{subsubsection.2.9.6}%
+\contentsline {section}{\numberline {3}Solutions}{33}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Electrostatics}{33}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Conducting ball}{33}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Conducting ball Again}{35}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}The Capacitance of an off-centered Capacitor}{38}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Spherical cavity and spherical functions}{40}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.5}Green's function between concentric spheres}{43}{subsubsection.3.1.5}%
+\contentsline {section}{\numberline {4}Multipoles}{47}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Spherical Multiple Moment}{47}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Multiple Moments in Cartesian Coordinates}{49}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Exterior Multipoles for a Specified Potential on a Sphere}{49}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Radiating Fidget Spinner}{51}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Macroscopic Media}{53}{section.5}%
+\contentsline {subsection}{\numberline {5.1}A Conducting Sphere at a Dielectric Boundary}{53}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Polarization by Superposition}{54}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}The Field at the Center of a Polarized Cube}{55}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}E and D for an Annular Dielectric}{56}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}E: A Charge and A Conducting Sphere}{57}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}E: Critical strain}{58}{subsection.5.6}%

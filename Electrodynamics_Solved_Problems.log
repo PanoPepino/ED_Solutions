@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.14)  3 JUL 2023 17:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.14)  14 SEP 2023 10:26
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **Electrodynamics_Solved_Problems
@@ -530,42 +530,42 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 ) (./Electrodynamics_Solved_Problems.aux)
 \openout1 = `Electrodynamics_Solved_Problems.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 33.
-LaTeX Font Info:    Trying to load font information for FML+futm on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 34.
+LaTeX Font Info:    Trying to load font information for FML+futm on input line 34.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 33.
-LaTeX Font Info:    Trying to load font information for FMS+futm on input line 33.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 34.
+LaTeX Font Info:    Trying to load font information for FMS+futm on input line 34.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 33.
-LaTeX Font Info:    Trying to load font information for FMX+futm on input line 33.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 34.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 34.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    ... okay on input line 34.
  (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count307
@@ -585,7 +585,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 33.
+Package hyperref Info: Link coloring OFF on input line 34.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -595,9 +595,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count313
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
  (./Electrodynamics_Solved_Problems.out) (./Electrodynamics_Solved_Problems.out)
 \@outlinefile=\write4
 \openout4 = `Electrodynamics_Solved_Problems.out'.
@@ -638,175 +638,121 @@ LaTeX Info: Redefining \nameref on input line 33.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 33.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 33.
-LaTeX Font Info:    Trying to load font information for FML+futmi on input line 43.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 34.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 34.
+LaTeX Font Info:    Trying to load font information for FML+futmi on input line 44.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 43.
+(Font)              scaled to size 13.24796pt on input line 44.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 43.
+(Font)              scaled to size 9.19998pt on input line 44.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 43.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+(Font)              scaled to size 7.35999pt on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 43.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 44.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 43.
+(Font)              scaled to size 13.24796pt on input line 44.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 43.
+(Font)              scaled to size 9.19998pt on input line 44.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 43.
- (./Electrodynamics_Solved_Problems.toc)
+(Font)              scaled to size 7.35999pt on input line 44.
+ (./Electrodynamics_Solved_Problems.toc
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 3.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 3.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 3.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 3.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 3.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 3.
+ [1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@toc=\write5
 \openout5 = `Electrodynamics_Solved_Problems.toc'.
 
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 51.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 51.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 51.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 51.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 51.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 51.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 51.
-LaTeX Font Info:    Trying to load font information for TS1+futs on input line 64.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 55.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 55.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 55.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 55.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 55.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 55.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 55.
+LaTeX Font Info:    Trying to load font information for TS1+futs on input line 61.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
-) [1
-
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 66.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 66.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 66.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 66.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 66.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 66.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 66.
- [2] [3] (./sections/problems/PED1.tex
-
-LaTeX Warning: Hyper reference `Conducting ball' on page 4 undefined on input line 3.
-
-
-LaTeX Warning: Hyper reference `Conducting ball Again' on page 4 undefined on input line 7.
-
-
-Overfull \hbox (0.66452pt too wide) in paragraph at lines 11--12
+) [2] [3] (./sections/problems/PED1.tex
+Overfull \hbox (0.66452pt too wide) in paragraph at lines 12--13
 []\T1/futs/m/n/12 Do the same anal-y-sis with the change that the sphere is iso-lated and un-charged.
  []
 
-
-LaTeX Warning: Hyper reference `The Capacitance of an off-centered Capacitor' on page 4 undefined on input line 15.
-
 [4]
-
-LaTeX Warning: Hyper reference `Spherical cavity and spherical functions' on page 5 undefined on input line 35.
-
-
-Overfull \hbox (2.77652pt too wide) in paragraph at lines 52--53
+Overfull \hbox (2.77652pt too wide) in paragraph at lines 53--54
 []\T1/futs/m/n/12 Using Dirich-let bound-ary con-di-tions, show that the po-ten-tial out-side the sphere
  []
 
-
-LaTeX Warning: Hyper reference `Green's function between concentric spheres' on page 5 undefined on input line 61.
-
 [5]
-Overfull \hbox (5.45805pt too wide) detected at line 90
+Overfull \hbox (5.45805pt too wide) detected at line 91
 [][][]\FML/futmi/m/it/12 g[] [] \FMS/futm/m/n/12 Å [] Ä [] []
  []
 
-) (./sections/problems/PED2.tex
-
-LaTeX Warning: Hyper reference `Spherical Multiple Moment' on page 6 undefined on input line 3.
-
-[6]
-
-LaTeX Warning: Hyper reference `Multiple Moments in Cartesian Coordinates' on page 7 undefined on input line 7.
-
-
-LaTeX Warning: Hyper reference `Exterior Multipoles for a Specified Potential on a Sphere' on page 7 undefined on input line 17.
-
-<figures/shells.png, id=121, 502.87875pt x 251.94125pt>
+) (./sections/problems/PED2.tex [6]
+<figures/shells.png, id=226, 502.87875pt x 251.94125pt>
 File: figures/shells.png Graphic file (type png)
 <use figures/shells.png>
 Package pdftex.def Info: figures/shells.png  used on input line 28.
 (pdftex.def)             Requested size: 227.62204pt x 114.03757pt.
-
-LaTeX Warning: Hyper reference `Radiating Fidget Spinner' on page 7 undefined on input line 35.
-
-[7]) (./sections/problems/PED3.tex
-
-LaTeX Warning: Hyper reference `A Conducting Sphere at a Dielectric Boundary' on page 8 undefined on input line 3.
-
-<figures/spheredielectric.png, id=136, 265.99374pt x 120.45pt>
+ [7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.34 
+      <./figures/shells.png>]) (./sections/problems/PED3.tex
+<figures/spheredielectric.png, id=244, 265.99374pt x 120.45pt>
 File: figures/spheredielectric.png Graphic file (type png)
 <use figures/spheredielectric.png>
 Package pdftex.def Info: figures/spheredielectric.png  used on input line 8.
 (pdftex.def)             Requested size: 170.71652pt x 77.30643pt.
-
-LaTeX Warning: Hyper reference `Polarization by Superposition' on page 8 undefined on input line 18.
-
-[8
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.21 
-     
+ [8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.21 
-      <./figures/shells.png> <./figures/spheredielectric.png>]
-
-LaTeX Warning: Hyper reference `The Field at the Center of a Polarized Cube' on page 9 undefined on input line 22.
-
-
-LaTeX Warning: Hyper reference `E and D for an Annular Dielectric' on page 9 undefined on input line 26.
-
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 26.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <8> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 26.
-
-LaTeX Warning: Hyper reference `E: A Charge and A Conducting Sphere' on page 9 undefined on input line 34.
-
-
+l.25 
+      <./figures/spheredielectric.png>]
 Overfull \hbox (6.36456pt too wide) in paragraph at lines 42--43
 []\T1/futs/m/n/12 Finally imag-ine that the space in be-tween the two spheres is filled with a medium
  []
 
-[9]
-
-LaTeX Warning: Hyper reference `E: Critical strain' on page 10 undefined on input line 48.
-
-) (./sections/problems/PED4.tex
+[9]) (./sections/problems/PED4.tex
 
 LaTeX Warning: Hyper reference `EllipticPolarisationWave' on page 10 undefined on input line 3.
 
@@ -815,10 +761,10 @@ Overfull \hbox (23.11778pt too wide) in paragraph at lines 14--15
 \T1/futs/m/n/12 scribe the po-lar-iza-tion. For which val-ues of $\FML/futmi/m/it/12 A; B$ \T1/futs/m/n/12 and $\FML/futmi/m/it/12 ^^^$ \T1/futs/m/n/12 the po-lar-iza-tion parametrizes
  []
 
+
+LaTeX Warning: Hyper reference `ASandwichofLight' on page 10 undefined on input line 24.
+
 [10]
-
-LaTeX Warning: Hyper reference `ASandwichofLight' on page 11 undefined on input line 24.
-
 
 LaTeX Warning: Hyper reference `Faraday Rotation During Propagation' on page 11 undefined on input line 32.
 
@@ -829,15 +775,14 @@ LaTeX Warning: Hyper reference `Charged Particle Motion in a Circular Polarized 
 
 LaTeX Warning: Hyper reference `E: A Wave and Some Boundary Conditions' on page 12 undefined on input line 65.
 
-[12]
 
-LaTeX Warning: Hyper reference `E: Waving at the Properties of a Wave' on page 13 undefined on input line 91.
+LaTeX Warning: Hyper reference `E: Waving at the Properties of a Wave' on page 12 undefined on input line 91.
 
-) (./sections/problems/PED5.tex
+[12]) (./sections/problems/PED5.tex
 
 LaTeX Warning: Hyper reference `Electromagnetic Crosswalk' on page 13 undefined on input line 3.
 
-<figures/crossbeams.png, id=206, 315.1775pt x 230.8625pt>
+<figures/crossbeams.png, id=318, 315.1775pt x 230.8625pt>
 File: figures/crossbeams.png Graphic file (type png)
 <use figures/crossbeams.png>
 Package pdftex.def Info: figures/crossbeams.png  used on input line 17.
@@ -845,14 +790,14 @@ Package pdftex.def Info: figures/crossbeams.png  used on input line 17.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Hyper reference `Waveguide Discontinuity' on page 13 undefined on input line 29.
+
 [13]
-
-LaTeX Warning: Hyper reference `Waveguide Discontinuity' on page 14 undefined on input line 29.
-
 
 LaTeX Warning: Hyper reference `Guess Who? (Wavefilter Edition)' on page 14 undefined on input line 33.
 
-<figures/2waveguides.png, id=226, 315.1775pt x 132.495pt>
+<figures/2waveguides.png, id=338, 315.1775pt x 132.495pt>
 File: figures/2waveguides.png Graphic file (type png)
 <use figures/2waveguides.png>
 Package pdftex.def Info: figures/2waveguides.png  used on input line 38.
@@ -867,9 +812,9 @@ LaTeX Warning: Hyper reference `An Electromagnetic Bat in a Resonant Cavity' on 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.47 
-      <./figures/crossbeams.png>]
-<figures/6waves.png, id=238, 232.87pt x 132.495pt>
+l.50 \end{equation}
+                    <./figures/crossbeams.png>]
+<figures/6waves.png, id=350, 232.87pt x 132.495pt>
 File: figures/6waves.png Graphic file (type png)
 <use figures/6waves.png>
 Package pdftex.def Info: figures/6waves.png  used on input line 55.
@@ -878,35 +823,34 @@ Package pdftex.def Info: figures/6waves.png  used on input line 55.
 
 LaTeX Warning: Hyper reference `Cutting off the modes' on page 15 undefined on input line 60.
 
-[15
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.64 \subsection
-                {\hyperref[E: Rectangular Waveguide and its Modes]{E: Rectan...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.64 \subsection
-                {\hyperref[E: Rectangular Waveguide and its Modes]{E: Rectan... <./figures/2waveguides.png> <./figures/6waves.png>]
 
-LaTeX Warning: Hyper reference `E: Rectangular Waveguide and its Modes' on page 16 undefined on input line 64.
+LaTeX Warning: Hyper reference `E: Rectangular Waveguide and its Modes' on page 15 undefined on input line 64.
 
-<figures/examdec19p3.png, id=250, 405.515pt x 265.99374pt>
+<figures/examdec19p3.png, id=351, 405.515pt x 265.99374pt>
 File: figures/examdec19p3.png Graphic file (type png)
 <use figures/examdec19p3.png>
 Package pdftex.def Info: figures/examdec19p3.png  used on input line 69.
 (pdftex.def)             Requested size: 227.62204pt x 149.30858pt.
-[16
+[15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.72 \end{figure}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.72 \end{figure}
+                  <./figures/2waveguides.png> <./figures/6waves.png>] [16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.93 	\end{equation}
-                     <./figures/examdec19p3.png>]
+l.100 	\end{enumerate}
+                       <./figures/examdec19p3.png>]
 
 LaTeX Warning: Hyper reference `E: Mirror mirror on the wall...' on page 17 undefined on input line 104.
 
-<figures/examoct20p4.png, id=263, 438.63875pt x 181.67876pt>
+<figures/examoct20p4.png, id=375, 438.63875pt x 181.67876pt>
 File: figures/examoct20p4.png Graphic file (type png)
 <use figures/examoct20p4.png>
 Package pdftex.def Info: figures/examoct20p4.png  used on input line 109.
@@ -925,12 +869,11 @@ LaTeX Warning: Hyper reference `Electrostatic Potential from a Dipole' on page 1
 
 LaTeX Warning: Hyper reference `Radiation Interference' on page 18 undefined on input line 22.
 
-[18]
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 30.
-
+[18]
 
 LaTeX Warning: Hyper reference `Sinusoidal thin Antenna' on page 19 undefined on input line 37.
 
@@ -948,7 +891,7 @@ LaTeX Warning: Hyper reference `Born Scattering from a Dielectric Cube' on page 
 LaTeX Warning: Hyper reference `E: Two Antennas Sitting Together' on page 20 undefined on input line 94.
 
 [20]
-<figures/p2examoct19.png, id=321, 261.97874pt x 262.9825pt>
+<figures/p2examoct19.png, id=434, 261.97874pt x 262.9825pt>
 File: figures/p2examoct19.png Graphic file (type png)
 <use figures/p2examoct19.png>
 Package pdftex.def Info: figures/p2examoct19.png  used on input line 112.
@@ -958,89 +901,86 @@ Overfull \hbox (2.30981pt too wide) in paragraph at lines 120--121
 \T1/futs/m/n/12 ing-ful. De-ter-mine the vec-tor po-ten-tial $[]([]\FML/futmi/m/it/12 ; !\T1/futs/m/n/12 )$ in Lorentz gauge due to the dipole
  []
 
+
+LaTeX Warning: Hyper reference `E: One... Err, Two Antennas' on page 21 undefined on input line 125.
+
 [21
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.121 	\item I
-              n the same approximation write down the electric and magnetic ... <./figures/p2examoct19.png>]
-
-LaTeX Warning: Hyper reference `E: One... Err, Two Antennas' on page 22 undefined on input line 125.
-
-<figures/examdec19p2.png, id=332, 405.515pt x 265.99374pt>
+l.128 
+       <./figures/p2examoct19.png>]
+<figures/examdec19p2.png, id=446, 405.515pt x 265.99374pt>
 File: figures/examdec19p2.png Graphic file (type png)
 <use figures/examdec19p2.png>
 Package pdftex.def Info: figures/examdec19p2.png  used on input line 136.
 (pdftex.def)             Requested size: 227.62204pt x 149.30858pt.
-[22
+ [22
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.146 	\item N
-              ow consider placing two antennas identical to the one above at... <./figures/examdec19p2.png>]
+l.156 		\item D
+               oes the electric field you found above vanish somewhere along... <./figures/examdec19p2.png>]
 
 LaTeX Warning: Hyper reference `E : Who bent my Antenna?' on page 23 undefined on input line 162.
 
-<figures/examoct20p3.png, id=347, 363.3575pt x 280.04625pt>
+<figures/examoct20p3.png, id=461, 363.3575pt x 280.04625pt>
 File: figures/examoct20p3.png Graphic file (type png)
 <use figures/examoct20p3.png>
 Package pdftex.def Info: figures/examoct20p3.png  used on input line 173.
 (pdftex.def)             Requested size: 227.62204pt x 175.4344pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./sections/problems/PED7.tex
-
-LaTeX Warning: Hyper reference `Getting Familiar with Four-Vectors' on page 23 undefined on input line 3.
-
-[23] [24
+[23
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.18 		
-        <./figures/examoct20p3.png>]
+l.183 \end{enumerate}
+                      <./figures/examoct20p3.png>]) (./sections/problems/PED7.tex
 
-LaTeX Warning: Hyper reference `Covariant formalism of Electrodynamics' on page 25 undefined on input line 23.
+LaTeX Warning: Hyper reference `Getting Familiar with Four-Vectors' on page 24 undefined on input line 4.
 
 
-LaTeX Warning: Hyper reference `Lorentz Transformations for the Electromagnetic Field' on page 25 undefined on input line 59.
+LaTeX Warning: Hyper reference `Covariant formalism of Electrodynamics' on page 24 undefined on input line 24.
+
+[24]
+
+LaTeX Warning: Hyper reference `Lorentz Transformations for the Electromagnetic Field' on page 25 undefined on input line 60.
+
+
+LaTeX Warning: Hyper reference `Three Observers. "One Field"' on page 25 undefined on input line 67.
 
 [25]
 
-LaTeX Warning: Hyper reference `Three Observers. "One Field"' on page 26 undefined on input line 66.
+LaTeX Warning: Hyper reference `Transformation of Force' on page 26 undefined on input line 78.
 
 
-LaTeX Warning: Hyper reference `Transformation of Force' on page 26 undefined on input line 77.
+LaTeX Warning: Hyper reference `A Long Wire Moving Fast' on page 26 undefined on input line 87.
 
 
-LaTeX Warning: Hyper reference `A Long Wire Moving Fast' on page 26 undefined on input line 86.
-
-
-LaTeX Warning: Hyper reference `Relativistic Ohm's law' on page 26 undefined on input line 97.
+LaTeX Warning: Hyper reference `Relativistic Ohm's law' on page 26 undefined on input line 98.
 
 [26]
 
-LaTeX Warning: Hyper reference `E: A Loooooong Cylinder and Several Frames' on page 27 undefined on input line 113.
+LaTeX Warning: Hyper reference `E: A Loooooong Cylinder and Several Frames' on page 27 undefined on input line 114.
 
 [27]
 
-LaTeX Warning: Hyper reference `E: Planes and Frames' on page 28 undefined on input line 143.
+LaTeX Warning: Hyper reference `E: Planes and Frames' on page 28 undefined on input line 144.
+
+
+LaTeX Warning: Hyper reference `E: Different Points of View' on page 28 undefined on input line 168.
 
 [28]
 
-LaTeX Warning: Hyper reference `E: Different Points of View' on page 29 undefined on input line 167.
-
-
-LaTeX Warning: Hyper reference `E: Waves Across Reference Frames' on page 29 undefined on input line 177.
+LaTeX Warning: Hyper reference `E: Waves Across Reference Frames' on page 29 undefined on input line 178.
 
 ) (./sections/problems/PED8.tex
 
 LaTeX Warning: Hyper reference `A Relativistic Particle Coupled to a Scalar Field' on page 29 undefined on input line 3.
 
+
+LaTeX Warning: Hyper reference `One-Dimensional Massive Scalar Field' on page 29 undefined on input line 13.
+
 [29]
-
-LaTeX Warning: Hyper reference `One-Dimensional Massive Scalar Field' on page 30 undefined on input line 13.
-
 
 LaTeX Warning: Hyper reference `Introduction to Lagrangian Manipulations' on page 30 undefined on input line 24.
 
@@ -1061,49 +1001,176 @@ Overfull \hbox (5.78181pt too wide) in paragraph at lines 39--40
 
 LaTeX Warning: Hyper reference `E: Ponderous Light' on page 31 undefined on input line 58.
 
-[31]) (./sections/problems/PED9.tex
+) (./sections/problems/PED9.tex
 
-LaTeX Warning: Hyper reference `Emission Rates by Lorentz Transformation' on page 32 undefined on input line 4.
+LaTeX Warning: Hyper reference `Emission Rates by Lorentz Transformation' on page 31 undefined on input line 4.
 
 
-LaTeX Warning: Hyper reference `A Merry Go Round of Radiating Particles' on page 32 undefined on input line 8.
+LaTeX Warning: Hyper reference `A Merry Go Round of Radiating Particles' on page 31 undefined on input line 8.
 
+[31]
 
 LaTeX Warning: Hyper reference `The Direction of the Velocity Field' on page 32 undefined on input line 12.
 
 
 LaTeX Warning: Hyper reference `Radiating 14.4 Jackson Problem' on page 32 undefined on input line 16.
 
-[32]
 
-LaTeX Warning: Hyper reference `A Fast Particle in a Constant Electric Field' on page 33 undefined on input line 25.
+LaTeX Warning: Hyper reference `A Fast Particle in a Constant Electric Field' on page 32 undefined on input line 25.
 
 
-LaTeX Warning: Hyper reference `A Ringy Radiating Problem' on page 33 undefined on input line 35.
+LaTeX Warning: Hyper reference `A Ringy Radiating Problem' on page 32 undefined on input line 35.
 
-) (./sections/solutions/SED1.tex) [33] (./Electrodynamics_Solved_Problems.aux)
+[32]) (./sections/solutions/SED1.tex [33] [34]
+<figures/MirrorCharge.png, id=637, 1121.28pt x 1121.28pt>
+File: figures/MirrorCharge.png Graphic file (type png)
+<use figures/MirrorCharge.png>
+Package pdftex.def Info: figures/MirrorCharge.png  used on input line 83.
+(pdftex.def)             Requested size: 256.0748pt x 256.07538pt.
+ [35
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.93 \end{equation}
+                    <./figures/MirrorCharge.png>] [36] [37]
+<figures/capacitoroff.png, id=672, 321.2pt x 282.05376pt>
+File: figures/capacitoroff.png Graphic file (type png)
+<use figures/capacitoroff.png>
+Package pdftex.def Info: figures/capacitoroff.png  used on input line 177.
+(pdftex.def)             Requested size: 227.62204pt x 199.88513pt.
+ [38
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.191 
+       <./figures/capacitoroff.png>] [39]
+<figures/SphericalCavity.png, id=696, 1121.28pt x 1121.28pt>
+File: figures/SphericalCavity.png Graphic file (type png)
+<use figures/SphericalCavity.png>
+Package pdftex.def Info: figures/SphericalCavity.png  used on input line 243.
+(pdftex.def)             Requested size: 227.62204pt x 227.62256pt.
+ [40
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.252 \end{equation}
+                     <./figures/SphericalCavity.png>] [41] [42]
+<figures/Concentric.png, id=726, 1121.28pt x 1121.28pt>
+File: figures/Concentric.png Graphic file (type png)
+<use figures/Concentric.png>
+Package pdftex.def Info: figures/Concentric.png  used on input line 328.
+(pdftex.def)             Requested size: 199.16928pt x 199.16974pt.
+ [43
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.343 \end{equation}
+                     <./figures/Concentric.png>] [44] [45] [46]) (./sections/solutions/SED2.tex
+<figures/Quadrupole.png, id=774, 807.015pt x 735.2925pt>
+File: figures/Quadrupole.png Graphic file (type png)
+<use figures/Quadrupole.png>
+Package pdftex.def Info: figures/Quadrupole.png  used on input line 10.
+(pdftex.def)             Requested size: 199.16928pt x 181.46654pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[47]
+Overfull \hbox (15.09645pt too wide) detected at line 48
+[]
+ []
+
+[48
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.48 \end{equation}
+                    <./figures/Quadrupole.png>] [49] [50]
+<figures/Fidgetspinners.png, id=811, 523.9575pt x 394.7475pt>
+File: figures/Fidgetspinners.png Graphic file (type png)
+<use figures/Fidgetspinners.png>
+Package pdftex.def Info: figures/Fidgetspinners.png  used on input line 148.
+(pdftex.def)             Requested size: 227.62204pt x 171.48488pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[51] [52
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.195 
+       <./figures/Fidgetspinners.png>]) (./sections/solutions/SED3.tex [53] [54]
+<figures/Gladys.png, id=849, 561.7788pt x 364.7226pt>
+File: figures/Gladys.png Graphic file (type png)
+<use figures/Gladys.png>
+Package pdftex.def Info: figures/Gladys.png  used on input line 109.
+(pdftex.def)             Requested size: 227.62204pt x 147.77861pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[55]
+<figures/PolarisatedBall.png, id=861, 256.96pt x 177.66376pt>
+File: figures/PolarisatedBall.png Graphic file (type png)
+<use figures/PolarisatedBall.png>
+Package pdftex.def Info: figures/PolarisatedBall.png  used on input line 151.
+(pdftex.def)             Requested size: 227.62204pt x 157.38286pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[56
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.157 	
+        <./figures/Gladys.png>] [57
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.192 T
+       he capacitor system with two plates can vary its width, as the dielec... <./figures/PolarisatedBall.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+
+ []
+
+<figures/PotentialConstraint.png, id=879, 352.31625pt x 220.825pt>
+File: figures/PotentialConstraint.png Graphic file (type png)
+<use figures/PotentialConstraint.png>
+Package pdftex.def Info: figures/PotentialConstraint.png  used on input line 215.
+(pdftex.def)             Requested size: 227.62204pt x 142.66856pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [58] [59
+pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.107 \end{document}
+                     <./figures/PotentialConstraint.png>] (./Electrodynamics_Solved_Problems.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Electrodynamics_Solved_Problems.out' has not changed.
-(rerunfilecheck)             Checksum: D6B41C23C903A30F91D6EE2F68ED1D6D;1632.
+(rerunfilecheck)             Checksum: 181B2E53FEB00161FF69D85ECCF2A476;5397.
  ) 
 Here is how much of TeX's memory you used:
- 15707 strings out of 478268
- 247833 string characters out of 5846347
- 560647 words of memory out of 5000000
- 33241 multiletter control sequences out of 15000+600000
- 599989 words of font info for 170 fonts, out of 8000000 for 9000
+ 15997 strings out of 478268
+ 253250 string characters out of 5846347
+ 567967 words of memory out of 5000000
+ 33345 multiletter control sequences out of 15000+600000
+ 609011 words of font info for 183 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,17n,76p,762b,570s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 68i,27n,76p,962b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{daniel.panizo@physics.uu.se} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Electrodynamics_Solved_Problems.pdf (33 pages, 749499 bytes).
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on Electrodynamics_Solved_Problems.pdf (59 pages, 3151572 bytes).
 PDF statistics:
- 620 PDF objects out of 1000 (max. 8388607)
- 541 compressed objects within 6 object streams
- 320 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1042 PDF objects out of 1200 (max. 8388607)
+ 913 compressed objects within 10 object streams
+ 485 named destinations out of 1000 (max. 500000)
+ 320 words of extra memory for PDF output out of 10000 (max. 10000000)
 

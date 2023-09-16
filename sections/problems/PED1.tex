@@ -1,10 +1,11 @@
-\section{Electrostatics}
+\subsection{Electrostatics (\bf{L1, L2})}
 
-\subsection*{\hyperref[Conducting ball]{Conducting ball}}
+
+\subsubsection{\hyperref[Conducting ball]{Conducting ball}}
 
 A conducting ball of radius $R$ and total charge $Q$ sits in a homogeneous electric field $\vec{E}=E_{0} \hat{z}$. How does the electric field change by the presence of the ball? (Make an Ansatz of the form $\Phi(r, \theta, \phi)=f_{0}(r)+f_{1}(r) \cos \theta$ and motivate it.) Tip: $\hat{Z}=\cos \theta \hat{r}+\sin \theta \hat{\theta}$.
 
-\subsection*{\hyperref[Conducting ball Again]{Conducting ball Again}}
+\subsubsection{\hyperref[Conducting ball Again]{Conducting ball Again}}
 
  \begin{enumerate}
 	\item A point charge $q$ sits at $\vec{a}$ inside a conducting uncharged sphere that is earthed with radius $R(|\vec{a}|<R)$.Compute the potential and the electric field inside the sphere using the method of mirror charges. Compute also the induced charge density on the surface of the sphere and show that the total charge on the surface is $-q$. What does the Gauss theorem say about the electrical field outside the sphere?
@@ -12,7 +13,7 @@ A conducting ball of radius $R$ and total charge $Q$ sits in a homogeneous elect
 	\item Follow again the same procedure as b for a sphere that is isolated and with charge $Q$.
 \end{enumerate}
 
-\subsection*{\hyperref[The Capacitance of an off-centered Capacitor]{The Capacitance of an off-centered Capacitor}} 
+\subsubsection{\hyperref[The Capacitance of an off-centered Capacitor]{The Capacitance of an off-centered Capacitor}} 
 
 A spherical conducting shell centered at the origin has radius $R_{1}$ and is maintained at potential $V_{1}$. A second spherical conducting shell maintained at potential $V_{2}$ has radius $R_{2}>R_{1}$ but is centered at the point $s \:\hat{\mathbf{z}}$ where $s \ll R_{1}$.
 
@@ -32,7 +33,7 @@ A spherical conducting shell centered at the origin has radius $R_{1}$ and is ma
 	\end{equation}
 \end{enumerate}
 
-\subsection*{\hyperref[Spherical cavity and spherical functions]{Spherical cavity and spherical functions}}
+\subsubsection{\hyperref[Spherical cavity and spherical functions]{Spherical cavity and spherical functions}}
 
 Consider a sphere of radius $a$ where the surface of the upper hemisphere has a potential $+\Phi_{0}$ and the surface of the lower hemisphere has a potential $-\Phi_{0}$. In this case the Green Function is given by:
 
@@ -49,18 +50,18 @@ Consider a sphere of radius $a$ where the surface of the upper hemisphere has a 
 		G\left(r, r^{\prime}\right)=4 \pi \sum_{l, m} \frac{1}{2 l+1}\left[\frac{r_{<}^{l}}{r_{>}^{l+1}}-\frac{1}{a}\left(\frac{a^{2}}{r r^{\prime}}\right)^{l+1}\right] Y_{l, m}^{*}\left(\theta^{\prime}, \phi^{\prime}\right) Y_{l, m}(\theta, \phi),
 	\end{equation}
 
-	\item Using Dirichlet boundary conditions, show that the potential outside the sphere has fol- lowing the expansion.
+\item Using Dirichlet boundary conditions, show that the potential outside the sphere has fol- lowing the expansion.
 	
-	\begin{equation}
-		\Phi(r, \theta, \phi)=\sum_{l m}\frac{l+1}{a^{2} (2l+1)}\left(\frac{a}{r}\right)^{l+1} Y_{l, m}(\theta, \phi) \int \Phi_{0}\left(\theta^{\prime}, \phi^{\prime}\right) Y_{l, m}^{*}\left(\theta^{\prime}, \phi^{\prime}\right) d \Sigma^{\prime},
-	\end{equation}
+\begin{equation}
+	\Phi(r, \theta, \phi)=\sum_{l m}\frac{l+1}{a^{2} (2l+1)}\left(\frac{a}{r}\right)^{l+1} Y_{l, m}(\theta, \phi) \int \Phi_{0}\left(\theta^{\prime}, \phi^{\prime}\right) Y_{l, m}^{*}\left(\theta^{\prime}, \phi^{\prime}\right) d \Sigma^{\prime},
+\end{equation}
 
-	which tends to 0 as $r \rightarrow \infty$.
+which tends to 0 as $r \rightarrow \infty$.
 \end{enumerate}
 
-\subsection*{\hyperref[Green's function between concentric spheres]{Green's function between concentric spheres}}
+\subsubsection{\hyperref[Green's function between concentric spheres]{Green's function between concentric spheres}}
 
-Consider the green's function for Newnmann b.c. in the volume $\mathrm{V}$ between two concentric spheres between $r=a$ and $r=b, a<b$. We write the potential as
+Consider the green's function for Neumann b.c. in the volume $\mathrm{V}$ between two concentric spheres between $r=a$ and $r=b, a<b$. We write the potential as
 
 \begin{equation}
 	\Phi(x)=\frac{1}{4 \pi \epsilon_{0}} \int_{V} \rho\left(x^{\prime}\right) G\left(x, x^{\prime}\right) d^{3} x^{\prime}+\frac{1}{4 \pi} \oint_{S} \frac{\partial \Phi}{\partial n^{\prime}} G d a^{\prime},
