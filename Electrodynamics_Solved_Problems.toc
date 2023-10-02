@@ -1,6 +1,6 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}About these notes}{2}{subsection.1.1}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}About these notes}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Recommended Bibliography}{2}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Tips to enhance your understanding}{3}{subsection.1.3}%
 \contentsline {section}{\numberline {2}Problems}{4}{section.2}%
@@ -22,14 +22,14 @@
 \contentsline {subsubsection}{\numberline {2.3.4}\hyperref [E and D for an Annular Dielectric]{$\mathbf {E}$ and $\mathbf {D}$ for an Annular Dielectric}}{9}{subsubsection.2.3.4}%
 \contentsline {subsubsection}{\numberline {2.3.5}\hyperref [E: A Charge and A Conducting Sphere]{E: A Charge and A Conducting Sphere}}{9}{subsubsection.2.3.5}%
 \contentsline {subsubsection}{\numberline {2.3.6}\hyperref [E: Critical strain]{E: Critical strain}}{10}{subsubsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.4}Light and Polarisation}{10}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Light and Polarisation(\textbf {L5, L6})}{10}{subsection.2.4}%
 \contentsline {subsubsection}{\numberline {2.4.1}\hyperref [EllipticPolarisationWave]{Elliptic Polarisation Wave}}{10}{subsubsection.2.4.1}%
 \contentsline {subsubsection}{\numberline {2.4.2}\hyperref [ASandwichofLight]{A Sandwich of Light}}{11}{subsubsection.2.4.2}%
 \contentsline {subsubsection}{\numberline {2.4.3}\hyperref [Faraday Rotation During Propagation]{Faraday Rotation During Propagation}}{11}{subsubsection.2.4.3}%
 \contentsline {subsubsection}{\numberline {2.4.4}\hyperref [Charged Particle Motion in a Circular Polarized wave]{Charged Particle Motion in a Circularly Polarized Plane Wave}}{11}{subsubsection.2.4.4}%
 \contentsline {subsubsection}{\numberline {2.4.5}\hyperref [E: A Wave and Some Boundary Conditions]{E: A Wave and Some Boundary Conditions}}{12}{subsubsection.2.4.5}%
 \contentsline {subsubsection}{\numberline {2.4.6}\hyperref [E: Waving at the Properties of a Wave]{E: Waving at the Properties of a Wave}}{13}{subsubsection.2.4.6}%
-\contentsline {subsection}{\numberline {2.5}Waveguides and Cavities}{13}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.5}Waveguides and Cavities \textbf {(L7)}}{13}{subsection.2.5}%
 \contentsline {subsubsection}{\numberline {2.5.1}\hyperref [Electromagnetic Crosswalk]{Electromagnetic Crosswalk}}{13}{subsubsection.2.5.1}%
 \contentsline {subsubsection}{\numberline {2.5.2}\hyperref [Waveguide Discontinuity]{Waveguide Discontinuity}}{14}{subsubsection.2.5.2}%
 \contentsline {subsubsection}{\numberline {2.5.3}\hyperref [Guess Who? (Wavefilter Edition)]{Guess Who? (Wavefilter Edition)}}{14}{subsubsection.2.5.3}%
@@ -81,15 +81,24 @@
 \contentsline {subsubsection}{\numberline {3.1.3}The Capacitance of an off-centered Capacitor}{38}{subsubsection.3.1.3}%
 \contentsline {subsubsection}{\numberline {3.1.4}Spherical cavity and spherical functions}{40}{subsubsection.3.1.4}%
 \contentsline {subsubsection}{\numberline {3.1.5}Green's function between concentric spheres}{43}{subsubsection.3.1.5}%
-\contentsline {section}{\numberline {4}Multipoles}{47}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Spherical Multiple Moment}{47}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Multiple Moments in Cartesian Coordinates}{49}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Exterior Multipoles for a Specified Potential on a Sphere}{49}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Radiating Fidget Spinner}{51}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Macroscopic Media}{53}{section.5}%
-\contentsline {subsection}{\numberline {5.1}A Conducting Sphere at a Dielectric Boundary}{53}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Polarization by Superposition}{54}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}The Field at the Center of a Polarized Cube}{55}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}E and D for an Annular Dielectric}{56}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}E: A Charge and A Conducting Sphere}{57}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}E: Critical strain}{58}{subsection.5.6}%
+\contentsline {subsection}{\numberline {3.2}Multipoles}{47}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Spherical Multiple Moment}{47}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Multiple Moments in Cartesian Coordinates}{49}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Exterior Multipoles for a Specified Potential on a Sphere}{49}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Radiating Fidget Spinner}{51}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}Macroscopic Media}{53}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}A Conducting Sphere at a Dielectric Boundary}{53}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Polarization by Superposition}{54}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}The Field at the Center of a Polarized Cube}{55}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}E and D for an Annular Dielectric}{56}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}E: A Charge and A Conducting Sphere}{57}{subsubsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.3.6}E: Critical strain}{58}{subsubsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.4}Light and Polarisation}{59}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Elliptic Polarisation Wave}{59}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}A Sandwich of Light}{62}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Faraday Rotation During Propagation}{67}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}Charged Particle Motion in a Circular Polarized wave}{68}{subsubsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.5}E: A Wave and Some Boundary Conditions}{71}{subsubsection.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.4.6}E: Waving at the Properties of a Wave}{75}{subsubsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.5}Waveguides and Cavities}{75}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Electromagnetic Crosswalk}{75}{subsubsection.3.5.1}%
