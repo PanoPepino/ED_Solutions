@@ -1,0 +1,431 @@
+
+\subsection{Lagrangian Manipulations}
+
+\newcommand{\matL}{\mathcal{L}}
+\newcommand{\pu}[1]{\partial^{#1 }}
+\newcommand{\pd}[1]{\partial_{#1 }}
+\newcommand{\metu}[1]{\eta^{#1 }}
+\newcommand{\metd}[1]{\eta_{#1 }}
+\newcommand{\deltita}[2]{\delta^{#1 }_{#2}}
+\newcommand{\vad}[1]{A_{#1 }}
+\newcommand{\vau}[1]{A^{#1 }}
+
+\subsubsection{A Relativistic Particle Coupled to a Scalar Field}\label{A Relativistic Particle Coupled to a Scalar Field}
+
+We have the following:
+
+\begin{equation}
+	\mathcal{S}=-m c^{2} \int d s-g \int d s \varphi(\mathbf{r}(s)).
+\end{equation}
+
+The first term  the action of a free point particle. The Lagrangian of the latter is $L_{p}=-m c^{2} / \gamma$. Therefore, in terms of the proper time differential $d \tau=d t / \gamma$,
+
+\begin{equation}
+	\mathcal{S}_{p}=-m c^{2} \int \frac{d t}{\gamma}=-m c^{2} \int d \tau=-m c \int d(c \tau).
+\end{equation}
+
+We conclude that $ds=c d \tau$ and  the total Lagrangian can be written as a function of time:
+
+\begin{equation}
+	L=-\frac{m c^{2}}{\gamma}-\frac{g c}{\gamma} \varphi(\mathbf{r}(t)),
+\end{equation}
+
+Where $\textbf{r}$ is the canonical coordinate and $\textbf{v}$ (inside $\gamma$) is the canonical momenta. So now, we just have to calculate the Euler-Lagrange equation to get the EOM.
+
+\begin{equation}
+	\begin{split}
+		\frac{d}{d t} \left(\frac{\partial L}{\partial \mathbf{v}}\right)-\frac{\partial L}{\partial \mathbf{r}}=0,&\\
+		\frac{d}{d t}\left(\gamma m \mathbf{v}+\gamma g \frac{\mathbf{v}}{c} \varphi \right) - \frac{gc}{\gamma} \vec{\nabla} \varphi=0,&\\
+		\frac{d}{d t} (\gamma m \mathbf{v} c)=-\left(\frac{d}{d t}\left(g \gamma \frac{\mathbf{v}}{c} \varphi\right)+\frac{g c}{\gamma} \nabla \varphi\right)&.
+	\end{split}
+\end{equation}
+
+Observe that the first term corresponds to the Coulomb "Force", while the last one to the right seems like the $\mathbf{E}$ -field with a $\varphi$ as potential. One can think of the remaining term as a correction to the Coulomb force expression.
+
+\subsubsection{One-Dimensional Massive Scalar Field}\label{One-Dimensional Massive Scalar Field}
+
+This is a basic problem to get used to Lagrangian (and in this case Hamiltonian) manipulation. If we isolate the Lagrangian density, we have:
+
+\begin{equation}
+	\mathcal{L}=\frac{1}{2}\left[\frac{1}{c^{2}}\left(\frac{\partial \varphi}{\partial t}\right)^{2}-\left(\frac{\partial \varphi}{\partial x}\right)^{2}-m^{2} \varphi^{2}\right].
+\end{equation}
+
+As the only canonical coordinate is $\varphi (x,t)$, we just have one EOM given by:
+
+\begin{equation}
+	\begin{split}
+		0 &=\frac{d}{d t} \frac{\partial \mathcal{L}}{\partial \dot{\varphi}}-\frac{\partial \mathcal{L}}{\partial \varphi}+\frac{\partial}{\partial x} \frac{\partial \mathcal{L}}{\partial(\partial \varphi / \partial x)}= \\
+		&=\frac{1}{c^{2}} \frac{d}{d t} \dot{\varphi}+m^{2} \varphi-\frac{\partial}{\partial x} \frac{\partial \varphi}{\partial x}= \\
+		&=\frac{1}{c^{2}} \frac{\partial^{2} \varphi}{\partial t^{2}}-\frac{\partial^{2} \varphi}{\partial x^{2}}+m^{2} \varphi =\\
+		\text{EOM}&=\frac{1}{c^{2}} \ddot{\varphi}-\frac{\partial^{2} \varphi}{\partial x^{2}}+m^{2} \varphi = 0.
+	\end{split}
+\end{equation}
+
+Now we generalise the momentum using $\pi=\partial \mathcal{L} / \partial \dot{\varphi}=\dot{\varphi} / c^{2}$. Therefore, the Hamiltonian density is:
+
+\begin{equation}
+	\begin{split}
+		\mathcal{H} &=\pi \dot{\varphi}-\mathcal{L}= \\
+		&=\pi \frac{\partial \varphi}{\partial t}-\frac{1}{2}\left[\frac{1}{c^{2}}\left(\frac{\partial \varphi}{\partial t}\right)^{2}-\left(\frac{\partial \varphi}{\partial x}\right)^{2}-m^{2} \varphi^{2}\right]= \\
+		&=\frac{1}{2}\left[c^{2} \pi^{2}+(\partial \varphi / \partial x)^{2}+m^{2} \varphi^{2}\right].
+	\end{split}
+\end{equation}
+
+And the Hamilton equations are given by:
+
+\begin{equation}
+	\dot{\pi}=-\frac{\partial \mathcal{H}}{\partial \varphi}+\frac{\partial}{\partial x} \frac{\partial \mathcal{H}}{\partial(\partial \varphi / \partial x)}=-m^{2} \varphi+\frac{\partial^{2} \varphi}{\partial x^{2}}.
+\end{equation}
+
+\begin{equation}\label{phiequation}
+	\dot{\varphi}=\frac{\partial \mathcal{H}}{\partial \pi}-\frac{\partial}{\partial x} \frac{\partial \mathcal{H}}{\partial(\partial \pi / \partial x)}=c^{2} \pi .
+\end{equation}
+
+We can go further and derive (\ref{phiequation}) respect to $t$ to arrive to the final expression
+
+\begin{equation}
+	\frac{1}{c^{2}} \ddot{\varphi}+m^{2} \varphi-\frac{\partial^{2} \varphi}{\partial x^{2}} =0.
+\end{equation}
+
+Which exactly correponds to the EOM derived by the Lagrangian method.
+
+\subsubsection{Introduction to Lagrangian Manipulations}\label{Introduction to Lagrangian Manipulations}
+
+\textbf{a):}
+In this first part of this problem, we will learn how to deal with indices manipulation in a deeper way than previous exercises. But first, the important things. Recall that Equations Of Motion (EOM) are given by the Euler-Lagrange equation as:
+
+\begin{equation}
+	\pd{\m}\tfrac{\pu{}\matL}{\partial (\pd{\m}\phi)} - \tfrac{\pd{}\matL}{\partial \phi} = 0.
+\end{equation}\\
+Where $\phi$ corresponds to the canonical coordinates in our theory. In this case corresponds to the 4-vector field $A_{\m}$. Then, we just have to move the wheel and produce some terms.
+
+\begin{equation}
+	\begin{split}
+		\tfrac{\pu{}\matL}{\partial (\pd{\m}A_{\n})} &= \tfrac{\pu{}}{\partial (\pd{\m}A_{\n})} (\pd{\aa}\vad{\bt} \pu{\aa}\vau{\bt})=\\
+		&=  \tfrac{\pu{}}{\partial (\pd{\m}A_{\n})} (\pd{\aa}\vad{\bt} \metu{\aa\gm}\metu{\bt\zeta}\pu{\gm}\vau{\zeta})=\\
+		&= \pd{\m} (\deltita{\m}{\aa}\deltita{\n}{\bt} \metu{\aa\gm}\metu{\bt\zeta} \pd{\gm}\vad{\zeta} +\deltita{\m}{\gm}\deltita{\n}{\zeta} \metu{\aa\gm}\metu{\bt\zeta} \pd{\aa}\vad{\beta})=\\
+		& = \text{Substitute indices in $\eta$ by those ones in the $\delta$} =\\
+		&= 2 \pd{\m} (\pu{\m}\vau{\n}).
+	\end{split}
+\end{equation}
+
+As for the other part of the EOM, we find:
+
+\begin{equation}
+	\begin{split}
+		\tfrac{\partial \matL}{\partial \vad{n}} &= \Jd{\aa} \tfrac{\partial}{\partial \vad{\n}} \vau{\aa} = \Jd{\aa} \metu{\aa\bt} \pd{\vad{\n}} \vad{\bt} = \\
+		&=  \Jd{\aa} \metu{\aa\bt} \deltita{\n}{\bt}  = \Jd{\n}. 
+	\end{split}
+\end{equation}
+
+So we find that the equation of motion for the field $\vad{\n}$ is given by (Factors have been removed from previous calculations. One has to introduce them back):
+
+\begin{equation}\label{equationofmotion}
+	\tfrac{1}{4\pi} \pd{\m}\pu{\m}\vau{\n} = \tfrac{1}{c} \Ju{\n}.
+\end{equation}
+
+So, Does this look like Maxwell equations? Recall how they look like:
+\begin{equation}\label{maxwell}
+	\begin{split}
+		&\pd{\m}\Fu{\m\n} = \m_{0} \Ju{\n},\\
+		&\pd{\m} \star \Fu{\m\n} =0.\\
+	\end{split}
+\end{equation}
+
+And what do we have (factors of $\pi$ and $c$ aside)? Let's carefully expand the first expression in (\ref{maxwell}). This is:
+
+\begin{equation}
+	\pd{\m}\Fu{\m\n} = \pd{\m}\pu{\m}\vau{\n} - \underbrace{\pd{\m}\pu{\n}\vau{\m}}_{\text{What we do not have in \ref{equationofmotion}}}= \m_{0} \Ju{\n}.
+\end{equation}
+
+So we can conclude that $\pd{\m}\pu{\n}\vau{\m}$ is 0 in our case. This corresponds to the so called Coulomb gauge ($\pd{\m}\vau{\m}=0$). It is under this circumstance that the EOM \ref{equationofmotion} corresponds to Maxwell's equation.
+
+\textbf{b):}
+
+In order to show that both $\matL$ differ by a four-divergence term (a.k.a $\pd{\m} v^{\m}$), let us massage the well know $\matL_{elec}$:
+
+\begin{equation}
+	\matL_{elec} = -\tfrac{1}{16 \pi} \Fd{\alpha\beta} \Fu{\alpha\beta} - \tfrac{1}{c} \Jd{\alpha}\vau{\alpha}.
+\end{equation}
+
+So our intuition should be pointing towards the first term in the previous expression. Can we transform this in such a way that it directly looks as a four-divergence is missing?
+
+\begin{equation}
+	\begin{split}
+		-\tfrac{1}{16 \pi} \Fd{\alpha\beta} \Fu{\alpha\beta} &= -\tfrac{1}{16 \pi} (\pd{\alpha}\vad{\bt}-\pd{\bt}\vad{\alpha})(\pu{\alpha}\vau{\bt}-\pu{\bt}\vau{\alpha}) =\\
+		& = 	-\tfrac{1}{16 \pi}(\pd{\alpha}\vad{\bt}\pu{\alpha}\vau{\bt} - \pd{\alpha}\vad{\bt}\pu{\bt}\vau{\alpha} - \pd{\bt}\vad{\alpha}\pu{\alpha}\vau{\bt} +  \pu{\bt}\vau{\alpha}\pd{\bt}\vad{\alpha})=\\
+		&= 	-\tfrac{1}{8 \pi} (\pd{\alpha}\vad{\beta}(\pu{\alpha}\vau{\beta}-\pu{\beta}\vau{\alpha})).
+	\end{split}
+\end{equation}
+
+So, if we take away both Lagrangians to see what the difference is, we will find that:
+
+\begin{equation}\label{differencematl}
+	\Delta\matL = \tfrac{1}{8\pi} \pd{\alpha}\vad{\bt}\pu{\bt}\vau{\alpha}.
+\end{equation}
+
+We are getting closer. The idea would be now to rearrange the previous expression such that we can get something as $\pd{\m}\vau{\m}$, so we can claim for a missing four-divergence. At this stage we need some inspiration. Let assume derivative variations of the term $\underbrace{\pd{\alpha}\vad{\beta}\pu{\bt}\vau{\alpha}}_{\star}$ as:
+
+\begin{equation}
+	\begin{split}
+		\pd{\alpha}(\vad{\beta}\pu{\bt}\vau{\alpha}) &= \underbrace{\pd{\alpha}\vad{\beta}\pu{\bt}\vau{\alpha}}_{\star} + \underbrace{\vad{\beta}\pd{\alpha}\pu{\bt}\vau{\alpha}}_{\star \star},\\
+		\pu{\bt}(\vad{\beta}\pd{\alpha}\vau{\alpha}) &= \pu{\bt}\vad{\beta}\pd{\alpha}\vau{\alpha} + \underbrace{\vad{\beta}\pu{\bt}(\pd{\alpha}\vau{\alpha})}_{\star \star}.
+	\end{split}
+\end{equation}
+
+So we can use previous expressions to massage $\Delta\matL$ to obtain something like:
+
+\begin{equation}
+	\begin{split}
+		\Delta\matL &\propto (\pu{\alpha}(\vad{\bt}\pu{\bt}\vad{\alpha}) - \vad{\bt} \pd{\alpha}\pu{\bt}\vau{\alpha}),\\
+		&\propto (\pu{\alpha}(\vad{\bt}\pu{\bt}\vad{\alpha}) -\pu{\bt}(\vad{\bt}\pd{\alpha}\vau{\alpha})+ (\pu{\m}\vad{\m})^{2}).\\
+	\end{split}
+\end{equation}
+
+So we set the Coloumb gauge to 0 ($\pu{\bt}\vad{\bt}=0$), while one expects $\Delta\matL = 0$, it is found that:
+
+\begin{equation}
+	\Delta \matL \propto \pu{\alpha}(\vad{\bt}\pu{\bt}\vad{\alpha} - \vad{\alpha} \pu{\bt}\vad{\bt}).
+\end{equation}
+
+So we would not be able to find the initial difference given in \ref{differencematl} if we apply the Coulomb gauge. This affects the EOM. This added four-divergence gives a surface term, which will have no contribution, as $\vad{\m}$ is demanded to fall off rapidly enough when going to $\infty$\footnote{Other option would be to demand compact support of that form in a given region or computing everything on a compact manifold, which is not the case for our regular space-time... Or is it?}.
+
+So as the action of the divergence part goes to 0, it is not affected, neither the equations of motion.
+
+\subsubsection{Coupling Extra Fields to $\vad{\m}$}\label{Coupling Extra Fields to amu}
+
+\textbf{a):}
+For the action to be Lorentz invariant it is required to be a scalar. We can apply some intelligence and divide the action in each of its terms. If all terms behave as a scalar, the whole action will and it will be Lorentz invariant. Let's analyse term by term:
+
+\begin{itemize}
+	\item $\pd{\m} a \pu{\m} a$:  We know that $a(x)$ is a scalar field. We know that $\pd{\m}a(x)$ is a vector field... But it is contracted with $\pu{\m}a(x)$, so the result is a scalar.
+	
+	\item $\Fd{\m\n}\Fu{\m\n}$ is also a scalar, as its indices are contracted.
+	
+	\item $a F_{\mu \nu} \star F^{ \mu \nu}$ it is not so straightforward to see. In this case, we have to know that the Hodge star $\star$ changes the sign under a coordinate reflection $\vec{x}\rightarrow -\vec{x}$. If this is the case, any form that transform in this way will be called pseudo-form. This pseudo-feature is inherited through products and combinations of forms. Hence $F_{\mu \nu} \star F^{ \mu \nu}$ is a pseudo-scalar. One fancy thing here is that the combination of two pseudo-scalars gives a pure scalar. This can be used to require $a(x)$ to be a pseudo-scalar, to preserve Lorentz invariance in the whole action.
+	
+	\item $\partial_{\mu}\left(a A_{\nu} \tilde{F}^{\mu \nu}\right)$ works as in the previous point. Pseudo-scalar $\times$ pseudo-scalar $=$ scalar.
+\end{itemize}
+
+
+\textbf{b):}
+
+First of all, we have to realise that the Lagrangian comes within the action. This one is given by:
+\begin{equation}\label{lagrangian}
+	\mathcal{L}=-\frac{1}{2} \partial_{\mu} a \partial^{\mu} a-\frac{1}{4} F_{\mu \nu} F^{\mu \nu}-\frac{1}{f}\left[a F_{\mu \nu} \star F^{\mu \nu}-2 \partial_{\mu}\left(a A_{\nu} \star F^{\mu \nu}\right)\right].
+\end{equation}
+
+And the Euler-Lagrange equation giving EOM's is:
+
+\begin{equation}
+\partial_{\mu}\left(\frac{\partial \mathcal{L}}{\partial\left(\partial_{\mu} \phi\right)}\right)-\frac{\partial \mathcal{L}}{\partial \phi}=0.
+\end{equation}
+
+In order to write down the EOM's, we have to realise that we have two canonical coordinates $\phi$ in this exercise; $a(x)$ and $\vad{\m}$. So we have:
+
+\begin{equation}
+	\begin{array}{c}
+		\partial_{\mu}\left(\frac{\partial \mathcal{L}}{\partial\left(\partial_{\mu} a\right)}\right)-\frac{\partial \mathcal{L}}{\partial a}=0, \\
+		\partial_{\mu}\left(\frac{\partial \mathcal{L}}{\partial\left(\partial_{\mu} A_{\nu}\right)}\right)-\frac{\partial \mathcal{L}}{\partial A_{\nu}}=0.
+	\end{array}
+\end{equation}
+
+Before we start computing like crazy, lets carefully observe the last term of the Lagrangian \ref{lagrangian}. If we massage it...
+
+\begin{equation}
+	\partial_{\mu}\left(a A_{\nu} \star F^{\mu \nu}\right)=\partial_{\mu}\left(a A_{\nu} \frac{1}{2} \epsilon^{\mu \nu \rho \sigma} F_{\rho \sigma}\right)=\partial_{\mu}\left(a \epsilon^{\mu \nu \rho \sigma} A_{\nu} \partial_{\rho} A_{\sigma}\right).
+\end{equation}
+
+This is a total derivative that will no contribute to the EOM's, as its initial and final terms are equivalent. So, for the equation of motion of the axion $a(x)$ we can compute it to be:
+
+\begin{equation}
+	\begin{split}
+		-\frac{1}{2} \partial_{\mu}\left[\frac{\partial\left(\partial_{\tau} a\right)}{\partial\left(\partial_{\mu} a\right)} \partial^{\tau} a+\partial_{\tau} a \frac{\partial\left(\partial^{\tau} a\right)}{\partial\left(\partial_{\mu} a\right)}\right]-\left(-\frac{1}{f} F_{\rho \sigma} \star F^{\rho \sigma}\right)&=0, \\
+		-\frac{1}{2} \partial_{\mu}\left(2 \partial^{\tau} a \: \delta_{\tau}^{\mu}\right)+\frac{1}{f} F_{\rho \sigma} \star F^{\rho \sigma}=-\partial_{\mu} \partial^{\mu} a+\frac{1}{f} F_{\rho \sigma} \star F ^{\rho \sigma}&=0, \\
+	\Box a=\frac{1}{f} F_{\rho \sigma} \star F^{\rho \sigma}.&
+	\end{split}
+\end{equation}
+
+For the equation of motion of $\vad{\n}$ we have to observe that there is no dependence on $\vad{\n}$ in $\matL$. Those are good news; We do not have to compute too much. This is:
+
+\begin{equation}
+		\partial_{\mu}\left(\frac{\partial \mathcal{L}}{\partial\left(\partial_{\mu} a\right)}\right)=0.
+\end{equation}
+
+Then the equation of motion is:
+
+\begin{equation}
+	\partial_{\mu}\left(-\frac{1}{4} \underbrace{\frac{\partial\left(F_{\rho \sigma} F^{\rho \sigma}\right)}{\partial\left(\partial_{\mu} A_{\nu}\right)}}_{\text{I}}-\frac{a}{f} \underbrace{\frac{\partial\left(F_{\rho \sigma} \star F^{\rho \sigma}\right)}{\partial\left(\partial_{\mu} A_{\nu}\right)}}_{\text{II}}\right)=0.
+\end{equation}
+
+It looks quite involved, so let's apply a little bit of \textit{divide et vinces}.
+
+\begin{itemize}
+	\item \textbf{I}:
+	
+	\begin{equation}
+		\begin{split}
+			\frac{\partial\left(F_{\rho \sigma} F^{\rho \sigma}\right)}{\partial\left(\partial_{\mu} A_{\nu}\right)}&=F_{\rho \sigma} \frac{\partial\left(F^{\rho \sigma}\right)}{\partial\left(\partial_{\mu} A_{\nu}\right)}+\frac{\partial\left(F_{\rho \sigma}\right)}{\partial\left(\partial_{\mu} A_{\nu}\right)} F^{\rho \sigma}=\\
+			&=2 \frac{\partial\left(F_{\rho \sigma}\right)}{\partial\left(\partial_{\mu} A_{\nu}\right)} F^{\rho \sigma}=2 \frac{\partial\left(\partial_{\rho} A_{\sigma}-\partial_{\sigma} A_{\rho}\right)}{\partial\left(\partial_{\mu} A_{\nu}\right)} F^{\rho \sigma}=2 \frac{\partial\left(2 \partial_{\rho} A_{\sigma}\right)}{\partial\left(\partial_{\mu} A_{\nu}\right)} F^{\rho \sigma}=\\
+			&= 4 F^{\rho \sigma}\delta_{\rho}^{\mu} \delta_{\sigma}^{\nu} = 4 F^{\mu \nu}.
+		\end{split}
+	\end{equation}
+
+	\item \textbf{II}:
+
+	\begin{equation}
+		\begin{split}
+			\frac{\partial\left(F_{\rho \sigma} \star F^{\rho \sigma}\right)}{\partial\left(\partial_{\mu} A_{\nu}\right)}&=F_{\rho \sigma} \frac{\partial\left(\star F^{\rho \sigma}\right)}{\partial\left(\partial_{\mu} A_{\nu}\right)}+\frac{\partial\left(F_{\rho \sigma}\right)}{\partial\left(\partial_{\mu} A_{\nu}\right)} \star F^{\rho \sigma}=\\
+			&= F_{\rho \sigma} \frac{\partial\left(\frac{1}{2} \epsilon^{\rho \sigma \alpha \beta} F_{\alpha \beta}\right)}{\partial\left(\partial_{\mu} A_{\nu}\right)}+2 \star F^{\rho \sigma}\delta_{\rho}^{\mu}\delta_{\sigma}^{\nu}=2 \frac{1}{2} \epsilon^{\rho \sigma \alpha \beta} F_{\rho \sigma} \delta_{\alpha} ^{\mu}\delta_{\beta}^{\nu}+2 \star F^{\mu \nu} =\\
+			&=4 \star F^{\mu \nu}.
+		\end{split}
+	\end{equation}
+\end{itemize}
+
+Then, puting $I + II$ together one gets the final result:
+
+\begin{equation}
+	\begin{split}
+		\partial_{\mu}\left[-F^{\mu \nu}-\frac{4 a}{f} \star F^{\mu \nu}\right]&=0,\\
+			-\partial_{\mu} F^{\mu \nu}-\frac{4}{f}\left(\partial_{\mu} a\right) \star F^{\mu \nu}-\frac{4 a}{f} \cancel{\partial_{\mu} \star F^{\mu\nu}}&=0, \\
+			 \partial_{\mu} F^{\mu \nu}=-\frac{4}{f}\left(\partial_{\mu} a\right) \star F ^{\mu \nu}&.
+		\end{split}
+\end{equation}
+
+
+\textbf{c):}
+To show that the action is invariant under a scalar transformation of the form $a \rightarrow a + \epsilon$, we just have to check that all terms in the action remain the same. This means:
+
+\begin{itemize}
+	\item
+	\begin{equation}
+		\partial_{\mu}(a+\epsilon)=\partial_{\mu} a+\cancel{\partial_{\mu} \epsilon}=\partial_{\mu} a.
+	\end{equation}
+
+	\item
+	\begin{equation}
+		(a+\epsilon) F_{\mu \nu} \star F^{\mu \nu} = a F_{\mu \nu} \star F^{\mu \nu}+\epsilon F_{\mu \nu} \star F^{\mu \nu}.
+	\end{equation}
+
+	\item
+	\begin{equation}
+		-2 \partial_{\mu}\left[(a+\epsilon) A_{\nu} \star F^{\mu \nu}\right]=-2 \partial_{\mu}\left[a A_{\nu} \star F^{\mu \nu}\right]-2 \partial_{\mu}\left[\epsilon A_{\nu} \star F^{\mu \nu}\right].
+	\end{equation}
+
+\end{itemize}
+
+We can see that it looks like there are two terms that still contain an $\epsilon$. Do they anhilite each other? Let's study it. We can call $K$ to this term and expand.
+
+\begin{equation}
+	\begin{split}
+		K=\epsilon F_{\mu \nu} \star F^{\mu \nu}-2 \partial_{\mu}\left[\epsilon A_{\nu} \star F^{\mu \nu}\right] &=\epsilon F_{\mu \nu} \star F^{\mu \nu}-2 \cancel{\left(\partial_{\mu} \epsilon\right)} A_{\nu} \star F^{\mu \nu}\\
+		&\:\:\:-2\left(\partial_{\mu} A_{\nu}\right) \epsilon \star F^{\mu \nu}-2  \epsilon \cancel{\left(\partial_{\mu} \star F^{\mu \nu}\right)}A_{\nu} =\\
+		&=\epsilon F_{\mu \nu} \star F^{\mu \nu}-2 \epsilon \underbrace{\pd{\m}\vad{\n}}_{= \tfrac{1}{2}\Fd{\m\n}} \star F^{\mu \nu}= 0\\
+	\end{split}
+\end{equation}
+
+Everything cancels in the end, so the action is invariant under this transformation. And we know that every invariance of the action has a conserved charged asociated to a Noether current.
+
+
+\textbf{d):}
+
+While this part of the exercise is beyond the scope of this course and problems, we can always solve it, for the pleasure of those with knowledge gluttony. We know that the current is:
+
+\begin{equation}
+	j^{\mu}=\mathcal{L} \frac{\delta x^{\mu}}{\delta \epsilon}+\frac{\partial \mathcal{L}}{\partial\left(\partial_{\mu} \phi\right)} \frac{\delta_{0} \phi}{\delta \epsilon}.
+\end{equation}
+
+Associated changes to the coordinates respect to the field displacement in the previous section are given by:
+
+\begin{equation}
+	\frac{\delta x^{\mu}}{\delta \epsilon}=0 ; \quad \frac{\delta_{0} a}{\delta \epsilon}=1 ; \quad \frac{\delta_{0} A_{\nu}}{\delta \epsilon}=0.
+\end{equation}
+
+So the current ends up to be:
+
+\begin{equation}
+	\begin{split}
+		j^{\mu}&=\frac{\partial \mathcal{L}}{\partial\left(\partial_{\mu} a\right)},\\
+		&= -\frac{1}{2} \partial^{\mu} a+\frac{2}{f} A_{\nu} \star F^{\mu \nu}.
+	\end{split}
+\end{equation}
+
+\subsubsection{E: Ponderous Light}\label{E: Ponderous Light}
+
+\textbf{1):}
+
+To prove this invariance, we just have to go by pieces of the whole action. We know:
+
+\begin{equation}
+	\Fd{\m\n} \rightarrow \pd{\m}\vad{\n} + \pd{\m}\pd{\n} \alpha - \pd{\n}\vad{\m} - \pd{\n}\pd{\m} \alpha = \Fd{\m\n} + ( \pd{\m}\pd{\n} \alpha-  \pd{\n}\pd{\m} \alpha) = \Fd{\m\n}. 
+\end{equation}
+
+Similarly, for the term with the current:
+
+\begin{equation}
+	\Ju{\m}\vad{\m} \rightarrow \Ju{\m}\vad{\m} - \Ju{\m}\pd{\m}\alpha = \Ju{\m}\vad{\m} - \left(\underbrace{\pd{\m}(\Ju{\m}\alpha)}_{\text{Stokes} =0} - \alpha\underbrace{\pd{\m}\Ju{\m}}_{=0}\right) = \Ju{\m}\vad{\m}.
+\end{equation}
+
+And finally, checking the problematic term we find:
+
+\begin{equation}
+	\pd{\m}\phi - m\vad{\m} \rightarrow \pd{\m}\phi - m\vad{\m} + m \left(\pd{\m}\alpha - \pd{\m}\alpha  \right) = \pd{\m}\phi - m\vad{\m}.
+\end{equation}
+
+So our action is invariant under such gauge transformation. How does it looks like if we fix $\phi=0$? It looks like:
+
+\begin{equation}
+	\mathcal{L} = \tfrac{m^{2}}{8\pi} \vad{\m}\vau{\m} - \tfrac{1}{16\pi} \Fu{\m\n}\Fd{\m\n} - \tfrac{1}{c}\Ju{\m}\vad{\m}.
+\end{equation}
+
+\textbf{2):}
+
+Again, here we do not have to work too much. The second and third term in the previous Lagrangian will give rise to the well know equation of motion of Electromagnetic theory. The first one is something new. This will contribute as:
+
+\begin{equation}
+	\text{EOM} \quad \frac{m^{2}}{4\pi} \vau{\m} + \frac{1}{4\pi} \pd{\n}\Fu{\m\n} = \frac{\Ju{\m}}{c}. 
+\end{equation}
+
+\textbf{3):}
+
+Doing as the problem says, lets contract both sides with a partial derivative:
+
+\begin{equation}
+	\frac{m^{2}}{4\pi} \pd{\m}\vau{\m} + \frac{1}{4\pi}\underbrace{\pd{\m}\pd{\n}\Fu{\m\n}}_{=0 \: \text{by antisym}} = \underbrace{\frac{\pd{\m}\Ju{\m}}{c}}_{=0}\rightarrow \pd{\m}\vau{\m} =0.
+\end{equation}
+
+Inserting back this Lorentz gauge into the EOM we find:
+
+\begin{equation}\label{eombox}
+	\left(\Box + m^{2}\right)\vau{\m} = \frac{4\pi}{c}\Ju{\m}.
+\end{equation}
+
+\textbf{4):}
+
+So we have to basically solve here the previous equation when RHS is equal to 0. Recall that a plane wave is of the form:
+
+\begin{equation}
+	\vau{\m} = \mathcal{A}^{\m} e^{i\left(\vec{k}\vec{x}-\omega t\right)}.
+\end{equation}
+
+Which plugged into expression (\ref{eombox}) yields:
+
+\begin{equation}
+	\omega^{2}= c^{2}( k^{2} + m^{2}).
+\end{equation}
+
+For the polarisation it is a little bit trickier. In this case one has to look at the Lorentz gauge condition $\pd{\m}\vau{\m}=0$ to find that:
+
+\begin{equation}
+	\frac{-i}{c}\omega \mathcal{A}^{0} + i \vec{k}\cdot \vec{A} = 0. 
+\end{equation}
+
+Solving this equation for $\mathcal{A}^{0}$ one finds 3 polarisations (one for each individual possible value of $\vec{k}$.)
+
+
+
+
+
+
+
+

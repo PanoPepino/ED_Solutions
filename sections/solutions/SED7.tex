@@ -1,0 +1,726 @@
+\subsection{Covariant Formalism of Electrodynamics}
+
+\newcommand{\Fu}[1]{F^{#1 }}
+\newcommand{\Fd}[1]{F_{#1 }}
+\newcommand{\Tu}[1]{T^{#1 }}
+\newcommand{\Td}[1]{T_{#1 }}
+\newcommand{\gd}[1]{g_{#1 }}
+\newcommand{\gu}[1]{g^{#1 }}
+\newcommand{\m}{\mu}
+\newcommand{\n}{\nu}
+\newcommand{\la}{\lambda}
+\newcommand{\rr}{\rho}
+\newcommand{\sg}{\sigma}
+\newcommand{\ve}{\vec{E}}
+\newcommand{\vb}{\vec{B}}
+\newcommand{\pmu}{\partial_{\mu}}
+%\newcommand{\Fu}[1]{F^{#1 }}
+%\newcommand{\Fd}[1]{F_{#1 }}
+%\newcommand{\Tu}[1]{T^{#1 }}
+%\newcommand{\Td}[1]{T_{#1 }}
+%\newcommand{\gd}[1]{g_{#1 }}
+%\newcommand{\gu}[1]{g^{#1 }}
+%\newcommand{\m}{\mu}
+%\newcommand{\n}{\nu}
+%\newcommand{\la}{\lambda}
+%\newcommand{\rr}{\rho}
+\newcommand{\gm}{\gamma}
+\newcommand{\bt}{\beta}
+%\newcommand{\sg}{\sigma}
+%\newcommand{\ve}{\vec{E}}
+%\newcommand{\vb}{\vec{B}}
+%\newcommand{\pmu}{\partial_{\mu}}
+\newcommand{\Ju}[1]{J^{#1 }}
+\newcommand{\Jd}[1]{J_{#1 }}
+\newcommand{\Uu}[1]{U^{#1 }}
+\newcommand{\Ud}[1]{U_{#1 }}
+\newcommand{\Eperp}{E_{\perp}}
+\newcommand{\Bperp}{B_{\perp}}
+\newcommand{\Epar}{E_{\parallel}}
+\newcommand{\Bpar}{B_{\parallel}}
+
+\subsubsection{Getting familiar with four-vectors}\label{Getting Familiar with Four-Vectors}
+
+\textbf{1)}
+
+What is then $\partial_{\m} x^{\m}$? The answer is given in the statement itself; A scalar. A function. In this course we are going to indices up ($x^{\m}$) and down ($x_{\m}$) to denote the components of objects like vectors, forms and tensors. Whenever we see two indices of the same form repited up and down, this means that we are using the Einstein's summation convenction. This means that:
+
+\begin{equation}\label{scalarlorentz}
+	\pmu x^{\m} = \sum_{\m=0}^{3} \frac{\partial}{\partial x^{\m}} x^{\m} = \frac{\partial}{\partial x^{0}} x^{0} + \frac{\partial}{\partial x^{1}} x^{1} +\frac{\partial}{\partial x^{2}} x^{2} + \frac{\partial}{\partial x^{3}} x^{3}.
+\end{equation}
+
+To see that this is a Lorentz scalar, we just need to check that it transforms as one. In this case we just need to know how each part of this object transforms. We know that forms Lorentz transform as:
+
+\begin{equation}
+	\pmu \quad \rightarrow \quad \frac{\partial x^{\alpha}}{\partial x^{\m} \partial x^{\alpha}}. 
+\end{equation}\\
+And the vector entries $x^{\m}$ do as:
+
+\begin{equation}
+	x^{\m } \quad \rightarrow \quad \frac{\partial x^{\m}}{\partial x^{\alpha}} x^{\alpha}
+\end{equation}
+
+So, the whole object (\ref{scalarlorentz}) transforms as:
+
+\begin{equation}
+	\pmu x^{\m}  \quad \rightarrow \quad  \frac{\partial^{2} x^{\alpha}}{\partial x^{\m} \partial x^{\alpha}} \frac{\partial x^{\m}}{\partial x^{\alpha}} x^{\alpha} = \partial_{\alpha} x^{\alpha}.
+\end{equation}
+
+As the repeated indices are summing, we can rewrite them again to be $\m$. When two indices are summing in this way, it is said that they are dummy indices, so they can be replaced by any other letter. As we see, the scalar transforms according to Lorentzian transformations.
+
+\textbf{2)}
+
+To understand this we just have to check the dimension of the objects. A $\Fu{\m\n}$ (two-tensor) has $D \times D$ entries\footnote{This is a regular property of the tensor product notation.}. But in the case of something of the form $\sum_{\m\n} a^{\m} b^{\n}$ we just have a dimension of $ 2D$ entries.
+
+\textbf{3)}
+
+\textbf{a)}
+In this section we have to abuse of the (anti)symmetry of the given tensors. There is nothing that does not allow us to do the following:
+
+\begin{equation}
+	\begin{split}
+			S_{\m\n} &= \tfrac{1}{2} S_{\m\n} + \tfrac{1}{2} S_{\m\n},\\
+			&= \tfrac{1}{2} S_{\m\n} + \tfrac{1}{2}\underbrace{ S_{\n\m}}_{\text{symmetric}}.
+	\end{split}
+\end{equation}
+
+If we apply a Lorentz transformation on both sides of the equation we find:
+
+\begin{equation}
+	\begin{split}
+		\Lambda^{\m}_{\alpha} \Lambda^{\n}_{\beta}S_{\m\n} &= \tfrac{1}{2} 	\Lambda^{\m}_{\alpha} \Lambda^{\n}_{\beta}S_{\m\n} + \tfrac{1}{2} 	\underbrace{\Lambda^{\n}_{\alpha} \Lambda^{\m}_{\beta}S_{\n\m}}_{\text{$\m, \n$ dummy Change.}},\\
+		&= \tfrac{1}{2} 	\Lambda^{\m}_{\alpha} \Lambda^{\n}_{\beta}S_{\m\n} + \tfrac{1}{2} \Lambda^{\m}_{\alpha} \Lambda^{\n}_{\beta}S_{\m\n},\\
+		&= \Lambda^{\m}_{\alpha} \Lambda^{\n}_{\beta}S_{\m\n}.\\
+	\end{split}
+\end{equation}
+
+It can be similarly done for the antisymmetric case. 
+
+\textbf{b)}
+
+We want to prove that the product of an antisymmetric and a symmetric tensors is 0. We could define generic ones and compute term by term to see that they cancel... or we can apply so facts, so we can reduce the amount of work. Let's aim for the second option. We can exploit the (anti)symmetry of the tensors as:
+
+\begin{equation}
+	S^{\m\n}A_{\m\n} \quad \rightarrow \quad - 	S^{\n\m}A_{\n\m}.
+\end{equation}
+
+But we know that when indices are repited, that means that they are dummy... So we can replace them on convenience. Let's interchange then $\m \leftrightarrow \n$, so.
+
+\begin{equation}
+	S^{\m\n}A_{\m\n} = - S^{\m\n}A_{\m\n}.
+\end{equation}
+
+As everything is contracted (a.k.a all the indices are summed) we know that the result is a scalar. Which is the only scalar that equal to its opposite? Zero.
+
+\subsubsection{Covariant formalism of Electrodynamics}\label{Covariant formalism of Electrodynamics}
+
+\textbf{a)}
+
+In order to solve this problem, we first require the explicit expression for the electromagnetic field tensor. This is given by:
+
+\begin{equation}\label{electromagneticfieldtensor}
+\Fu{\m\n}= \begin{pmatrix}
+	0 & E_{x} & E_{y} & E_{z}\\
+	-E_{x}  &0 & B_{z} & -B_{y}\\
+	-E_{y}  &- B_{z}& 0 & B_{x}\\
+	-E_{z}  & B_{y} & -B_{x} & 0 \\
+	\end{pmatrix}
+\end{equation}
+
+Observe that the expression (\ref{electromagneticfieldtensor}) is given in S.I. units. In this case, we can relate each of the components of the tensor with its entries such that:
+
+\begin{equation}\label{relationsFtensor}
+	\Fu{0 i}= -E^{i}, \quad \Fu{ij} = \epsilon^{ijk} B_{k}, \quad \Fu{\m\n } =- \Fu{\n\m}.
+\end{equation}
+
+As we want to get used to this notation (which can be new to some of you) let explicitly write all terms when summing over the Einstein's convention for the sumation. In this case it goes as:
+
+\begin{equation}\label{Fcontraction}
+	\begin{split}
+		- \Fd{\m\n}\Fu{\m\n} &= - \sum_{\m =0 }^{3} \sum_{\n =0 }^{3} \Fd{\m\n}\Fu{\m\n}=\\
+		=&-(\Fd{00}\Fu{00} + \Fd{01}\Fu{01} + \Fd{02}\Fu{02} + \Fd{03}\Fu{03} +\\
+		& + \Fd{10}\Fu{10} + \Fd{11}\Fu{11} + \Fd{12}\Fu{12} + \Fd{13}\Fu{13} + \\
+		& + \Fd{20}\Fu{20} + \Fd{21}\Fu{21} + \Fd{22}\Fu{22} + \Fd{23}\Fu{23} +\\
+		& + \Fd{30}\Fu{30} + \Fd{31}\Fu{31} + \Fd{32}\Fu{32} + \Fd{33}\Fu{33}).
+	\end{split}
+\end{equation}
+
+So far, we know the aspect of the entries $\Fu{\m\n}$, but we do not know how the entries of the tensor with two indices down $(\Fd{\m\n})$ look like. We can compute them using the metric of this space. In this case, we are working on a Minkowski space, so recall then:
+
+\begin{equation}\label{minkowski}
+	\eta^{\mu\nu}= \begin{pmatrix}
+		-1&0&0&0\\
+		0&1&0&0\\
+		0&0&1&0\\
+		0&0&0&1\\
+	\end{pmatrix}.
+\end{equation}
+
+So "lowering" the indices will be a process of the form:
+\begin{equation}
+	\Fd{\alpha \beta} = \eta_{\alpha \m} \eta_{\beta \n} \Fu{\m\n}. 
+\end{equation}
+
+One can also reduce the problem to a matrix multiplication problem, making use of the fact that $F' = \eta^{T} F \eta$, where $\eta^{T}$ is the transpose metric matrix. This is not recommendable, as in the future we will be working with objects with more indices which does not have a matrix representation". The index formalism is powerful enough with any tensor that will appear during this course. If one performs then the calculation in (\ref{Fcontraction}), it can be found that:
+
+\begin{equation}\label{result1}
+	- \Fd{\m\n} \Fu{\m\n}  = 2 (\vec{E}^{2} - \vec{B}^2).
+\end{equation}
+
+One could perform the same computation for $\epsilon_{\m\n\rho\sigma}\Fu{\m\n}\Fd{\rho\sigma}$. Or we can make use of the properties of the dual tensor (Eq 11.140 Jackson). The dual tensor "interchanges" the position of the entries $E^{i}$ and $B^{i}$ such that:
+
+\begin{equation}\label{dualtensor}
+	E^{i} \rightarrow - B^{i}, \quad B^{i} \rightarrow E^{i}.
+\end{equation}
+In this case, we can interchange the electric field and magnetic field components appearing in \ref{Fcontraction} as:
+\begin{equation}\label{result2}
+	\epsilon_{\m\n\rho\sigma}\Fu{\m\n}\Fd{\rho\sigma} = *\Fu{\rho\sigma} \Fd{\rho\sigma} = - \vec{E}\cdot \vec{B}.
+\end{equation}
+
+\textbf{b)}
+
+How can we show that Maxwell equations are identical to the Bianchi identity? As we are relating two equations to one identity, this means that we can extract two possible forms of the identity that will have a similar appearance to Maxwell's. It will be useful to use relations (\ref{relationsFtensor}) to "massage" the appearance of the entries.\\
+Let's start the second Maxwell's. It can be written as:
+
+\begin{equation}
+	\vec{\nabla}\cdot \vec{B} = \partial_{i} B^{i} = \frac{\partial}{\partial x ^{1}}B^{1}+ \frac{\partial}{\partial x ^{2}}B^{2}+ \frac{\partial}{\partial x ^{3}}B^{3}.
+\end{equation}
+
+Here we will use relations (\ref{relationsFtensor}) to express $B$ in terms of $\Fu{ij}$ entries. This means that $B^{i}$ can be express as:
+
+\begin{equation}
+	\Fd{ij} = \epsilon_{ijk}B^{k} \quad \rightarrow \quad \epsilon^{ijk} \Fd{ij} = \underbrace{\epsilon^{ijk}\epsilon_{ijk}}_{\text{$1$}}B^{k} \quad \rightarrow \quad \epsilon^{ijk}F_{ij} = B^{k}.
+\end{equation}
+
+So the second Maxwell's can be written as:
+	
+\begin{equation}\label{secondmaxwellformalism}
+	\partial_{i} B^{i} = \partial_{i} (\epsilon^{kji}\Fd{kj}) = \partial_{i}(-\epsilon^{ijk}(-\Fd{jk})) = \epsilon^{ijk} \partial_{i}(\Fd{jk}) = 0.
+\end{equation}
+
+Where $\epsilon^{ijk} \partial_{i}(\Fd{jk})$ represent the non repeating permutations of each of the entries for $i,j,k$.
+
+To prove the equivalence of the first Maxwell's equation to the Bianchi identity, assume that $t$ is the zero-th entry in Bianchi such that:
+
+\begin{equation}
+	\partial_{0} \Fd{\n\la} + \partial_{\n} \Fd{\la0}+ \partial_{\la} \Fd{0\n}=0.
+\end{equation}
+
+But we know that $\Fu{0i} = E^{i}$. Then, using antisymmetry of the electromagnetic tensor we have:
+
+\begin{equation}
+	\partial_{0} \Fd{\n\la} \underbrace{-\partial_{\n} E_{\la}+ \partial_{\la} E_{\n}}_{\text{j-th compo. of cross product}}=0.
+\end{equation}
+
+So we just have to massage what $\Fd{\n\la}$ is. We know from relations(\ref{relationsFtensor}) that it corresponds to $F_{ij} = -\epsilon_{ijk}B^{k}$. So we have:
+
+\begin{equation}
+	\begin{split}
+		\partial_{\m} \Fd{\n\la} + \partial_{\n} \Fd{\la\m}+ \partial_{\la} \Fd{\m\n}&=	\partial_{0} \Fd{\n\la} + \partial_{\n} \Fd{\la0}+ \partial_{\la} \Fd{0\n}=\\
+		\partial_{0}(-\epsilon_{k\n\la}B^{k}) - \partial_{\n} E_{\la}+ \partial_{\la} E_{v}&=\partial_{0}(-\epsilon_{k\n\la}B^{k}) - (\vec{\nabla}\times \vec{E})^{k}=\\
+		\partial_{t}B^{k} + (\vec{\nabla}\times \vec{E})^{k} &= \partial_{t}\vec{B}+ (\vec{\nabla}\times \vec{E})=0.
+	\end{split}
+\end{equation}
+
+\textbf{c)}
+
+We are given $T^{\m\n} = F^{\m}_{\rho} + \Fu{\rho\n} - \frac{1}{4} g^{\m\n}\Fu{\rho\sigma}\Fd{\rho\sigma}$. This means that from the left hand side (LHS) we can compute 3 different options: $T^{00},T^{0i},T^{ij}$. 
+
+\begin{itemize}
+	\item \textbf{$T^{00}$}\\
+	\begin{equation}
+		\begin{split}
+		\Tu{00}= F^{0}_{\rr}\Fu{\rr 0} - \frac{1}{4} \gu{00}(\Fd{\rr\sg}\Fu{\rr\sg}) &= -\gu{00}\Fd{0\rr}\Fu{0\rr} - \frac{1}{4}(-1)(\Fd{\rr\sg}\Fu{\rr\sg}) =\\
+		 &=\ve^{2} - \frac{1}{2}(\ve^{2}- \vb^{2}) = \frac{1}{2} (\ve^{2} + \vb^{2}).
+		\end{split}
+	\end{equation}
+	\item \textbf{$\Tu{0i}$}\\
+	\begin{equation}
+		\begin{split}
+				\Tu{0i} &= F^{0}_{\rr}\Fu{\rr i} + \frac{1}{2}\underbrace{\gu{0i}}_{\text{by symmetry is 0.}} \dots =\\
+				&= \gu{00}\Fd{0\rr}\Fu{\rr i} = - (E_{j}B_{k} - E_{k}B_{j}) = (\ve \times \vb)^{i} = S_{\mathrm{poynt}}^{i}
+		\end{split}
+	\end{equation}
+	\item \textbf{$T^{ij}$:}\\
+	\begin{equation}
+		\begin{split}
+			\Tu{ij} &= -\gu{ij} \Fd{i\rr}\Fu{j \rr } - \frac{1}{4} \gu{ii} (-2 (\ve^{2}-\vb^{2}))=\\
+			&= -\gu{ij} \Fd{i 0}\Fu{j 0} -\gu{ij} \Fd{i k}\Fu{j k} + \frac{1}{2} \gu{ij} ((\ve^{2}-\vb^{2}))=\\
+			&= - E^{i}E^{j}+(B^{i} B^{j}) - \frac{1}{2} (\ve^{2}-\vb^{2})\delta^{ij}.
+		\end{split}
+	\end{equation}	
+\end{itemize}
+
+\textbf{d)}
+
+To show that $\epsilon$ is invariant under Lorentz transformations, we have to consider that it is not a tensor, but a pseudo-tensor. When transofrmed, it should be multiplied by the inverse of the Jacobian of the transformation; In our case, the transformation has to do with the metric $\gd{\m\n}$, so $\det g = -1$. This metric is Lorentzian, so no problem.
+
+There is a nice property of tensors that goes as:
+
+\begin{equation}
+	\epsilon_{\m \dots \zeta} A^{\m}_{a} \dots A^{\zeta}_{z} = \det A \: \epsilon_{a \dots z}.
+\end{equation}
+
+We can apply this to our case such that:
+
+\begin{equation}
+	\epsilon^{0123} = \Lambda^{0}_{\alpha}\Lambda^{1}_{\beta}\Lambda^{2}_{\gamma}\Lambda^{3}_{\delta} \epsilon^{\alpha\beta\gamma\delta}= \underbrace{\det \Lambda}_{\text{It is 1}} \: \epsilon^{\alpha\beta\gamma\delta}. 
+\end{equation}
+
+As the determinant of Lorentzian transformations is equal to 1, we have just proved it.
+
+\subsubsection{Lorentz Transformations for the Electromagnetic Field}\label{Lorentz Transformations for the Electromagnetic Field}
+
+
+\textbf{a)}
+We are asked to show the general Lorentz transformation of the electric and magnetic fields. As a warm-up for this problem, it is recommendable to check first a simpler case; Let's assume we only move along the $x$ axis. The Lorentz transformation of the electromagnetic tensor (which includes $\ve$ and $\vb$) can be thought as a matrix calculation of the form:
+
+\begin{equation}
+	F' = \Lambda F \Lambda^{t},
+\end{equation}
+
+Where $\Lambda$ is the boost matrix in the $x$ direction. Then:
+
+\begin{equation}
+	\begin{split}
+		F' &= \begin{pmatrix}
+			\gamma & -\gm\bt & 0 & 0\\
+			-\gm\bt  &0 & 0 & 0\\
+			0  &0& 1 & 0\\
+			0  & 0 & 0 & 1 \\
+		\end{pmatrix}
+		\begin{pmatrix}
+			0 & -\Epar & -\Eperp & -\Eperp\\
+			\Epar  &0 & -\Bperp & \Bperp\\
+			-\Eperp  &\Bperp& 0 & -\Bpar\\
+			-\Bperp & -\Bperp & \Bpar& 0\\
+		\end{pmatrix}
+		\begin{pmatrix}
+			\gamma & -\gm\bt & 0 & 0\\
+			-\gm\bt  &0 & 0 & 0\\
+			0  &0& 1 & 0\\
+			0  & 0 & 0 & 1 \\
+		\end{pmatrix}=\\
+		&\\
+		&\\
+		&= \begin{pmatrix}
+			0 & -\Epar & -\gm(\Eperp - \bt \Bperp) & -\gm(\Eperp + \bt \Bperp)\\
+			\Epar  &0 & \gm(\bt \Eperp - \Bperp) & \gm(\bt \Eperp + \Bperp)\\
+			\gm(\Eperp - \bt \Bperp)  & -\gm(\bt \Eperp - \Bperp)& 0 & -\Bpar\\
+			\gm(\Eperp + \bt \Bperp)  & -\gm(\bt \Eperp + \Bperp) & \Bpar& 0\\
+		\end{pmatrix}
+	\end{split}
+\end{equation}
+
+Where we have used the fact that $1-\beta^{2} = \gm^{-2}$. One can see then that:
+
+\begin{equation}\label{booste1dir}
+	\begin{split}
+		\Epar' &= \Eperp, \quad \quad \Eperp'= \gamma (\Eperp + \bt \times \Bperp),\\
+		\Bpar' &= \Bperp, \quad \quad \Bperp'= \gamma (\Bperp - \bt \times \Eperp).\\
+	\end{split}
+\end{equation}
+But this was for a specific case. How does a general Lorentz transformation looks like?
+
+To see how a general transformation would look like, we need the more general expresion of the boost matrix. $\Lambda$. This is:
+
+\begin{equation}
+	\Lambda^{\m}_{\n}= 
+	\begin{pmatrix}
+		-\gm & -\gm \beta_{x} & -\gm \beta_{y} & -\gm \beta_{z}\\
+		-\gm \beta_{x} &1+(\gm-1)\tfrac{v_{x}v_{x}}{v^{2}} & (\gm-1)\tfrac{v_{x}v_{y}}{v^{2}} & (\gm-1)\tfrac{v_{x}v_{x}}{v^{2}}\\
+		-\gm \beta_{y}&  (\gm-1)\tfrac{v_{x}v_{y}}{v^{2}})& 1+(\gm-1)\tfrac{v_{y}v_{y}}{v^{2}} & (\gm-1)\tfrac{v_{y}v_{z}}{v^{2}}\\
+		-\gm \beta_{z}  &(\gm-1)\tfrac{v_{x}v_{z}}{v^{2}} & (\gm-1)\tfrac{v_{z}v_{y}}{v^{2}}& 1+ (\gm-1)\tfrac{v_{z}v_{z}}{v^{2}}\\
+	\end{pmatrix}.
+\end{equation}
+
+So, as life is short and we want to wisely use our time, let's use the indices notation to be more productive with our time. Recall:
+
+\begin{equation}
+	F^{\m\n '} = \Lambda^{\m}_{\aa} \Lambda^{\n}_{\bt} F^{\aa\bt}.
+\end{equation}
+
+So the only thing that we have to do is to calculate each of the entries of $\Fu{\m\n}$. This goes as:
+
+\begin{itemize}
+	\item $\Fu{00'}$
+	\begin{equation}
+		\begin{split}
+			\Fu{00'} &= \Lambda^{0}_{0} \Lambda^{0}_{\bt}\Fu{0\beta} + \Lambda^{0}_{1} \Lambda^{0}_{\bt}\Fu{1\beta} + \Lambda^{0}_{2} \Lambda^{0}_{\bt}\Fu{2\beta} + \Lambda^{0}_{3} \Lambda^{0}_{\bt}\Fu{3\beta},\\
+			&= \Lambda^{0}_{0} \Lambda^{0}_{0}\Fu{00} + \cdots + \Lambda^{0}_{1} \Lambda^{0}_{0}\Fu{10} + \cdots + \Lambda^{0}_{2} \Lambda^{0}_{0}\Fu{20} + \cdots + \Lambda^{0}_{3} \Lambda^{0}_{0}\Fu{30},\\
+			& = \text{Observe that $\Lambda$ commutes with each other and $\Fu{ij}$ is antisymmetric} \\
+			&= 0.
+		\end{split}
+	\end{equation}
+	
+	\item $\Fu{0i'}$
+	\begin{equation}\label{booste}
+		\begin{split}
+			\Fu{0i'} =& \Lambda^{0}_{0} \Lambda^{i}_{0} \Fu{00}+\cdots + \Lambda^{0}_{1} \Lambda^{i}_{0} \Fu{10} + \cdots +\\
+			&+ \Lambda^{0}_{2} \Lambda^{i}_{0} \Fu{20} + \cdots + \Lambda^{0}_{3} \Lambda^{i}_{0} \Fu{30} + \cdots=  \\
+			=& (\gm \Lambda^{i}_{1} + \gm \bt_{x} \Lambda^{i}_{0}) (-E_{x}) + \cdots + (\gm \Lambda^{i}_{3} + \gm \bt_{z} \Lambda^{i}_{0}) (-E_{z} ) +\\
+			&+ (-\gm\bt_{y} \Lambda^{i}_{3} + \gm \bt_{z} \Lambda^{i}_{2}) (B_{x}) + \cdots + (-\gm\bt_{x} \Lambda^{i}_{2} + \gm \bt_{y} \Lambda^{i}_{1}) (B_{z}).
+		\end{split}
+	\end{equation}
+\end{itemize}
+
+Terms of the form $\Fu{ij}$ are left as an exercise for the reader\footnote{This is more common to be found in a mathematics textbook. Surprise! I was not in the mood of typing that entry...}. One can see in eq(\ref{booste}) that the presence of the magnetic field entries corresponds to the cross products that are present in expression (\ref{booste1dir}). So a general boost will have the same terms as in that expression.
+
+\textbf{b)}
+
+In order to argue what happens to the angle between $\ve$ and $\vb$, recall that $\theta$ is given by:
+
+\begin{equation}
+	\ve \cdot \vb = |\ve| |\vb| \cos \theta.
+\end{equation}
+
+So the cosine will behave like:
+
+\begin{equation}
+	\cos \theta = \tfrac{\ve \cdot \vb}{ |\ve| |\vb|} = \tfrac{\Epar\Bpar +  \Eperp\Bperp}{\sqrt{\Epar^{2} + \Eperp^{2} } \sqrt{\Bpar^{2} + \Bperp^{2}}}.
+\end{equation}
+
+Which after boosting looks:
+
+\begin{equation}
+	\cos \theta'= \tfrac{\ve' \cdot \vb'}{ |\ve'| |\vb'|} = \tfrac{\Epar\Bpar + \gm^{2} (\Eperp + \beta \times \Bperp) (\Bperp - \beta \times \Eperp)}{\sqrt{\Epar^{2} +  \gm^{2} (\Eperp + \beta \times \Bperp)^2}{\sqrt{\Bpar^{2} +  \gm^{2} (\Bperp - \beta \times \Eperp)^2}}}.
+\end{equation}
+
+It can be easily seen from the previous expression that $\theta$ between $\ve'$ and $\vb'$ will change respect to its previous configuration. This change will depend on the velocity on which the system moves respect to a specific frame. 
+
+\subsubsection{Three Observers. "One Field"}\label{Three Observers. "One Field"}
+
+\textbf{1):}
+
+Observer A evaluates the two electromagnetic field invariants and finds the values
+
+\begin{equation}
+	\mathbf{E}\cdot\mathbf{B}=\alpha^{2}/c, \quad\quad E^{2}-c^{2} B^{2}=\alpha^{2}-c^{2}\left(\alpha^{2} / c^{2}+4 \alpha^{2} / c^{2}\right)=-4 \alpha^{2}.
+\end{equation} 
+
+Observer B evaluates the same invariants and finds $\mathbf{E}^{\prime} \cdot \mathbf{B}^{\prime}=E_{x}^{\prime} \alpha / c+B_{y}^{\prime} \alpha \quad$ and 
+
+\begin{equation}
+	\begin{split}
+		\quad E^{\prime 2}-c^{2} B^{\prime 2}&=E_{x}^{\prime 2}+\alpha^{2}-c^{2}\left(2 \alpha^{2} / c^{2}+B_{y}^{\prime 2}\right),\\
+		&=E_{x}^{\prime 2}-c^{2} B_{y}^{\prime 2}-\alpha^{2}.
+	\end{split}
+\end{equation}
+
+Setting these invariants equal in the two frames gives:
+
+\begin{equation}
+	\begin{split}
+		E_{x}^{\prime}+c B_{y}^{\prime} &=\alpha, \\
+		E_{x}^{\prime 2}-c^{2} B_{y}^{\prime 2} &=-3 \alpha^{2}.
+	\end{split}
+\end{equation}
+
+Which after solving, we find $E_{x}^{\prime}=-\alpha$ and $B_{y}^{\prime}=2 \alpha / c .$ Therefore:
+
+\begin{equation}
+	\mathbf{E}^{\prime}=(-\alpha, \alpha, 0),\quad\quad \mathbf{B}^{\prime}=(\alpha / c, 2 \alpha / c, \alpha / c) .
+\end{equation}
+
+\textbf{2):}
+	
+The fields transform according to:
+
+\begin{equation}
+	\begin{split}
+		\mathbf{E}_{\|}^{\prime}&=\mathbf{E}_{\|}, \quad\quad \mathbf{E}_{\perp}^{\prime}=\gamma(\mathbf{E}+\boldsymbol{\beta} \times c \mathbf{B})_{\perp}\\
+		\mathbf{B}_{\|}^{\prime}&=\mathbf{B}_{\|}, \quad \quad c \mathbf{B}_{\perp}^{\prime}=\gamma(c \mathbf{B}-\boldsymbol{\beta} \times \mathbf{E})_{\perp}
+	\end{split}
+\end{equation}
+
+Therefore,
+	
+\begin{equation}
+	\begin{split}
+		\mathbf{E}^{\prime \prime} &=-\alpha \hat{\mathbf{x}}+\gamma\left[\mathbf{E}_{\perp}^{\prime}+v \hat{\mathbf{x}} \times\left(B_{y}^{\prime} \hat{\mathbf{y}}+B_{z}^{\prime} \hat{\mathbf{z}}\right)\right] =\\ 
+		&=-\alpha \hat{\mathbf{x}}+\gamma\left[\mathbf{E}_{\perp}^{\prime}+v B_{y}^{\prime} \hat{\mathbf{z}}-v B_{z}^{\prime} \hat{\mathbf{y}}\right] =\\ &=-\alpha \hat{\mathbf{x}}+\gamma(\alpha-v \alpha / c) \hat{\mathbf{y}}+2 \gamma v \alpha / c \hat{\mathbf{z}} =\\ &=-\alpha \hat{\mathbf{x}}+\gamma \alpha(1-\beta) \hat{\mathbf{y}}+2 \gamma \alpha \beta \hat{\mathbf{z}}.
+	\end{split}
+\end{equation}
+
+Similarly we find for $\mathbf{B}$,
+
+\begin{equation}
+	\begin{split}
+		\mathbf{B}^{\prime \prime}&=\alpha / c \hat{\mathbf{x}}+\gamma\left[\mathbf{B}_{\perp}^{\prime}-\left(v / c^{2}\right) \hat{\mathbf{x}} \times\left(E_{y}^{\prime} \hat{\mathbf{y}}+E_{z}^{\prime} \hat{\mathbf{z}}\right)\right]=\\
+		&=\alpha / c \hat{\mathbf{x}}+\gamma\left[\mathbf{B}_{\perp}^{\prime}-\left(v / c^{2}\right) E_{y}^{\prime} \hat{\mathbf{z}}+\left(v / c^{2}\right) E_{z}^{\prime} \hat{\mathbf{y}}\right]=\\
+		&=\alpha / c \hat{\mathbf{x}}+2 \gamma \alpha / c \hat{\mathbf{y}}+\gamma\left(\alpha / c-v \alpha / c^{2}\right) \hat{\mathbf{z}}=\\
+		&=\alpha / c \hat{\mathbf{x}}+2 \gamma \alpha / c \hat{\mathbf{y}}+\gamma \alpha(1-\beta) / c \hat{\mathbf{z}}.
+	\end{split}
+\end{equation}
+	
+\subsubsection{Transformation of Force}\label{Transformation of Force}
+
+\textbf{a)}
+	
+From Gauss law, the electric field inside the electron column is given by:
+
+\begin{equation}
+	\mathbf{E}=\frac{\rho_{0} r}{2 \epsilon_{0}} \hat{\mathbf{r}} \quad r<a.
+\end{equation}
+
+Therefore the force on a electron at $r<a$ is
+
+\begin{equation}
+	\mathbf{F}=-e q \mathbf{E}(r)=-\frac{e \rho_{0} r}{2 \epsilon_{0}} \hat{\mathbf{r}}.
+\end{equation}
+
+\textbf{b)}
+
+In the laboratory frame of the observer,
+
+\begin{equation}\begin{split}
+		\mathbf{E}_{\perp}&=\gamma\left(\mathbf{E}^{\prime}-\mathbf{v} \times \mathbf{B}^{\prime}\right)_{\perp},\\ \mathbf{E}_{\|}^{\prime}&=\mathbf{E}_{\|}, \\
+		\mathbf{B}_{\perp}&=\gamma\left(\mathbf{B}^{\prime}+\left(\mathbf{v} / c^{2}\right) \times \mathbf{E}^{\prime}\right)_{\perp},\\
+		\mathbf{B}_{\|}^{\prime}&=\mathbf{B}_{\|} .
+	\end{split}
+\end{equation}
+
+There is no magnetic field in the rest frame of the electrons and the rest-frame electric field (computed in previous part of the exercise) is entirely transverse. Therefore, the force we are looking for is:
+
+\begin{equation}
+	\mathbf{F}=-e \mathbf{E}=-e[\mathbf{E}+\mathbf{v} \times \mathbf{B}]=-e \gamma \mathbf{E}_{\perp}^{\prime}-e \mathbf{v} \times \gamma\left[\left(\mathbf{v} / c^{2}\right) \times \mathbf{E}_{\perp}^{\prime}\right]=-\frac{e \mathbf{E}_{\perp}^{\prime}}{\gamma}.
+\end{equation}
+
+\subsubsection{A Long Wire Moving Fast}\label{A Long Wire Moving Fast}
+
+\textbf{a)}
+
+The first part of this calculation is something easy from elementary electromagnetism. We are in the rest frame $K'$. For simplicity, assume that the wire is moving along $z$ direction. In this case we are moving in the same reference system as the wire is moving, so we will not see any charge with velocity different than 0. As there are no moving charges, $\vec{B}' = 0.$ For the electric field we have:
+
+\begin{equation}
+	\int_{\mathrm{cylinder}} \vec{E'}\cdot\vec{ds} = \tfrac{q}{\epsilon_{0}} \quad \rightarrow \quad \vec{E}' = \tfrac{q}{2 \pi r L} \hat{r}.
+\end{equation}
+
+And now, we use the Lorentz transformation of the fields to move them to the laboratory frame. Recall that they look like:
+
+\begin{equation}
+	\begin{split}
+		\ve &= \gm (\ve' + \beta \times \vb') - \frac{\gm^{2}}{\gm + 1}\vec{\beta} (\vec{\beta} \cdot \ve'),\\
+		\vb &= \gm (\vb' - \beta \times \ve') - \frac{\gm^{2}}{\gm + 1}\vec{\beta} (\vec{\beta} \cdot \vb').
+	\end{split}
+\end{equation}
+
+So:
+
+\begin{equation}
+	\begin{split}
+		\ve &= \gm \ve' = \gamma \tfrac{q}{2 \pi r L} \hat{r},\\
+		\vb &= -\gm \vec{\beta} \times \ve' = - \gamma \tfrac{q \beta}{2\pi r L} \hat{\theta}. 
+	\end{split}
+\end{equation}
+
+\textbf{b)}
+
+Now we have to derive $J$ and $\rr$ in both frames. Let's start from the beginning. In a rest frame (so we are co-moving with the wire), we know that there is an equation of state for the current that says:
+
+\begin{equation}
+	\vec{\nabla}\vec{J} + \partial_{t} \rr=0.
+\end{equation}
+
+So, basic electromagnetism problem. If we know the electric density, we know the current. We know that the charge density is given by:
+
+\begin{equation}\label{density}
+	\rr  = \tfrac{q}{L} , \quad \quad \text{but}\quad  r'_{\text{charge}} = 0 \quad \rightarrow \quad \rr =  \tfrac{q \: \delta (r'-0)}{ L }.
+\end{equation}
+
+Where we have accounted for the location of the charge along the wire in the z-axis. As we can see in eq (\ref{density}), there is no time dependence, so $\vec{J} = 0$, as expected. Things completely change if we move to the laboratory frame. Now the wire is moving respect to the observer with velocity $\vec{v}$. It is better to use the four-vector formalism in this frame, as:
+
+\begin{equation}
+	\Ju{\m'}=(c \rr', \Ju{i'}) =  (c \tfrac{q \: \delta (r'-0)}{L },0).
+\end{equation}
+
+To obtain the laboratory frame data, we just have to boost our result in the direction $z$ as:
+
+\begin{equation}
+	\begin{split}
+		\Ju{\n} &= \Lambda^{\n}_{\m} \Ju{\m'},\\
+		\Ju{0} &= \Lambda^{0}_{0} \Ju{0} = \gamma J'^{0},\\
+		\Ju{i} &= \Lambda^{3}_{\mu} \Ju{\m'} = -\gamma \beta \Ju{0'}.   
+	\end{split}
+\end{equation}
+
+Where we have to notice that $r' = r$ in both frames, as it direction is perpendicular to that of motion of the system. The four-current ends up to be:
+
+\begin{equation}
+	\Ju{\m} = \left( \tfrac{ c\gamma q \delta (r-0)}{ L}, 0,0, -\tfrac{\gamma v_{z} q \delta (r-0)}{L}\right).
+\end{equation}
+
+\textbf{c)}
+
+This section is basic electromagnetism again. We just have to obtain $\ve$ and $ \vb$ in the laboratory frame from the charge and current densities in the previous section.
+
+For $\ve$ we just have to observe that $\Ju{0'}  = \gamma \Ju{0}$. The only difference is how the charge densities relate between frames. So we can conclude that
+
+\begin{equation}
+	\ve = \gamma \ve'  = \tfrac{\gamma q}{2\pi r L} \hat{r}.
+\end{equation}
+
+In the case of $\vb$ we have to use Ampere's law. Recall that we are going to relate the magnetic field around a cycle to the current crossing a specific surface as:
+
+\begin{equation}
+	\oint \vb \cdot \vec{dl} = \m_{0} \int \vec{J} \cdot \vec{dA} = \m_{0} I.
+\end{equation}
+
+So this is just (do not forget the jacobian when changing from cartesian delta to cylindrical one):
+
+\begin{equation}
+	\begin{split}
+		\vb \cdot 2 \pi r  &= - \m_{0} \int \gamma \tfrac{v_{z} q }{L}  \delta(r-0)\delta (\theta -0) \tfrac{1}{r} \cdot r dr \: d\theta  =\\
+		&= - 2\pi\: \mu_{0} \:2 \pi \underbrace{\int_{0}^{\infty}}_{sym} \tfrac{\gamma v_{z} q \delta (r-0)}{L} dr =\\
+		&=  -\tfrac{4 \pi^{2}\: \mu_{0}}{2} \int_{-\infty}^{\infty} \tfrac{\gamma v_{z} q \delta (r-0)}{L} dr=\\
+		\vb &= -\tfrac{\m_{0}\gamma v_{z} q}{\pi r L } \hat{\theta}.
+	\end{split}
+\end{equation}
+
+(Missing 2 and c are due to different unit system for different computations.)
+
+
+
+
+
+
+\subsubsection{Relativistic Ohm's law}\label{Relativistic Ohm's law}
+
+\textbf{a)}
+
+We are asked to generalised the expression of the current for a wire from a more general reference system. A general expression for the current in any frame, given by the 4-vector notation is:
+
+\begin{equation}
+	\Ju{\m}= ( \rr, \Ju{i}), \quad \text{With $\Ju{i}$ the usual three-dimensional current $\vec{J}$.}
+\end{equation}
+
+We can see in the description of the statement that it contains a four-velocity term. Generally, this is of the form:
+
+\begin{equation}
+	\Uu{\m} = (1, \partial_{t} x^{i}).
+\end{equation}
+
+In our case, this means that $\Uu{\m '} = (c,0)$, as the description is given in the rest frame. One question that we may have is: How does the electric field looks in this frame? Recall from previous exercises that $\Fu{0i} = - E^{i}$. At this stage we have some tools to "craft" the general covariant expression for $\Ju{\m}$.
+
+Let's start by looking at something of the form:
+
+\begin{equation}
+	- \Fu{' 0 i} \Ud{' 0} = \eta_{00}\Fu{' 0 i} \eta_{00} \Uu{' 0}.
+\end{equation}
+
+Where the tilde stands for the rest frame. As we are in the rest frame, and $\Ud{0}$ is the only non-zero component of $\Uu{\m}$, we can generalise our expression to $\Fu{'\m\n} \Ud{'\n}$. We can see that this does not affect, as:
+
+\begin{equation}
+	\Fu{'\m\n} \Ud{'\n} = \Fu{'\m 0 } \Ud{' 0 } + \cancel{\Fu{'\m 1} \Ud{' 1}} + \cdots = (0, E^{'i}).
+\end{equation}
+
+And then, sure of this property, we can multiply by $\sigma$ to get RHS of the desired expression.\footnote{Observe that we work now with cgs system, so no $c$ around.} This means we have something like this:
+
+\begin{equation}
+	\Ju{\m} = (\text{?}, \Ju{i}) = \sg \Fu{'\m\n} \Ud{\n}^{'}.
+\end{equation}
+
+In a general frame, we will have the presence of the density around, but we want to get rid of it in the LHS of the expression. In order to do so, we can again exploit the fact that $\Uu{'i} = 0$. In this case, we can craft something like:
+
+\begin{equation}
+	\begin{split}
+		\Ju{'\m} &= ( \rr', \Ju{'i}) \quad \text{Contract both sides by $\Ud{\m}^{'}$},\\
+		\Ju{'\m} \Ud{\m}^{'} &= ( \rr^{i} , \Ju{' i})\underbrace{(-1,0)}_{\Ud{0}=\eta_{00}\Uu{0}} = - \rr'\\ 
+	\end{split}
+\end{equation}
+
+As we do not want $\rr$ to appear at LHS of the covariant expression, we can add this term to RHS. This terms should be multplied by a velocity, as the density will be moving depending to the reference system used. We have then:
+
+\begin{equation}
+	\begin{split}
+		(0,\Ju{i}) &= \Ju{'\n} - (\Ju{'\m} \Ud{\m}^{'})\Uu{'\n},\\
+		\sg \Fu{'\m\n} \Ud{\n}^{'} &= \Ju{'\n} - (\Ju{'\m} \Ud{\m}^{'})\Uu{'\n}.
+	\end{split}
+\end{equation}
+
+\textbf{b)}
+
+So far we have just expressed $\vec{J}$ in the rest frame in a fancy four-dimensional way. But, what happens to the expression if we boost to a laboratory frame and we say that the material moves with $\vec{v}= c \vec{\beta}$? We know so far that in the laboratory frame:
+
+\begin{equation}
+	\Uu{\m} = (\gamma, \gamma \vec{v}), \quad \quad \Ju{\m} = (c \rr, \vec{J}).
+\end{equation}
+
+We can take our previous results and try to impose these general expressions. Although we are asked to find the expression for $\vec{J}$, let's calculate also $\Ju{0}$ (SPOILER: It will help us to simplify $\vec{J}$).
+
+
+\begin{equation}\label{mu0}
+	\begin{split}
+		J^{0} - \tfrac{1}{c^{2}} (\Ud{\n}\Ju{\n})\Uu{0} &= \tfrac{\sg}{c} \Fu{0\n}\Ud{\n},\\
+		J^{0} - \tfrac{1}{c^{2}} (\Ud{0}\Ju{0} + \Ud{i}\Ju{i})\Uu{0}&=  \tfrac{\sg}{c} (\Fu{0i}\Ud{i} + \cancel{\Fu{00}\Ud{0}}),\\
+		c\rr - \tfrac{1}{c^{2}} (- \gamma^{2} c^{4} \rr + \gamma^{2}\vec{v}\vec{J} c) &=  \tfrac{\sg}{c} (-E^{i})\gamma \vec{v},\\
+		c^{2} \rr \underbrace{(1 + \gamma^{2})}_{\text{$= -\beta^{2} \gamma^{2}$}} - \gamma^{2} \vec{v}\vec{J} &= -\sg \vec{E} \gamma \vec{v},\\
+		-\vec{v}^{2} \rr \gamma^{2} - \gamma^{2} \vec{v}\vec{J} &=-\sg \vec{E}\gamma \vec{v}.
+	\end{split}
+\end{equation}
+
+For the case of $\Ju{\m}$ we have:
+
+\begin{equation}\label{mui}
+	\begin{split}
+		J^{i} - \tfrac{1}{c^{2}} (\Ud{\n}\Ju{\n})\Uu{i} &= \tfrac{\sg}{c} \Fu{i/n}\Ud{\n},\\
+		J^{i} - \tfrac{1}{c^{2}} (\Ud{0}\Ju{0} + \Ud{i}\Ju{i})\Uu{i} &= \tfrac{\sg}{c} (\Fu{i0}\Ud{0} + \Fu{ij}\Ud{j}),\\
+		J^{i} - \tfrac{1}{c^{2}} (- c^{2}\rr\gamma + \Ju{i}\vec{v})\gamma\vec{v} &= \tfrac{\sg}{c} (E^{i}\gamma c + \underbrace{\epsilon^{ijk}B_{k}\gamma v_{j}}_{\text{$\vec{v}\times \vec{B}$}}),\\
+		\vec{J} + \rr \gamma^{2} \vec{v} - \gamma^{2}\tfrac{1}{c^{2}}\vec{v}(\vec{v}\cdot \vec{J}) &= \sg \gamma (\vec{E}+ \tfrac{1}{c} \vec{v}\times \vec{B}).
+	\end{split}
+\end{equation}
+
+We can further simplify eq (\ref{mui}) by taking $\vec{v}\cdot \vec{J}$ in eq (\ref{mu0}) and substitute. Then one has to massage the resulting RHS to obtain:
+
+\begin{equation}
+	\vec{J} = \sg \gamma (\vec{E}-\gamma \beta^{2}\vec{E}+ \vec{\beta}\times \vec{B})-\vec{v}\rr.
+\end{equation}\\
+As we wanted to find. Observe that $\vec{J}$ has changed. Now we have the electric field contracted due to the Lorentz factor. $\vec{B}$ also joined the party.
+
+\textbf{c)}
+
+Let's assume now that the medium is uncharged in the rest frame, so $\rr' = 0$. How does $\rr $ and $\vec{J}$ look like from the laboratory frame? As $\rr'=0$ this means that:
+
+\begin{equation}
+	\Ju{\m'}= (0, \vec{J'}), \quad \quad \Uu{\m'} = (c,0) \quad \rightarrow \quad \Ju{\m'} \Ud{\m'}= 0.
+\end{equation}
+
+In the laboratory frame, things look like:
+\begin{equation}
+	\Ju{\m} = (c \rr, \vec{J}), \quad \quad \Uu{\m}=(c \gamma, \vec{v}\gamma).
+\end{equation}
+
+So, we can see that $\rr$ and $\vec{J}$ are of the form:
+\begin{equation}
+	\begin{split}
+		\Ju{0} &= \rr = \sg \Fu{\n0} \Ud{\n} = \sg   \gamma \vec{v}\cdot \vec{E},\\
+		\Ju{i} &=\vec{J} = \sg \Fu{\n i }\Ud{\n} = \sg \gamma (\vec{E} +  \vec{v}\times \vec{B}).
+	\end{split}
+\end{equation}
+
+
+\subsubsection{E: A Loooooong Cylinder and Several Frames}\label{E: A Loooooong Cylinder and Several Frames}
+
+\textbf{\textcolor{red}{UNDER CONSTRUCTION}}
+
+\subsubsection{E: Planes and Frames}\label{E: Planes and Frames}
+\textbf{\textcolor{red}{UNDER CONSTRUCTION}}
+
+\subsubsection{E: Different Points of View}\label{E: Different Points of View}
+
+\textbf{1):}
+	
+This first part of the problem could be said to be straightforward. One just have to boost $J^{\m}$ to a new frame with $\Lambda$ in the $z$-direction, so:
+
+\begin{equation}
+	J^{\n}_{boost} = \Lambda^{\n}_{\m} J^{\m} = \left(\gamma \left(c\lambda - \tfrac{v}{c} I\right),0,0, \gamma \left(I- v \lambda\right)\right).
+\end{equation}
+
+\textbf{2):}
+	
+In this part of the problem one can be confused and may try to compute things when they are not needed. If we want to boost to a frame where $\mathbf{E}'$ vanishes, this means that the charge linear density $\lambda'$ in that frame should be equal to "0". By just looking at previous section results, this requires $I > c\lambda$. On the other hand, if we want to find $\mathbf{B}'$ boosting to a specific frame, we just have to recall Biot-Savart and check that $I' = 0$ in this frame. This will happen when $c\lambda > I$.These are the conditions we need to impose.
+
+\subsubsection{E: Waves Across Reference Frames}\label{E: Waves Across Reference Frames}
+\textbf{\textcolor{red}{UNDER CONSTRUCTION}}
+
+

@@ -24,37 +24,31 @@
 \usepackage{bigints} % In case you need bigger integrants
 \usepackage[skip=10pt plus1pt, indent=0pt]{parskip}
 \numberwithin{equation}{subsection}
-
-
-
-
-
-
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+	linkcolor = blue,
+    linkbordercolor = {white},
+}
 
 \begin{document}
-
-
 
 \author{\hyperlink{daniel.panizo@physics.uu.se}{Daniel Panizo}} %Change your name and email
 \title{Electrodynamic Solved Problems} %Change the label of your course if needeed
 \date{} %Change the term accordingly
 
-
 \maketitle
+\newpage
 \setcounter{tocdepth}{2}
 \tableofcontents
-
-
+\newpage
 
 \section{Introduction}
 \subsection{About these notes}
 These notes contain a set of selected problems to discuss during the problem solving session of Classical Electrodynamics subject at Uppsala University (Sweden). The order you see in the table of content correspond to chronological order of the lectures for this course. Each set of problems is related to the correponding lectures where that content was discussed during the course (i.e. $\mathbf{L 1} = $ first lecture). The title of each problem statement is linked to its solution. Try first without looking at...
 Exercises with an $\mathbf{E}$ in front of them correspond to old exam ones.
 
-
 In case you find some typo, mistake or section to improve, please send an email to \hyperlink{daniel.panizo@physics.uu.se}{daniel.panizo@...} with indications where the issue is\footnote{Title of the problem, number of equation as reference, etc}. 
-
-
 
 \subsection{Recommended Bibliography}
 \begin{itemize}
@@ -105,5 +99,9 @@ Here we offer a set of tips in order to enhance your problem-solving capability.
 \import{sections/solutions}{SED3}
 \import{sections/solutions}{SED4}
 \import{sections/solutions}{SED5}
+\import{sections/solutions}{SED6}
+\import{sections/solutions}{SED7}
+%\import{sections/solutions}{SED8}
+%\import{sections/solutions}{SED9}
 
 \end{document}
