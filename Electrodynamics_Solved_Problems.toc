@@ -131,3 +131,16 @@
 \contentsline {subsubsection}{\numberline {3.7.9}E: Planes and Frames}{123}{subsubsection.3.7.9}%
 \contentsline {subsubsection}{\numberline {3.7.10}E: Different Points of View}{123}{subsubsection.3.7.10}%
 \contentsline {subsubsection}{\numberline {3.7.11}E: Waves Across Reference Frames}{124}{subsubsection.3.7.11}%
+\contentsline {subsection}{\numberline {3.8}Lagrangian Manipulations}{124}{subsection.3.8}%
+\contentsline {subsubsection}{\numberline {3.8.1}A Relativistic Particle Coupled to a Scalar Field}{124}{subsubsection.3.8.1}%
+\contentsline {subsubsection}{\numberline {3.8.2}One-Dimensional Massive Scalar Field}{125}{subsubsection.3.8.2}%
+\contentsline {subsubsection}{\numberline {3.8.3}Introduction to Lagrangian Manipulations}{126}{subsubsection.3.8.3}%
+\contentsline {subsubsection}{\numberline {3.8.4}Coupling Extra Fields to $A_{\mu }$}{128}{subsubsection.3.8.4}%
+\contentsline {subsubsection}{\numberline {3.8.5}E: Ponderous Light}{132}{subsubsection.3.8.5}%
+\contentsline {subsection}{\numberline {3.9}Radiation and Relativistic Dynamics}{134}{subsection.3.9}%
+\contentsline {subsubsection}{\numberline {3.9.1}Emission Rates by Lorentz Transformation}{134}{subsubsection.3.9.1}%
+\contentsline {subsubsection}{\numberline {3.9.2}A Merry Go Round of Radiating Particles}{135}{subsubsection.3.9.2}%
+\contentsline {subsubsection}{\numberline {3.9.3}The Direction of the Velocity Field}{138}{subsubsection.3.9.3}%
+\contentsline {subsubsection}{\numberline {3.9.4}Radiating 14.4 Jackson Problem}{139}{subsubsection.3.9.4}%
+\contentsline {subsubsection}{\numberline {3.9.5}A Fast Particle in a Constant Electric Field}{141}{subsubsection.3.9.5}%
+\contentsline {subsubsection}{\numberline {3.9.6}A Ringy Radiating Problem}{143}{subsubsection.3.9.6}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.14)  17 OCT 2023 18:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.14)  19 OCT 2023 13:52
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -690,6 +690,16 @@ Overfull \hbox (1.19994pt too wide) detected at line 122
  [][][]\T1/futs/m/n/12 107[][]
  []
 
+
+Overfull \hbox (1.19994pt too wide) detected at line 134
+ [][][]\T1/futs/m/n/12 124[][]
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 140
+ [][][]\T1/futs/m/n/12 134[][]
+ []
+
 )
 \tf@toc=\write5
 \openout5 = `Electrodynamics_Solved_Problems.toc'.
@@ -734,7 +744,7 @@ Overfull \hbox (5.45805pt too wide) detected at line 91
  []
 
 ) (./sections/problems/PED2.tex [7]
-<figures/shells.png, id=202, 502.87875pt x 251.94125pt>
+<figures/shells.png, id=212, 502.87875pt x 251.94125pt>
 File: figures/shells.png Graphic file (type png)
 <use figures/shells.png>
 Package pdftex.def Info: figures/shells.png  used on input line 28.
@@ -745,7 +755,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has
                                                   \__shipout_drop_firstpage_...
 l.34 
       <./figures/shells.png>]) (./sections/problems/PED3.tex
-<figures/spheredielectric.png, id=221, 265.99374pt x 120.45pt>
+<figures/spheredielectric.png, id=231, 265.99374pt x 120.45pt>
 File: figures/spheredielectric.png Graphic file (type png)
 <use figures/spheredielectric.png>
 Package pdftex.def Info: figures/spheredielectric.png  used on input line 8.
@@ -766,7 +776,7 @@ Overfull \hbox (23.11778pt too wide) in paragraph at lines 14--15
  []
 
 [11] [12] [13]) (./sections/problems/PED5.tex
-<figures/crossbeams.png, id=315, 315.1775pt x 230.8625pt>
+<figures/crossbeams.png, id=325, 315.1775pt x 230.8625pt>
 File: figures/crossbeams.png Graphic file (type png)
 <use figures/crossbeams.png>
 Package pdftex.def Info: figures/crossbeams.png  used on input line 17.
@@ -776,7 +786,7 @@ Package pdftex.def Info: figures/crossbeams.png  used on input line 17.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [14]
-<figures/2waveguides.png, id=338, 315.1775pt x 132.495pt>
+<figures/2waveguides.png, id=348, 315.1775pt x 132.495pt>
 File: figures/2waveguides.png Graphic file (type png)
 <use figures/2waveguides.png>
 Package pdftex.def Info: figures/2waveguides.png  used on input line 38.
@@ -791,7 +801,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has
                                                   \__shipout_drop_firstpage_...
 l.50 \end{equation}
                     <./figures/crossbeams.png>]
-<figures/6waves.png, id=354, 232.87pt x 132.495pt>
+<figures/6waves.png, id=364, 232.87pt x 132.495pt>
 File: figures/6waves.png Graphic file (type png)
 <use figures/6waves.png>
 Package pdftex.def Info: figures/6waves.png  used on input line 55.
@@ -800,7 +810,7 @@ Package pdftex.def Info: figures/6waves.png  used on input line 55.
 
 LaTeX Warning: Hyper reference `Cutting off the modes' on page 16 undefined on input line 60.
 
-<figures/examdec19p3.png, id=356, 405.515pt x 265.99374pt>
+<figures/examdec19p3.png, id=366, 405.515pt x 265.99374pt>
 File: figures/examdec19p3.png Graphic file (type png)
 <use figures/examdec19p3.png>
 Package pdftex.def Info: figures/examdec19p3.png  used on input line 69.
@@ -821,7 +831,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has
                                                   \__shipout_drop_firstpage_...
 l.100 	\end{enumerate}
                        <./figures/examdec19p3.png>]
-<figures/examoct20p4.png, id=382, 438.63875pt x 181.67876pt>
+<figures/examoct20p4.png, id=392, 438.63875pt x 181.67876pt>
 File: figures/examoct20p4.png Graphic file (type png)
 <use figures/examoct20p4.png>
 Package pdftex.def Info: figures/examoct20p4.png  used on input line 109.
@@ -832,7 +842,7 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 30.
  [19] [20] [21]
-<figures/p2examoct19.png, id=460, 261.97874pt x 262.9825pt>
+<figures/p2examoct19.png, id=470, 261.97874pt x 262.9825pt>
 File: figures/p2examoct19.png Graphic file (type png)
 <use figures/p2examoct19.png>
 Package pdftex.def Info: figures/p2examoct19.png  used on input line 112.
@@ -851,7 +861,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has
                                                   \__shipout_drop_firstpage_...
 l.128 
        <./figures/p2examoct19.png>]
-<figures/examdec19p2.png, id=472, 405.515pt x 265.99374pt>
+<figures/examdec19p2.png, id=482, 405.515pt x 265.99374pt>
 File: figures/examdec19p2.png Graphic file (type png)
 <use figures/examdec19p2.png>
 Package pdftex.def Info: figures/examdec19p2.png  used on input line 136.
@@ -862,7 +872,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has
                                                   \__shipout_drop_firstpage_...
 l.156 		\item D
                oes the electric field you found above vanish somewhere along... <./figures/examdec19p2.png>]
-<figures/examoct20p3.png, id=488, 363.3575pt x 280.04625pt>
+<figures/examoct20p3.png, id=498, 363.3575pt x 280.04625pt>
 File: figures/examoct20p3.png Graphic file (type png)
 <use figures/examoct20p3.png>
 Package pdftex.def Info: figures/examoct20p3.png  used on input line 173.
@@ -872,56 +882,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.183 \end{enumerate}
-                      <./figures/examoct20p3.png>]) (./sections/problems/PED7.tex [25] [26] [27] [28] [29]) (./sections/problems/PED8.tex
-
-LaTeX Warning: Hyper reference `A Relativistic Particle Coupled to a Scalar Field' on page 30 undefined on input line 3.
-
-
-LaTeX Warning: Hyper reference `One-Dimensional Massive Scalar Field' on page 30 undefined on input line 13.
-
-[30]
-
-LaTeX Warning: Hyper reference `Introduction to Lagrangian Manipulations' on page 31 undefined on input line 24.
-
-
+                      <./figures/examoct20p3.png>]) (./sections/problems/PED7.tex [25] [26] [27] [28] [29]) (./sections/problems/PED8.tex [30]
 Overfull \hbox (1.27652pt too wide) in paragraph at lines 34--35
 []\T1/futs/m/n/12 Show ex-plic-itly, and with those pre-vi-ous as-sump-tions, that this La-grangian den-
  []
-
-
-LaTeX Warning: Hyper reference `Coupling Extra Fields to amu' on page 31 undefined on input line 37.
 
 
 Overfull \hbox (5.78181pt too wide) in paragraph at lines 39--40
 \T1/futs/m/n/12 An ax-ionic field [][][][][] $\FML/futmi/m/it/12 a\T1/futs/m/n/12 (\FML/futmi/m/it/12 x\T1/futs/m/n/12 )$ is cou-pled to a gauge field $\FML/futmi/m/it/12 A[]\T1/futs/m/n/12 ([])$ with an as-so-ci-ated field strength
  []
 
-[31]
-
-LaTeX Warning: Hyper reference `E: Ponderous Light' on page 32 undefined on input line 58.
-
-) (./sections/problems/PED9.tex
-
-LaTeX Warning: Hyper reference `Emission Rates by Lorentz Transformation' on page 32 undefined on input line 4.
-
-
-LaTeX Warning: Hyper reference `A Merry Go Round of Radiating Particles' on page 32 undefined on input line 8.
-
-[32]
-
-LaTeX Warning: Hyper reference `The Direction of the Velocity Field' on page 33 undefined on input line 12.
-
-
-LaTeX Warning: Hyper reference `Radiating 14.4 Jackson Problem' on page 33 undefined on input line 16.
-
-
-LaTeX Warning: Hyper reference `A Fast Particle in a Constant Electric Field' on page 33 undefined on input line 25.
-
-
-LaTeX Warning: Hyper reference `A Ringy Radiating Problem' on page 33 undefined on input line 35.
-
-[33]) (./sections/solutions/SED1.tex [34] [35]
-<figures/MirrorCharge.png, id=687, 1121.28pt x 1121.28pt>
+[31]) (./sections/problems/PED9.tex [32] [33]) (./sections/solutions/SED1.tex [34] [35]
+<figures/MirrorCharge.png, id=719, 1121.28pt x 1121.28pt>
 File: figures/MirrorCharge.png Graphic file (type png)
 <use figures/MirrorCharge.png>
 Package pdftex.def Info: figures/MirrorCharge.png  used on input line 83.
@@ -932,7 +904,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) ha
                                                   \__shipout_drop_firstpage_...
 l.93 \end{equation}
                     <./figures/MirrorCharge.png>] [37] [38]
-<figures/capacitoroff.png, id=722, 321.2pt x 282.05376pt>
+<figures/capacitoroff.png, id=754, 321.2pt x 282.05376pt>
 File: figures/capacitoroff.png Graphic file (type png)
 <use figures/capacitoroff.png>
 Package pdftex.def Info: figures/capacitoroff.png  used on input line 177.
@@ -943,7 +915,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) ha
                                                   \__shipout_drop_firstpage_...
 l.191 
        <./figures/capacitoroff.png>] [40]
-<figures/SphericalCavity.png, id=746, 1121.28pt x 1121.28pt>
+<figures/SphericalCavity.png, id=779, 1121.28pt x 1121.28pt>
 File: figures/SphericalCavity.png Graphic file (type png)
 <use figures/SphericalCavity.png>
 Package pdftex.def Info: figures/SphericalCavity.png  used on input line 243.
@@ -954,7 +926,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) ha
                                                   \__shipout_drop_firstpage_...
 l.252 \end{equation}
                      <./figures/SphericalCavity.png>] [42] [43]
-<figures/Concentric.png, id=778, 1121.28pt x 1121.28pt>
+<figures/Concentric.png, id=810, 1121.28pt x 1121.28pt>
 File: figures/Concentric.png Graphic file (type png)
 <use figures/Concentric.png>
 Package pdftex.def Info: figures/Concentric.png  used on input line 328.
@@ -965,7 +937,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) ha
                                                   \__shipout_drop_firstpage_...
 l.343 \end{equation}
                      <./figures/Concentric.png>] [45] [46] [47]) (./sections/solutions/SED2.tex
-<figures/Quadrupole.png, id=824, 807.015pt x 735.2925pt>
+<figures/Quadrupole.png, id=856, 807.015pt x 735.2925pt>
 File: figures/Quadrupole.png Graphic file (type png)
 <use figures/Quadrupole.png>
 Package pdftex.def Info: figures/Quadrupole.png  used on input line 10.
@@ -985,7 +957,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) ha
                                                   \__shipout_drop_firstpage_...
 l.48 \end{equation}
                     <./figures/Quadrupole.png>] [50] [51]
-<figures/Fidgetspinners.png, id=861, 523.9575pt x 394.7475pt>
+<figures/Fidgetspinners.png, id=894, 523.9575pt x 394.7475pt>
 File: figures/Fidgetspinners.png Graphic file (type png)
 <use figures/Fidgetspinners.png>
 Package pdftex.def Info: figures/Fidgetspinners.png  used on input line 148.
@@ -1000,7 +972,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) ha
                                                   \__shipout_drop_firstpage_...
 l.195 
        <./figures/Fidgetspinners.png>]) (./sections/solutions/SED3.tex [54] [55]
-<figures/Gladys.png, id=900, 561.7788pt x 364.7226pt>
+<figures/Gladys.png, id=932, 561.7788pt x 364.7226pt>
 File: figures/Gladys.png Graphic file (type png)
 <use figures/Gladys.png>
 Package pdftex.def Info: figures/Gladys.png  used on input line 109.
@@ -1010,7 +982,7 @@ Package pdftex.def Info: figures/Gladys.png  used on input line 109.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [56]
-<figures/PolarisatedBall.png, id=911, 256.96pt x 177.66376pt>
+<figures/PolarisatedBall.png, id=943, 256.96pt x 177.66376pt>
 File: figures/PolarisatedBall.png Graphic file (type png)
 <use figures/PolarisatedBall.png>
 Package pdftex.def Info: figures/PolarisatedBall.png  used on input line 151.
@@ -1034,7 +1006,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-<figures/PotentialConstraint.png, id=929, 352.31625pt x 220.825pt>
+<figures/PotentialConstraint.png, id=961, 352.31625pt x 220.825pt>
 File: figures/PotentialConstraint.png Graphic file (type png)
 <use figures/PotentialConstraint.png>
 Package pdftex.def Info: figures/PotentialConstraint.png  used on input line 215.
@@ -1050,7 +1022,7 @@ Overfull \hbox (11.54619pt too wide) detected at line 102
  []
 
 [62]
-<figures/Sandwich.png, id=982, 897.9pt x 1292.1pt>
+<figures/Sandwich.png, id=1015, 897.9pt x 1292.1pt>
 File: figures/Sandwich.png Graphic file (type png)
 <use figures/Sandwich.png>
 Package pdftex.def Info: figures/Sandwich.png  used on input line 111.
@@ -1061,7 +1033,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) ha
                                                   \__shipout_drop_firstpage_...
 l.124 \end{equation}
                      <./figures/Sandwich.png>] [64] [65] [66] [67] [68] [69] [70] [71]
-<figures/X3plane.png, id=1067, 1121.28pt x 1121.28pt>
+<figures/X3plane.png, id=1099, 1121.28pt x 1121.28pt>
 File: figures/X3plane.png Graphic file (type png)
 <use figures/X3plane.png>
 Package pdftex.def Info: figures/X3plane.png  used on input line 426.
@@ -1077,7 +1049,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 466--467
  []
 
 [73] [74]
-<figures/X1x3plane.png, id=1101, 1121.28pt x 1121.28pt>
+<figures/X1x3plane.png, id=1134, 1121.28pt x 1121.28pt>
 File: figures/X1x3plane.png Graphic file (type png)
 <use figures/X1x3plane.png>
 Package pdftex.def Info: figures/X1x3plane.png  used on input line 526.
@@ -1102,12 +1074,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) ha
                                                   \__shipout_drop_firstpage_...
 l.50 \begin{equation}
                      ] [78]
-<figures/electrocrosswalk.png, id=1141, 381.425pt x 288.07625pt>
+<figures/electrocrosswalk.png, id=1173, 381.425pt x 288.07625pt>
 File: figures/electrocrosswalk.png Graphic file (type png)
 <use figures/electrocrosswalk.png>
 Package pdftex.def Info: figures/electrocrosswalk.png  used on input line 91.
 (pdftex.def)             Requested size: 170.71652pt x 128.93419pt.
-<figures/waveguide_discontinuity.png, id=1142, 298.11375pt x 211.79124pt>
+<figures/waveguide_discontinuity.png, id=1174, 298.11375pt x 211.79124pt>
 File: figures/waveguide_discontinuity.png Graphic file (type png)
 <use figures/waveguide_discontinuity.png>
 Package pdftex.def Info: figures/waveguide_discontinuity.png  used on input line 105.
@@ -1133,7 +1105,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) ha
                                                   \__shipout_drop_firstpage_...
 l.217 \end{equation}
                     ]
-<figures/BatinCavity.png, id=1176, 285.065pt x 212.795pt>
+<figures/BatinCavity.png, id=1208, 285.065pt x 212.795pt>
 File: figures/BatinCavity.png Graphic file (type png)
 <use figures/BatinCavity.png>
 Package pdftex.def Info: figures/BatinCavity.png  used on input line 247.
@@ -1148,7 +1120,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) ha
                                                   \__shipout_drop_firstpage_...
 l.285 \begin{equation}
                       \label{cutoff} <./figures/BatinCavity.png>] [85]) (./sections/solutions/SED6.tex
-<figures/Dipolerad.png, id=1210, 709.0125pt x 655.905pt>
+<figures/Dipolerad.png, id=1243, 709.0125pt x 655.905pt>
 File: figures/Dipolerad.png Graphic file (type png)
 <use figures/Dipolerad.png>
 Package pdftex.def Info: figures/Dipolerad.png  used on input line 8.
@@ -1159,7 +1131,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) ha
                                                   \__shipout_drop_firstpage_...
 l.17 \end{equation}
                     <./figures/Dipolerad.png>] [87] [88] [89]
-<figures/Metallicshells.png, id=1258, 706.8225pt x 682.7325pt>
+<figures/Metallicshells.png, id=1290, 706.8225pt x 682.7325pt>
 File: figures/Metallicshells.png Graphic file (type png)
 <use figures/Metallicshells.png>
 Package pdftex.def Info: figures/Metallicshells.png  used on input line 140.
@@ -1179,7 +1151,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) ha
                                                   \__shipout_drop_firstpage_...
 l.166 \end{equation}
                      <./figures/Metallicshells.png>] [92] [93]
-<figures/sinuantenna.png, id=1295, 710.1075pt x 663.0225pt>
+<figures/sinuantenna.png, id=1327, 710.1075pt x 663.0225pt>
 File: figures/sinuantenna.png Graphic file (type png)
 <use figures/sinuantenna.png>
 Package pdftex.def Info: figures/sinuantenna.png  used on input line 258.
@@ -1190,7 +1162,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) ha
                                                   \__shipout_drop_firstpage_...
 l.278 \end{equation}
                      <./figures/sinuantenna.png>] [95] [96]
-<figures/Scatteringsphere.png, id=1322, 665.2125pt x 632.91pt>
+<figures/Scatteringsphere.png, id=1355, 665.2125pt x 632.91pt>
 File: figures/Scatteringsphere.png Graphic file (type png)
 <use figures/Scatteringsphere.png>
 Package pdftex.def Info: figures/Scatteringsphere.png  used on input line 377.
@@ -1201,7 +1173,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) ha
                                                   \__shipout_drop_firstpage_...
 l.387 	
         <./figures/Scatteringsphere.png>] [98] [99] [100]
-<figures/cubegeometry.png, id=1361, 327.2225pt x 186.6975pt>
+<figures/cubegeometry.png, id=1393, 327.2225pt x 186.6975pt>
 File: figures/cubegeometry.png Graphic file (type png)
 <use figures/cubegeometry.png>
 Package pdftex.def Info: figures/cubegeometry.png  used on input line 508.
@@ -1244,29 +1216,203 @@ Overfull \hbox (3.65381pt too wide) in paragraph at lines 493--494
 []\T1/futs/m/n/12 The first part of this cal-cu-la-tion is some-thing easy from el-e-men-tary elec-tro-mag-netism.
  []
 
-[118] [119] [120] [121] [122]) [123] [124] (./Electrodynamics_Solved_Problems.aux)
+[118] [119] [120] [121] [122]) (./sections/solutions/SED8.tex [123] [124] [125]
+
+LaTeX Warning: Command \r invalid in math mode on input line 109.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 109.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 109.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 109.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 109.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 109.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 109.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 109.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 109.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 109.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 109.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 109.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 109.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 109.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 109.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 109.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 118.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 118.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 118.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 118.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 118.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 118.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 118.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 118.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 118.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 118.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 118.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 118.
+
+[126]
+Overfull \hbox (6.14183pt too wide) in paragraph at lines 167--168
+\T1/futs/m/n/12 such that we can get some-thing as $\FML/futmi/m/it/12 @[]A[]$\T1/futs/m/n/12 , so we can claim for a miss-ing four-divergence.
+ []
+
+[127] [128] [129]
+Overfull \hbox (4.71481pt too wide) detected at line 282
+[]
+ []
+
+
+Overfull \hbox (29.3747pt too wide) detected at line 282
+[][][][]
+ []
+
+[130] [131] [132] [133]) (./sections/solutions/SED9.tex
+<figures/EmissionRates.png, id=1720, 795.5175pt x 901.7325pt>
+File: figures/EmissionRates.png Graphic file (type png)
+<use figures/EmissionRates.png>
+Package pdftex.def Info: figures/EmissionRates.png  used on input line 12.
+(pdftex.def)             Requested size: 170.71652pt x 193.51096pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[134] [135
+pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.50 
+      <./figures/EmissionRates.png>]
+<figures/AMerryGoRound.jpg, id=1740, 1369.115pt x 1259.70625pt>
+File: figures/AMerryGoRound.jpg Graphic file (type jpg)
+<use figures/AMerryGoRound.jpg>
+Package pdftex.def Info: figures/AMerryGoRound.jpg  used on input line 52.
+(pdftex.def)             Requested size: 227.62204pt x 209.41873pt.
+ [136
+pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.79 \end{equation}
+                    <./figures/AMerryGoRound.jpg>]
+Overfull \hbox (2.15788pt too wide) in paragraph at lines 93--94
+[]\T1/futs/m/n/12 At this point of the prob-lem, we need to re-alise some-thing. The $\FML/futmi/m/it/12 x$ \T1/futs/m/n/12 - and $\FML/futmi/m/it/12 y$ \T1/futs/m/n/12 -components
+ []
+
+[137]
+<figures/DirectionVelocityField.png, id=1760, 347.2975pt x 220.825pt>
+File: figures/DirectionVelocityField.png Graphic file (type png)
+<use figures/DirectionVelocityField.png>
+Package pdftex.def Info: figures/DirectionVelocityField.png  used on input line 144.
+(pdftex.def)             Requested size: 227.62204pt x 144.73409pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[138] [139 <./figures/DirectionVelocityField.png>]
+<figures/RadiatingJackson1.png, id=1781, 421.575pt x 268.00125pt>
+File: figures/RadiatingJackson1.png Graphic file (type png)
+<use figures/RadiatingJackson1.png>
+Package pdftex.def Info: figures/RadiatingJackson1.png  used on input line 192.
+(pdftex.def)             Requested size: 227.62204pt x 144.70624pt.
+ [140
+pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.216 \end{equation}
+                     <./figures/RadiatingJackson1.png>]
+<figures/RadiatingJackson2.png, id=1792, 421.575pt x 268.00125pt>
+File: figures/RadiatingJackson2.png Graphic file (type png)
+<use figures/RadiatingJackson2.png>
+Package pdftex.def Info: figures/RadiatingJackson2.png  used on input line 239.
+(pdftex.def)             Requested size: 227.62204pt x 144.70624pt.
+ [141
+pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.250 \end{equation}
+                     <./figures/RadiatingJackson2.png>]
+<figures/FastParticle.png, id=1804, 711.2025pt x 923.6325pt>
+File: figures/FastParticle.png Graphic file (type png)
+<use figures/FastParticle.png>
+Package pdftex.def Info: figures/FastParticle.png  used on input line 253.
+(pdftex.def)             Requested size: 142.26378pt x 184.75142pt.
+ [142
+pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.277 
+       <./figures/FastParticle.png>] [143]) [144] (./Electrodynamics_Solved_Problems.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Electrodynamics_Solved_Problems.out' has not changed.
-(rerunfilecheck)             Checksum: EE51467FA74C30595EB530A2388981C4;4113.
+(rerunfilecheck)             Checksum: 62482E57F0DA30D20E5BEC9D9D0698E4;4536.
  ) 
 Here is how much of TeX's memory you used:
- 16544 strings out of 478268
- 261918 string characters out of 5846347
- 578621 words of memory out of 5000000
- 33476 multiletter control sequences out of 15000+600000
+ 16748 strings out of 478268
+ 265517 string characters out of 5846347
+ 578997 words of memory out of 5000000
+ 33536 multiletter control sequences out of 15000+600000
  609871 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,27n,76p,1172b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 68i,28n,76p,1172b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{daniel.panizo@physics.uu.se} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Electrodynamics_Solved_Problems.pdf (124 pages, 4833524 bytes).
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on Electrodynamics_Solved_Problems.pdf (144 pages, 5384681 bytes).
 PDF statistics:
- 1823 PDF objects out of 2073 (max. 8388607)
- 1592 compressed objects within 16 object streams
- 874 named destinations out of 1000 (max. 500000)
- 327 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2094 PDF objects out of 2487 (max. 8388607)
+ 1824 compressed objects within 19 object streams
+ 1005 named destinations out of 1200 (max. 500000)
+ 373 words of extra memory for PDF output out of 10000 (max. 10000000)
 
